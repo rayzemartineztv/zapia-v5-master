@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA MASTER V5 — LEGAL OS</title>
+    <title>ZAPIA MASTER V5 — INVENTORY OS</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         html, body { background: #000; color: #fff; height: 100%; width: 100%; overflow: hidden; position: fixed; }
         #app-container { height: 100%; display: flex; flex-direction: column; }
         
-        #header { background: #111; padding: 18px 10px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; z-index: 1000; position: relative; }
+        #header { background: #111; padding: 15px 10px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; z-index: 1000; position: relative; }
         .header-btn { background: none; border: none; font-size: 18px; cursor: pointer; color: #666; }
-        #title-container { position: absolute; left: 50%; transform: translateX(-50%); text-align: center; }
-        #header-title { font-weight: bold; color: #e74c3c; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
-        #update-stamp { font-size: 8px; color: #444; font-family: monospace; }
+        #header-title { font-weight: bold; color: #e74c3c; font-size: 13px; text-transform: uppercase; position: absolute; left: 50%; transform: translateX(-50%); }
 
         #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 10px; gap: 8px; border-bottom: 1px solid #222; scrollbar-width: none; }
-        .cat-item { background: transparent; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
+        .cat-item { background: transparent; padding: 6px 12px; border-radius: 15px; font-size: 12px; color: #888; border: 1px solid #333; white-space: nowrap; }
         .cat-item.active { color: #e74c3c; border-color: #e74c3c; }
 
         #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; -webkit-overflow-scrolling: touch; }
         
-        /* MÓDULO DE DOCUMENTOS / CARÁTULAS */
-        .doc-card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
-        .doc-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
-        .doc-title { font-size: 14px; font-weight: bold; color: #eee; }
-        .doc-status { font-size: 10px; padding: 2px 8px; border-radius: 10px; text-transform: uppercase; }
-        .status-pending { background: #5552; color: #aaa; border: 1px solid #444; }
-        .status-ready { background: #0f82; color: #0f8; border: 1px solid #0f8; }
+        /* MÓDULO DE PROPIEDADES E INVENTARIO */
+        .prop-card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; position: relative; }
+        .prop-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+        .prop-title { font-size: 14px; font-weight: bold; color: #fff; }
+        .prop-source { font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+        .src-own { background: #e74c3c22; color: #e74c3c; }
+        .src-socio { background: #0f822; color: #0f8; }
         
-        .doc-meta { font-size: 11px; color: #555; margin: 8px 0; font-family: monospace; }
-        .doc-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 12px; padding-top: 10px; border-top: 1px solid #222; }
-        
-        .download-btn { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #aaa; text-decoration: none; cursor: pointer; }
-        .download-btn.active { color: #e74c3c; font-weight: bold; }
-        .download-icon { font-size: 16px; }
+        .prop-details { font-size: 12px; color: #aaa; line-height: 1.5; margin: 8px 0; }
+        .prop-status { font-size: 11px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; }
+        .status-active { color: #0f8; }
+        .status-sold { color: #555; text-decoration: line-through; }
+
+        .prop-links { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #222; padding-top: 10px; }
+        .link-row { display: flex; justify-content: space-between; align-items: center; background: #1a1a1a; padding: 8px 12px; border-radius: 8px; cursor: pointer; }
+        .link-text { font-size: 11px; color: #e74c3c; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 70%; }
+        .link-btn { font-size: 10px; color: #555; text-transform: uppercase; letter-spacing: 1px; }
 
         #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; }
         #text-input { flex: 1; background: transparent; border: 1px solid #444; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
-        .action-btn { background: none; border: none; font-size: 24px; color: #aaa; cursor: pointer; }
+        
+        #toast { position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%); background: #e74c3c; color: white; padding: 8px 20px; border-radius: 20px; font-size: 12px; opacity: 0; transition: 0.3s; z-index: 2000; }
     </style>
 </head>
 <body>
@@ -50,7 +52,7 @@
             </div>
             <div id="title-container">
                 <div id="header-title">Zapia Master V5</div>
-                <div id="update-stamp">ACT: 30/06/2026 02:48:09</div>
+                <div style="font-size:8px; color:#444">ACT: 30/06/2026 02:53:52</div>
             </div>
             <button class="header-btn" onclick="location.reload(true)">↻</button>
         </header>
@@ -58,55 +60,74 @@
         <nav id="cat-menu">
             <div class="cat-item">🏠 Home</div>
             <div class="cat-item">⭕ Círculos</div>
-            <div class="cat-item">🏢 Propiedades</div>
-            <div class="cat-item active">📄 Estatus Legal</div>
+            <div class="cat-item active">🏢 Propiedades</div>
+            <div class="cat-item">👤 Dueños</div>
+            <div class="cat-item">🎯 Leads</div>
+            <div class="cat-item">💰 Finanzas</div>
         </nav>
 
         <main id="chat-area">
-            <!-- Ejemplo de Carátula / Documento -->
-            <div class="doc-card">
-                <div class="doc-header">
-                    <div>
-                        <div class="doc-title">Carátula CBRS #876543</div>
-                        <div style="font-size:11px; color:#666">Propiedad: San Ramón 10315</div>
-                    </div>
-                    <span class="doc-status status-ready">En Estudio</span>
+            <!-- EJEMPLO PROPIEDAD PROPIA (KITEPROP/FACEBOOK) -->
+            <div class="prop-card">
+                <div class="prop-header">
+                    <div class="prop-title">Depto Metro Lo Ovalle</div>
+                    <span class="prop-source src-own">M&A PROPIA</span>
                 </div>
-                <div class="doc-meta">
-                    Ingreso: 29/06/2026 10:30:15<br>
-                    Última Rev: 30/06/2026 02:48:09<br>
-                    Estatus: Pendiente Firma Registrador
+                <div class="prop-status status-active">Disponible</div>
+                <div class="prop-details">
+                    Comuna: San Miguel | Piso 12<br>
+                    3 Dorm. | 2 Baños | Estacionamiento<br>
+                    Precio: 3.200 UF
                 </div>
-                <div class="doc-actions">
-                    <div class="download-btn active" onclick="alert('Iniciando descarga de Carátula...')">
-                        <span class="download-icon">📥</span> Descarga Disponible
+                <div class="prop-links">
+                    <div class="link-row" onclick="copyL('https://kiteprop.com/p/123')">
+                        <span class="link-text">kiteprop.com/p/123</span>
+                        <span class="link-btn">Copiar Link</span>
                     </div>
-                    <div style="font-size:10px; color:#444">ID: CBRS-SR-01</div>
+                    <div class="link-row" onclick="window.open('https://facebook.com/marketplace/item/456')">
+                        <span class="link-text">Ver en Marketplace</span>
+                        <span class="link-btn">Abrir</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="doc-card" style="opacity:0.6">
-                <div class="doc-header">
-                    <div>
-                        <div class="doc-title">GP / Dominio Vigente</div>
-                    </div>
-                    <span class="doc-status status-pending">Pedido</span>
+            <!-- EJEMPLO PROPIEDAD SOCIO -->
+            <div class="prop-card">
+                <div class="prop-header">
+                    <div class="prop-title">Parcela Lonquén (Socio)</div>
+                    <span class="prop-source src-socio">SOCIO: CAROLINA P.</span>
                 </div>
-                <div class="doc-meta">Última Rev: 30/06/2026 02:48:09</div>
-                <div class="doc-actions">
-                    <div class="download-btn">
-                        <span class="download-icon">⏳</span> No disponible por el momento
+                <div class="prop-status status-active">Disponible</div>
+                <div class="prop-details">
+                    Descripción: "Preciosa parcela, terreno plano, agua de pozo inscrita..."<br>
+                    Redes Socio: @carolina_propiedades
+                </div>
+                <div class="prop-links">
+                    <div class="link-row" onclick="copyL('https://portal-socio.cl/prop/789')">
+                        <span class="link-text">Link Original Socio</span>
+                        <span class="link-btn">Copiar</span>
                     </div>
                 </div>
             </div>
         </main>
 
         <footer id="input-bar">
-            <button class="action-btn">📎</button>
-            <input type="text" id="text-input" placeholder="Orden rápida..." autocomplete="off">
-            <button class="action-btn">🎤</button>
-            <button class="action-btn" style="color:#e74c3c; font-size:28px">➤</button>
+            <button class="header-btn">📎</button>
+            <input type="text" id="text-input" placeholder="Buscar propiedad..." autocomplete="off">
+            <button class="header-btn">🎤</button>
+            <button class="header-btn" style="color:#e74c3c; font-size:28px">➤</button>
         </footer>
     </div>
+    <div id="toast">Copiado al portapapeles</div>
+
+    <script>
+        function copyL(url) {
+            navigator.clipboard.writeText(url).then(() => {
+                const t = document.getElementById('toast');
+                t.style.opacity = '1';
+                setTimeout(() => t.style.opacity = '0', 1500);
+            });
+        }
+    </script>
 </body>
 </html>
