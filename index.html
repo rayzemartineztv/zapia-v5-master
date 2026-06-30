@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>ZAPIA V5</title></head><body style="background:#000;color:#0f8;font-family:sans-serif;padding:20px"><h1>ZAPIA V5 ONLINE</h1><div id="logs">Cargando logs...</div><script>
+async function load(){
+  const r = await fetch('logs.json?v=' + Date.now());
+  const d = await r.json();
+  document.getElementById('logs').innerHTML = d.map(m => `<div>[${m.ts}] ${m.msg}</div>`).join('');
+}
+setInterval(load, 2000); load();
+</script></body></html>
