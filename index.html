@@ -8,88 +8,98 @@
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         body { background: #000; color: #fff; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
         
-        #header { background: #111; padding: 18px 10px; border-bottom: 2px solid #e74c3c; display: flex; justify-content: center; align-items: center; position: relative; }
-        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 1px; font-size: 16px; text-transform: uppercase; }
+        #header { background: #111; padding: 15px 10px; border-bottom: 2px solid #e74c3c; display: flex; justify-content: center; align-items: center; position: relative; }
+        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 1px; font-size: 15px; text-transform: uppercase; }
 
         #uf-bar { 
             background: #1a1a1a; 
-            padding: 6px 12px; 
+            padding: 5px 12px; 
             display: flex; 
             align-items: center; 
             justify-content: space-between; 
             border-bottom: 1px solid #333;
-            font-size: 12px;
+            font-size: 11px;
         }
         .uf-val { color: #0f8; font-weight: bold; }
         
-        /* CALCULADORA RESPONSIVA (AJUSTE MÓVIL) */
+        /* CALCULADORA FLEXIBLE PARA VERTICAL */
         #uf-calc {
             background: #111;
-            padding: 10px;
+            padding: 8px 10px;
             display: flex;
-            gap: 5px;
+            gap: 8px;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             border-bottom: 1px solid #222;
-            width: 100%;
         }
+        .calc-box {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .calc-label { font-size: 9px; color: #666; text-align: center; text-transform: uppercase; }
         .calc-input {
-            width: 44%; /* Mantiene ambos visibles sin desbordar */
+            width: 100%;
             background: #222;
             border: 1px solid #444;
             color: #fff;
             padding: 10px 5px;
-            border-radius: 8px;
+            border-radius: 6px;
             font-size: 14px;
             outline: none;
             text-align: center;
-            -moz-appearance: textfield;
         }
-        .calc-input::-webkit-outer-spin-button, .calc-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-        .calc-arrow { color: #e74c3c; font-size: 14px; width: 10%; text-align: center; }
+        .calc-arrow { color: #e74c3c; font-size: 16px; margin-top: 10px; }
 
         #chat-area { flex: 1; overflow-y: auto; padding: 15px; display: flex; flex-direction: column; gap: 12px; background: #050505; }
-        .m { max-width: 85%; padding: 12px 16px; border-radius: 18px; font-size: 15px; line-height: 1.4; }
+        .m { max-width: 85%; padding: 12px 16px; border-radius: 18px; font-size: 14px; line-height: 1.4; }
         .zap { align-self: flex-start; background: #1a1a1a; color: #0f8; border-bottom-left-radius: 2px; border: 1px solid #333; }
 
-        #input-bar { background: #111; padding: 12px 15px 35px 15px; display: flex; align-items: center; gap: 10px; border-top: 1px solid #222; }
-        #text-input { flex: 1; background: #222; border: 1px solid #444; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
-        .btn { background: none; border: none; color: #aaa; cursor: pointer; font-size: 24px; display: flex; align-items: center; }
+        #input-bar { background: #111; padding: 10px 15px 35px 15px; display: flex; align-items: center; gap: 10px; border-top: 1px solid #222; }
+        #text-input { flex: 1; background: #222; border: 1px solid #444; color: white; padding: 10px 15px; border-radius: 20px; outline: none; font-size: 16px; }
+        .btn { background: none; border: none; color: #aaa; cursor: pointer; font-size: 22px; display: flex; align-items: center; }
         
-        #build-stamp { position: absolute; top: 2px; right: 5px; font-size: 8px; color: #333; }
+        #build-stamp { position: absolute; top: 2px; right: 5px; font-size: 7px; color: #333; }
     </style>
 </head>
 <body>
-    <div id="build-stamp">V5 RESPONSIVE - 30/06/2026 02:17:27</div>
+    <div id="build-stamp">30/06/2026 02:19:47</div>
     <header id="header"><div id="header-title">Zapia Master V5</div></header>
 
     <div id="uf-bar">
-        <span>UF: <span class="uf-val">$38,450.75</span></span>
+        <span>UF Hoy: <span class="uf-val">$38,450.75</span></span>
         <span style="font-size:9px; color:#555">30/06/2026</span>
     </div>
 
     <div id="uf-calc">
-        <input type="number" id="input-uf" class="calc-input" placeholder="UF" oninput="convUFtoCLP(this.value)">
+        <div class="calc-box">
+            <span class="calc-label">UF</span>
+            <input type="number" id="input-uf" class="calc-input" placeholder="0.00" oninput="convUFtoCLP(this.value)">
+        </div>
         <span class="calc-arrow">⇄</span>
-        <input type="text" id="input-clp" class="calc-input" placeholder="Pesos" oninput="convCLPtoUF(this.value)">
+        <div class="calc-box">
+            <span class="calc-label">Pesos ($)</span>
+            <input type="text" id="input-clp" class="calc-input" placeholder="0" oninput="convCLPtoUF(this.value)">
+        </div>
     </div>
 
     <main id="chat-area">
-        <div class="m zap"><b>CALCULADORA AJUSTADA</b><br><br>• Diseño 100% responsivo para móvil.<br>• Sin desplazamiento lateral.<br>• Conversión instantánea.<br><br>Sello: 30/06/2026 02:17:27</div>
+        <div class="m zap"><b>DISEÑO VERTICAL CORREGIDO</b><br><br>Felipe, he ajustado los anchos para que nada se corte en modo vertical.</div>
     </main>
 
     <footer id="input-bar">
         <button class="btn">📎</button>
         <input type="text" id="text-input" placeholder="Escribe tu orden..." autocomplete="off">
         <button class="btn">🎤</button>
-        <button class="btn" style="color:#e74c3c; font-size:28px">➤</button>
+        <button class="btn" style="color:#e74c3c; font-size:26px">➤</button>
     </footer>
 
     <script>
         const VALOR_UF = 38450.75;
         function convUFtoCLP(v) {
             const r = v * VALOR_UF;
-            document.getElementById('input-clp').value = r ? '$' + Math.round(r).toLocaleString('es-CL') : '';
+            document.getElementById('input-clp').value = r ? Math.round(r).toLocaleString('es-CL') : '';
         }
         function convCLPtoUF(v) {
             const c = v.replace(/[^0-9]/g, '');
