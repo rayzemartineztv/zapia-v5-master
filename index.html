@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA MASTER V5 — ESTRUCTURA TOTAL</title>
+    <title>ZAPIA MASTER V5 — LIVE DATA OS</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         html, body { background: #000; color: #fff; height: 100%; width: 100%; overflow: hidden; position: fixed; }
@@ -16,7 +16,7 @@
         #title-container { position: absolute; left: 50%; transform: translateX(-50%); text-align: center; pointer-events: none; }
         #header-title { font-weight: bold; color: #e74c3c; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
-        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; border-bottom: 1px solid #222; scrollbar-width: none; }
+        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; scrollbar-width: none; border-bottom: 1px solid #222; }
         .cat-item { background: transparent; padding: 6px 14px; border-radius: 15px; font-size: 11px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
         .cat-item.active { color: #e74c3c; border-color: #e74c3c; background: #e74c3c11; }
 
@@ -24,14 +24,12 @@
         
         .view-section { display: none; }
         .view-section.active { display: block; }
+        
         .card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
         .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .card-title { font-size: 14px; font-weight: bold; color: #fff; }
-        .badge { font-size: 9px; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; font-weight: bold; }
         
-        .dropdown { display: none; margin-top: 10px; border-left: 2px solid #e74c3c; padding-left: 10px; }
-        .dropdown.active { display: block; }
-        .item-row { background: #1a1a1a; padding: 10px; border-radius: 8px; margin-bottom: 8px; cursor: pointer; border: 1px solid #222; }
+        .item-row { background: #1a1a1a; padding: 12px; border-radius: 8px; margin-bottom: 8px; cursor: pointer; border: 1px solid #222; font-size: 12px; color: #ccc; }
         
         .calc-box { background: #1a1a1a; padding: 12px; border-radius: 10px; border: 1px solid #333; margin-top: 10px; }
         .calc-row { display: flex; gap: 8px; margin-bottom: 8px; }
@@ -41,7 +39,7 @@
         #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; }
         #text-input { flex: 1; background: transparent; border: 1px solid #444; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
         
-        #toast { position: fixed; bottom: 120px; left: 50%; transform: translateX(-50%); background: #e74c3c; color: #fff; padding: 8px 20px; border-radius: 20px; font-size: 12px; opacity: 0; transition: 0.3s; z-index: 2000; }
+        #sync-status { font-size: 7px; color: #0f8; margin-top: 2px; text-transform: uppercase; }
     </style>
 </head>
 <body>
@@ -54,7 +52,7 @@
             </div>
             <div id="title-container">
                 <div id="header-title">Zapia Master V5</div>
-                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:19:38</div>
+                <div id="sync-status">Sincronizando...</div>
             </div>
             <div class="nav-group">
                 <button class="header-btn" onclick="history.forward()">→</button>
@@ -73,43 +71,15 @@
 
         <main id="chat-area">
             <div id="home-view" class="view-section active">
-                <div class="card">
-                    <div class="card-title">Bienvenido, Felipe</div>
-                    <div style="font-size:12px; color:#666; margin-top:8px;">Selecciona un menú para gestionar tu Red 360.</div>
-                </div>
-                <div class="item-row" onclick="showView('fin-view')">💰 Acceso Rápido: Financiamiento</div>
-                <div class="item-row" onclick="showView('props-view')">🏢 Acceso Rápido: Propiedades</div>
+                <div class="card"><div class="card-title" id="welcome-msg">Cargando base de datos real...</div></div>
             </div>
-
             <div id="leads-view" class="view-section">
-                <div class="card">
-                    <div class="card-header"><span class="card-title">Leads Recientes</span><span class="badge" style="background:#e74c3c22; color:#e74c3c;">Nuevos</span></div>
-                    <div class="item-row" onclick="toggleD('l1')">Diego Lead (Comprador)</div>
-                    <div id="l1" class="dropdown">
-                        <div class="card" style="background:#000; border-color:#333;">
-                            <div style="font-size:11px; color:#888;">Interés: Parcela Lonquén<br>Financiamiento: Leasing + Subsidio<br>Círculo ID: #L-9922</div>
-                        </div>
-                    </div>
-                </div>
+                <div class="card"><div class="card-header"><span class="card-title">Leads Reales</span></div><div id="list-leads"></div></div>
             </div>
-
             <div id="socios-view" class="view-section">
-                <div class="card">
-                    <div class="card-header"><span class="card-title">Red de Corredores</span></div>
-                    <div class="item-row" onclick="toggleD('s1')">Carolina P. (Socia Canjes)</div>
-                    <div id="s1" class="dropdown">
-                        <div class="card" style="background:#000; border-color:#333;">
-                            <div style="font-size:11px; color:#888;">Propiedades: 4 activas<br>Redes: @carolina_propiedades<br>Contacto: +56 9 XXXX XXXX</div>
-                        </div>
-                    </div>
-                </div>
+                <div class="card"><div class="card-header"><span class="card-title">Socios Corredores</span></div><div id="list-socios"></div></div>
             </div>
-
             <div id="fin-view" class="view-section">
-                <div id="uf-bar">
-                    <span class="uf-label">REFERENCIA UF</span>
-                    <span class="uf-value">$38.450,75</span>
-                </div>
                 <div class="calc-box">
                     <div class="calc-row">
                         <input type="number" id="val-uf" class="calc-input" placeholder="UF" oninput="calcToCLP()">
@@ -117,55 +87,61 @@
                     </div>
                     <div id="calc-result" style="font-size:15px; color:#0f8; font-weight:bold; text-align:center; padding:10px;">$ 0</div>
                 </div>
-                <div class="card">
-                    <div class="card-header"><span class="card-title">Entidades Financieras</span></div>
-                    <div class="item-row" onclick="toggleD('f1')">Casa Nuestra (Leasing/Mutuo)</div>
-                    <div id="f1" class="dropdown">
-                        <div class="item-row" onclick="toggleD('fe1')">Valentina (Ejecutiva) - 10 Clientes</div>
-                        <div id="fe1" class="dropdown">
-                            <div class="item-row">⭕ Círculo: Diego Pérez (Evaluación)</div>
-                        </div>
-                    </div>
-                </div>
+                <div class="card"><div class="card-header"><span class="card-title">Ejecutivos Financiamiento</span></div><div id="list-fin"></div></div>
             </div>
-
             <div id="props-view" class="view-section">
-                <div class="card">
-                    <div class="card-header"><span class="card-title">Inventario Propio</span></div>
-                    <div class="item-row" onclick="toggleD('p1')">Depto Metro Lo Ovalle</div>
-                    <div id="p1" class="dropdown">
-                        <div class="card" style="background:#000; border-color:#333;">
-                            <div style="font-size:11px; color:#888;">Precio: 3.200 UF | San Miguel<br>Link: kiteprop.com/p/123</div>
-                            <button onclick="copyL('https://kiteprop.com/p/123')" style="background:#e74c3c; border:none; color:#fff; padding:5px 10px; border-radius:5px; font-size:10px; margin-top:8px;">Copiar Link</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header"><span class="card-title">Propiedades Socios</span></div>
-                    <div class="item-row">Parcela Lonquén (Socio: Carolina P.)</div>
-                </div>
+                <div class="card"><div class="card-header"><span class="card-title">Propiedades Propias</span></div><div id="list-props-p"></div></div>
+                <div class="card"><div class="card-header"><span class="card-title">Propiedades Socios</span></div><div id="list-props-s"></div></div>
             </div>
-
             <div id="circles-view" class="view-section">
-                <div class="card">
-                    <div class="card-header"><span class="card-title">Gestión de Círculos 360</span></div>
-                    <div class="item-row">⭕ Círculo #9922 (Casa San Ramón)</div>
-                    <div class="item-row">⭕ Círculo #4431 (Depto Santiago Centro)</div>
-                </div>
+                <div class="card"><div class="card-header"><span class="card-title">Círculos 360</span></div><div id="list-circles"></div></div>
             </div>
         </main>
 
         <footer id="input-bar">
             <button class="header-btn">📎</button>
-            <input type="text" id="text-input" placeholder="Consultar CRM Macro..." autocomplete="off">
+            <input type="text" id="text-input" placeholder="CRM Macro Real Online..." autocomplete="off">
             <button class="header-btn">🎤</button>
             <button class="header-btn" style="color:#e74c3c; font-size:28px">➤</button>
         </footer>
     </div>
-    <div id="toast">Copiado al portapapeles</div>
 
     <script>
-        const uf = 38450.75;
+        let uf = 38450.75;
+        let realData = null;
+
+        async function loadData() {
+            try {
+                const resp = await fetch('logs.json?v=' + Date.now());
+                realData = await resp.json();
+                renderData();
+                document.getElementById('sync-status').innerText = 'LIVE DB: ' + realData.last_sync;
+            } catch(e) {
+                document.getElementById('sync-status').innerText = 'ERROR SYNC';
+            }
+        }
+
+        function renderData() {
+            document.getElementById('welcome-msg').innerText = 'Base Maestra Sincronizada.';
+            const fill = (id, data) => {
+                const box = document.getElementById(id);
+                box.innerHTML = '';
+                if(!data || data.length === 0) { box.innerHTML = '<div class="item-row">Sin datos en esta base</div>'; return; }
+                data.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'item-row';
+                    div.innerText = item;
+                    box.appendChild(div);
+                });
+            };
+            fill('list-leads', realData.leads);
+            fill('list-socios', realData.socios);
+            fill('list-fin', realData.finanzas);
+            fill('list-props-p', realData.propiedades_propias);
+            fill('list-props-s', realData.propiedades_socios);
+            fill('list-circles', ["Red 360 indexada sobre datos reales", "Traspaso de carteras activo"]);
+        }
+
         function showView(viewId, el) {
             document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
             document.getElementById(viewId).classList.add('active');
@@ -174,11 +150,12 @@
                 el.classList.add('active');
             }
         }
-        function toggleD(id) { document.getElementById(id).classList.toggle('active'); }
-        function goUp() { document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('active')); document.getElementById('chat-area').scrollTo({top:0, behavior:'smooth'}); }
+        function goUp() { document.getElementById('chat-area').scrollTo({top:0, behavior:'smooth'}); }
         function calcToCLP() { const v = document.getElementById('val-uf').value; document.getElementById('calc-result').innerText = '$ ' + Math.round(v*uf).toLocaleString('es-CL'); }
         function calcToUF() { const v = document.getElementById('val-clp').value; document.getElementById('calc-result').innerText = (v/uf).toFixed(2) + ' UF'; }
-        function copyL(url) { navigator.clipboard.writeText(url).then(() => { const t=document.getElementById('toast'); t.style.opacity='1'; setTimeout(()=>t.style.opacity='0',1500); }); }
+        
+        loadData();
+        setInterval(loadData, 30000); 
     </script>
 </body>
 </html>
