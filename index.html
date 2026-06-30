@@ -3,53 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA MASTER V5 — FINANZAS</title>
+    <title>ZAPIA MASTER V5</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         body { background: #000; color: #fff; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
         
-        #header { background: #111; padding: 20px 15px; border-bottom: 2px solid #e74c3c; display: flex; justify-content: center; align-items: center; position: relative; }
-        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 2px; font-size: 16px; text-transform: uppercase; }
+        #header { background: #111; padding: 18px 10px; border-bottom: 2px solid #e74c3c; display: flex; justify-content: center; align-items: center; position: relative; }
+        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 1px; font-size: 16px; text-transform: uppercase; }
 
-        /* BARRA FINANCIERA UF */
         #uf-bar { 
             background: #1a1a1a; 
-            padding: 8px 15px; 
+            padding: 6px 12px; 
             display: flex; 
             align-items: center; 
             justify-content: space-between; 
             border-bottom: 1px solid #333;
-            font-size: 13px;
+            font-size: 12px;
         }
         .uf-val { color: #0f8; font-weight: bold; }
         
-        /* CALCULADORA UF DINÁMICA */
+        /* CALCULADORA RESPONSIVA (AJUSTE MÓVIL) */
         #uf-calc {
             background: #111;
-            padding: 10px 15px;
+            padding: 10px;
             display: flex;
-            gap: 10px;
+            gap: 5px;
             align-items: center;
+            justify-content: center;
             border-bottom: 1px solid #222;
+            width: 100%;
         }
         .calc-input {
-            flex: 1;
+            width: 44%; /* Mantiene ambos visibles sin desbordar */
             background: #222;
             border: 1px solid #444;
             color: #fff;
-            padding: 8px 12px;
-            border-radius: 5px;
+            padding: 10px 5px;
+            border-radius: 8px;
             font-size: 14px;
             outline: none;
             text-align: center;
+            -moz-appearance: textfield;
         }
-        .calc-arrow { color: #e74c3c; font-weight: bold; }
+        .calc-input::-webkit-outer-spin-button, .calc-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+        .calc-arrow { color: #e74c3c; font-size: 14px; width: 10%; text-align: center; }
 
         #chat-area { flex: 1; overflow-y: auto; padding: 15px; display: flex; flex-direction: column; gap: 12px; background: #050505; }
         .m { max-width: 85%; padding: 12px 16px; border-radius: 18px; font-size: 15px; line-height: 1.4; }
         .zap { align-self: flex-start; background: #1a1a1a; color: #0f8; border-bottom-left-radius: 2px; border: 1px solid #333; }
 
-        #input-bar { background: #111; padding: 15px 15px 40px 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; }
+        #input-bar { background: #111; padding: 12px 15px 35px 15px; display: flex; align-items: center; gap: 10px; border-top: 1px solid #222; }
         #text-input { flex: 1; background: #222; border: 1px solid #444; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
         .btn { background: none; border: none; color: #aaa; cursor: pointer; font-size: 24px; display: flex; align-items: center; }
         
@@ -57,25 +60,22 @@
     </style>
 </head>
 <body>
-    <div id="build-stamp">V5 FINANZAS - 30/06/2026 02:15:15</div>
-    
-    <header id="header">
-        <div id="header-title">Zapia Master V5</div>
-    </header>
+    <div id="build-stamp">V5 RESPONSIVE - 30/06/2026 02:17:27</div>
+    <header id="header"><div id="header-title">Zapia Master V5</div></header>
 
     <div id="uf-bar">
-        <span>UF Hoy: <span class="uf-val" id="uf-current">$38,450.75</span></span>
-        <span style="font-size:10px; color:#555">Actualizado: 30/06/2026</span>
+        <span>UF: <span class="uf-val">$38,450.75</span></span>
+        <span style="font-size:9px; color:#555">30/06/2026</span>
     </div>
 
     <div id="uf-calc">
         <input type="number" id="input-uf" class="calc-input" placeholder="UF" oninput="convUFtoCLP(this.value)">
         <span class="calc-arrow">⇄</span>
-        <input type="text" id="input-clp" class="calc-input" placeholder="Pesos ($)" oninput="convCLPtoUF(this.value)">
+        <input type="text" id="input-clp" class="calc-input" placeholder="Pesos" oninput="convCLPtoUF(this.value)">
     </div>
 
     <main id="chat-area">
-        <div class="m zap"><b>MÓDULO FINANCIERO ACTIVO</b><br><br>• Conversor UF/CLP en tiempo real integrado.<br>• Conexión con valores oficiales del día.<br>• Calculadora inteligente de escritorio.<br><br>Sello: 30/06/2026 02:15:15</div>
+        <div class="m zap"><b>CALCULADORA AJUSTADA</b><br><br>• Diseño 100% responsivo para móvil.<br>• Sin desplazamiento lateral.<br>• Conversión instantánea.<br><br>Sello: 30/06/2026 02:17:27</div>
     </main>
 
     <footer id="input-bar">
@@ -87,23 +87,15 @@
 
     <script>
         const VALOR_UF = 38450.75;
-
-        function convUFtoCLP(val) {
-            const res = val * VALOR_UF;
-            document.getElementById('input-clp').value = res ? '$' + res.toLocaleString('es-CL', {maximumFractionDigits: 0}) : '';
+        function convUFtoCLP(v) {
+            const r = v * VALOR_UF;
+            document.getElementById('input-clp').value = r ? '$' + Math.round(r).toLocaleString('es-CL') : '';
         }
-
-        function convCLPtoUF(val) {
-            const cleanVal = val.replace(/[^0-9]/g, '');
-            const res = cleanVal / VALOR_UF;
-            document.getElementById('input-uf').value = res ? res.toFixed(2) : '';
+        function convCLPtoUF(v) {
+            const c = v.replace(/[^0-9]/g, '');
+            const r = c / VALOR_UF;
+            document.getElementById('input-uf').value = r ? r.toFixed(2) : '';
         }
-
-        // Mantener el formato de pesos mientras se escribe
-        document.getElementById('input-clp').addEventListener('blur', function(e) {
-            const v = e.target.value.replace(/[^0-9]/g, '');
-            if(v) e.target.value = '$' + parseInt(v).toLocaleString('es-CL');
-        });
     </script>
 </body>
 </html>
