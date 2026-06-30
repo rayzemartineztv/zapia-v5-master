@@ -1,1 +1,69 @@
-[{"ts": "01:55:01", "msg": "<b>CONEXI\u00d3N ESTABLECIDA</b> \ud83d\udce1<br>Felipe, el puente est\u00e1 activo. \u00bfMe recibes?", "tipo": "zap"}]
+{
+  "leads": [
+    "> M&A Propiedades Chile | Felipe Martinez Barrera",
+    "> Ultima actualizacion: 2026-06-23",
+    "> **Total: 316 registros**",
+    "---",
+    "| N | Nombre | Telefono | JID WhatsApp | Tipo |",
+    "| 1 | Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2 | +56959013234 | 56959013234@s.whatsapp.net | Buscaba arriendo |",
+    "| 2 | Ale Munoz X Arriendo San Bernardo Laguna Empresa | +56978699508 | 56978699508@s.whatsapp.net | Buscaba arriendo |",
+    "| 3 | Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis | +56922036181 | 56922036181@s.whatsapp.net | Buscaba arriendo |",
+    "| 4 | Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro | +56984076424 | 56984076424@s.whatsapp.net | Buscaba arriendo |",
+    "| 5 | Alejandra Rocuant X Arriendo La Cisterna Hasta 550 | +56998717141 | 56998717141@s.whatsapp.net | Buscaba arriendo |",
+    "| 6 | Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta | +56976494234 | 56976494234@s.whatsapp.net | Buscaba compra/leasing |",
+    "| 7 | Alejandra Vélez X Compra Terreno Ft Francisca Charrier | +56996403879 | 56996403879@s.whatsapp.net | Buscaba compra/leasing |",
+    "| 8 | Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna | +56982570330 | 56982570330@s.whatsapp.net | Buscaba arriendo |",
+    "| 9 | Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna | +56939492894 | 56939492894@s.whatsapp.net | Buscaba arriendo |",
+    "| 10 | Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro | +56979895624 | 56979895624@s.whatsapp.net | Buscaba arriendo |"
+  ],
+  "socios": [
+    "> M&A Propiedades Chile | Felipe Martinez Barrera",
+    "> Ultima actualizacion: 2026-06-23 | Depurado por Felipe",
+    "> **Total socios validos: 196**",
+    "---",
+    "| N | Nombre (como esta en el telefono de Felipe) | Telefono | JID WhatsApp |",
+    "| 1 | Aamy Sol Álvarez Abogada Especializada En Posesiones Efectivas Socia Canjes Corredora De Propiedades | +56931991446 | 56931991446@s.whatsapp.net |",
+    "| 2 | Abogada Carolina García Corredora De Propiedades Socia Canjes | +56942314124 | 56942314124@s.whatsapp.net |",
+    "| 3 | Ada Maturana Corredora De Propiedades Santiago La Florida | +56975116277 | 56975116277@s.whatsapp.net |",
+    "| 4 | Adm Procanje.com | +56932320459 | 56932320459@s.whatsapp.net |",
+    "| 5 | Adriana Ocarez Morez Propiedades Corredora Socia Canjes | +56972448622 | 56972448622@s.whatsapp.net |"
+  ],
+  "finanzas": [
+    "> Última actualización: 2026-06-24",
+    "> Fuente: WhatsApp (búsqueda exhaustiva — ejecutivos, operaciones, riesgo, tasación, empresas financieras)",
+    "> **REGLA:** Mantener siempre actualizada. Agregar todo contacto nuevo de banco, gestora, leasing, operaciones, riesgo o tasación con su área indicada.",
+    "---",
+    "| Nombre | Teléfono | JID WhatsApp | Área / Rol |",
+    "| Carlos Villa | +56 9 8983 9821 | 56989839821@s.whatsapp.net | Tasación — Tasador Banco Estado |",
+    "| Camila Ramírez Lagos | +56 2 2970 2077 | 56229702077@s.whatsapp.net | Comercial — Ejecutivo Comercial, Subgerencia Metropolitana Poniente, Suc. Stgo. José María Caro — cramir17@bancoestado.cl — Av. Central 6298, Pedro Aguirre Cerda |",
+    "| Nombre | Teléfono | JID WhatsApp | Área / Rol |",
+    "| Arlett Ulloa | +56 9 7487 0326 | 56974870326@s.whatsapp.net | Comercial — Ejecutiva BCI |",
+    "| Carlos (BCI Arica) | +56 9 9706 7974 | 56997067974@s.whatsapp.net | Comercial — Ejecutivo BCI Créditos / Financiamiento |"
+  ],
+  "propiedades_propias": [
+    "> M&A Propiedades Chile | Felipe Martinez Barrera",
+    "> Ultima actualizacion: 2026-06-23",
+    "> **Total: 83 registros**",
+    "---",
+    "| N | Nombre | Telefono | JID WhatsApp | Tipo | Nota |",
+    "| 1 | Adrian Hijo Dueña Depto Arriendo Venta Estación Central Ft Carla Del Bosque Propiedades | +56922266591 | 56922266591@s.whatsapp.net | dueno |  |",
+    "| 2 | Alejandra Alvarez Terreno Olmue | +56920926494 | 56920926494@s.whatsapp.net | duena |  |",
+    "| 3 | Alejandra Escarlet Quezada Novia Jordan Arriendo 350 Cristobal Depa Puente | +56930621130 | 56930621130@s.whatsapp.net | cliente arrendatario |  |",
+    "| 4 | alejandra gonzalez paiva X Dueña Arriendo Casa Buin Hermana Sebastián | +56987385084 | 56987385084@s.whatsapp.net | duena |  |",
+    "| 5 | Alejandro Catalan Hijo Pablino Dueño Arriendo Casa Quilicura Liberación Fin | +56976970663 | 56976970663@s.whatsapp.net | hijo dueno |  |"
+  ],
+  "propiedades_socios": [
+    "> Última actualización: 2026-06-21",
+    "> Total propiedades registradas: 42+",
+    "> Fuente: Barrido WhatsApp — Chats individuales + Grupos de canje",
+    "---",
+    "- **Dirección:** Villa San Matías, La Pintana, RM",
+    "- **Tipo:** Casa",
+    "- **Operación:** Venta",
+    "- **Precio:** $65.000.000 (≈ UF 1.593 conversable)",
+    "- **Características:** 2D/1B, 5 ambientes, patio cubierto, est. 1-2 vehículos",
+    "- **m²:** Terreno 70m² | Construidos 48m²"
+  ],
+  "uf": 38450.75,
+  "last_sync": "30/06/2026 03:27:51"
+}
