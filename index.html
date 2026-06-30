@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA OS — CRM MASTER PRO</title>
+    <title>ZAPIA OS — CRM MASTER PRO v5.2</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         html, body { background: #000; color: #fff; height: 100%; width: 100%; overflow: hidden; position: fixed; }
@@ -19,6 +19,8 @@
         #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; border-bottom: 1px solid #222; }
         .cat-item { background: transparent; padding: 6px 14px; border-radius: 15px; font-size: 11px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
         .cat-item.active { color: #e74c3c; border-color: #e74c3c; background: #e74c3c11; }
+        .cat-item.funados-btn { color: #ff4d4d; border-color: #ff4d4d; }
+        .cat-item.funados-btn.active { background: #ff4d4d22; }
 
         #search-container { background: #111; padding: 10px 15px; border-bottom: 1px solid #222; display: none; }
         #search-container.active { display: block; }
@@ -28,7 +30,6 @@
         .view-section { display: none; }
         .view-section.active { display: block; }
 
-        /* CRM CARDS & BLOCKS */
         .category-block { margin-bottom: 15px; }
         .category-header { 
             background: #111; padding: 12px 15px; border-radius: 8px; border-left: 4px solid #e74c3c;
@@ -39,23 +40,23 @@
         .leads-list { display: none; padding-top: 8px; }
         .leads-list.active { display: block; }
 
-        .lead-card { background: #1a1a1a; border: 1px solid #222; border-radius: 8px; padding: 12px; margin-bottom: 8px; }
+        .lead-card { background: #1a1a1a; border: 1px solid #222; border-radius: 8px; padding: 12px; margin-bottom: 8px; position: relative; }
+        .lead-card.is-funado { border: 1px solid #ff4d4d; background: #1a0a0a; }
         .lead-header { display: flex; justify-content: space-between; align-items: flex-start; cursor: pointer; }
         .lead-name { font-size: 12px; font-weight: bold; color: #fff; }
         .lead-date { font-size: 9px; color: #666; }
         .lead-phone { font-size: 10px; color: #00d4ff; display: block; margin-bottom: 5px; }
         .lead-status-pill { font-size: 9px; background: #0f82; color: #0f8; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-bottom: 5px; display: inline-block; }
         .lead-circle-pill { font-size: 10px; background: #e74c3c22; color: #e74c3c; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-right: 5px; }
+        .funado-pill { font-size: 9px; background: #ff4d4d; color: white; padding: 2px 6px; border-radius: 4px; font-weight: bold; display: inline-block; }
         
         .lead-details { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid #333; font-size: 11px; color: #aaa; line-height: 1.5; }
         .lead-details.active { display: block; }
-        .doc-status { color: #f1c40f; font-weight: bold; }
+        .red-flag { color: #ff4d4d; font-weight: bold; text-transform: uppercase; }
 
-        /* PROPERTY GRID */
         .prop-card { background: #111; border: 1px solid #222; border-radius: 10px; margin-bottom: 12px; overflow: hidden; }
         .prop-info { padding: 12px; }
         .prop-title { font-size: 13px; font-weight: bold; color: #e74c3c; margin-bottom: 5px; }
-        .prop-meta { font-size: 10px; color: #666; display: flex; justify-content: space-between; }
 
         #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; }
         #text-input { flex: 1; background: transparent; border: 1px solid #444; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
@@ -69,8 +70,8 @@
                 <button class="header-btn" onclick="toggleSearch()">🔍</button>
             </div>
             <div id="title-container">
-                <div id="header-title">Zapia OS — CRM MASTER</div>
-                <div id="sync-status">CONECTANDO...</div>
+                <div id="header-title">Zapia OS — MASTER PRO</div>
+                <div id="sync-status">CONECTANDO LEY N1...</div>
             </div>
             <div class="nav-group">
                 <button class="header-btn" onclick="location.reload(true)">↻</button>
@@ -78,7 +79,7 @@
         </header>
 
         <div id="search-container">
-            <input type="text" id="main-search" class="search-box" placeholder="Buscar por Nombre, Comuna, Círculo..." oninput="handleSearch()">
+            <input type="text" id="main-search" class="search-box" placeholder="Cruzar Datos Leads, Círculos, Funados..." oninput="handleSearch()">
         </div>
 
         <nav id="cat-menu">
@@ -86,70 +87,69 @@
             <div class="cat-item" onclick="showView('leads-view', this)">🎯 Leads</div>
             <div class="cat-item" onclick="showView('prop-view', this)">🏢 Propiedades</div>
             <div class="cat-item" onclick="showView('circles-view', this)">⭕ Círculos</div>
-            <div class="cat-item" onclick="showView('finance-view', this)">💰 Finanzas</div>
+            <div class="cat-item funados-btn" onclick="showView('funados-view', this)">🚩 FUNADOS</div>
         </nav>
 
         <main id="chat-area">
-            <!-- DASHBOARD -->
             <div id="home-view" class="view-section active">
-                <div style="background:linear-gradient(45deg, #111, #1a1a1a); padding:20px; border-radius:12px; border:1px solid #333; margin-bottom:15px;">
-                    <div style="font-size:18px; font-weight:bold; color:#e74c3c; margin-bottom:5px;">Zapia OS v5.1 Pro</div>
-                    <div id="stats-summary" style="font-size:12px; color:#aaa;">Sincronizando fmartinez + rayze...</div>
+                <div style="background:linear-gradient(45deg, #1a1a1a, #000); padding:20px; border-radius:12px; border:1px solid #e74c3c; margin-bottom:15px;">
+                    <div style="font-size:18px; font-weight:bold; color:#e74c3c; margin-bottom:5px;">Zapia OS v5.2 Pro</div>
+                    <div id="stats-summary" style="font-size:12px; color:#aaa;">Sincronizando Ley N°1 + Cuentas Master...</div>
                 </div>
-                <div id="recent-activity"></div>
+                <div style="background:#111; padding:15px; border-radius:10px; border:1px solid #222; margin-top:10px;">
+                    <div style="font-size:12px; font-weight:bold; color:#ff4d4d; text-transform:uppercase;">Alerta de Seguridad Activa</div>
+                    <div style="font-size:11px; color:#888; margin-top:5px;">Cruce contra FUNADOS.md activado en cada ingreso de lead.</div>
+                </div>
             </div>
 
-            <!-- LEADS -->
             <div id="leads-view" class="view-section">
                 <div id="leads-container"></div>
             </div>
 
-            <!-- PROPIEDADES -->
             <div id="prop-view" class="view-section">
                 <div id="prop-container"></div>
             </div>
 
-            <!-- CÍRCULOS -->
             <div id="circles-view" class="view-section">
                 <div id="circles-container"></div>
             </div>
 
-            <!-- FINANZAS -->
-            <div id="finance-view" class="view-section">
-                <div style="background:#111; padding:15px; border-radius:10px; border:1px solid #222;">
-                    <div style="font-size:14px; font-weight:bold; color:#f1c40f;">Calculadora UF Master</div>
-                    <div style="margin-top:10px; font-size:24px; font-weight:bold;">$ 37.950,23</div>
-                </div>
+            <div id="funados-view" class="view-section">
+                <div id="funados-container"></div>
             </div>
         </main>
 
         <footer id="input-bar">
             <button class="header-btn">📎</button>
-            <input type="text" id="text-input" placeholder="Comando CRM Zapia..." autocomplete="off">
+            <input type="text" id="text-input" placeholder="Zapia CRM Master..." autocomplete="off">
             <button class="header-btn" style="color:#e74c3c; font-size:28px">➤</button>
         </footer>
     </div>
 
     <script>
         let allLeads = [];
-        let groupedLeads = {};
+        let funadosList = [];
 
         async function loadData() {
             try {
                 const resp = await fetch('logs.json?v=' + Date.now());
                 const data = await resp.json();
                 allLeads = Object.values(data.leads_v3.groups).flat();
-                groupedLeads = data.leads_v3.groups;
+                funadosList = data.funados || [
+                    {name: "Juan Perez Malo", reason: "Estafa Arriendo 2024", phone: "+56911111111"},
+                    {name: "Maria Estafadora", reason: "Falsificación de Liquidaciones", phone: "+56922222222"}
+                ];
                 
-                renderLeads(groupedLeads);
+                renderLeads(data.leads_v3.groups);
                 renderCircles();
                 renderProperties(data.properties || []);
+                renderFunados();
                 
-                document.getElementById('sync-status').innerText = 'LIVE: ' + data.last_sync;
+                document.getElementById('sync-status').innerText = 'LEY N°1 ACTIVA: ' + data.last_sync;
                 document.getElementById('stats-summary').innerHTML = `
-                    <b>Cuentas Master:</b> fmartinez + rayze<br>
-                    <b>Leads:</b> ${data.leads_v3.stats.total} | <b>Activos:</b> ${allLeads.length}<br>
-                    <b>Status:</b> CRM Integral Conectado
+                    <b>Cuentas:</b> fmartinez + rayze<br>
+                    <b>Leads:</b> ${data.leads_v3.stats.total} | <b>Funados:</b> ${funadosList.length}<br>
+                    <b>Status:</b> Monitoreo Proactivo Ley N°1
                 `;
             } catch(e) { document.getElementById('sync-status').innerText = 'SYNC ERROR'; }
         }
@@ -163,44 +163,62 @@
                 block.className = 'category-block';
                 block.innerHTML = `<div class="category-header" onclick="this.nextSibling.classList.toggle('active')"><span class="category-name">${cat}</span><span class="category-count">${leads.length}</span></div><div class="leads-list"></div>`;
                 const list = block.querySelector('.leads-list');
-                leads.forEach(l => list.appendChild(createLeadCard(l)));
+                leads.forEach(l => {
+                    const isFunado = funadosList.some(f => l.name.toLowerCase().includes(f.name.toLowerCase()));
+                    list.appendChild(createLeadCard(l, isFunado));
+                });
                 container.appendChild(block);
             }
         }
 
-        function createLeadCard(l) {
+        function createLeadCard(l, isFunado = false) {
             const div = document.createElement('div');
-            div.className = 'lead-card';
+            div.className = 'lead-card' + (isFunado ? ' is-funado' : '');
             div.innerHTML = `
-                <div class="lead-header" onclick="this.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.toggle('active')">
-                    <div class="lead-name">${l.name}</div>
+                <div class="lead-header" onclick="this.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.classList.toggle('active')">
+                    <div class="lead-name">${l.name} ${isFunado ? '⚠️' : ''}</div>
                     <div class="lead-date">Ingreso: 2026-06-23</div>
                 </div>
                 <span class="lead-phone">${l.phone}</span>
-                <div style="margin:5px 0;"><span class="lead-status-pill">Evolucionando (KiteProp)</span><span class="lead-circle-pill">⭕ ${l.circle}</span></div>
+                <div style="margin:5px 0;">
+                    <span class="lead-status-pill">Evolucionando</span>
+                    <span class="lead-circle-pill">⭕ ${l.circle}</span>
+                    ${isFunado ? '<span class="funado-pill">🚩 FUNADO</span>' : ''}
+                </div>
                 <div class="lead-details">
+                    ${isFunado ? '<p class="red-flag">⚠️ ALERTA: Esta persona está en la lista negra</p>' : ''}
                     <p><strong>Círculo:</strong> ${l.circle}</p>
-                    <p><strong>Docs:</strong> <span class="doc-status">PENDIENTE REVISIÓN</span></p>
+                    <p><strong>Docs:</strong> Pendiente Revisión</p>
                     <p><strong>Data:</strong> ${l.full_data}</p>
-                    <p><strong>JID:</strong> ${l.jid}</p>
-                    <button style="background:#e74c3c; color:white; border:none; padding:10px; border-radius:5px; margin-top:10px; width:100%" onclick="window.open('https://wa.me/${l.phone.replace('+','')}')">HABLAR POR WHATSAPP</button>
+                    <button style="background:#e74c3c; color:white; border:none; padding:10px; border-radius:5px; margin-top:10px; width:100%" onclick="window.open('https://wa.me/${l.phone.replace('+','')}')">WHATSAPP</button>
                 </div>
             `;
             return div;
         }
 
+        function renderFunados() {
+            const container = document.getElementById('funados-container');
+            container.innerHTML = '<div style="margin-bottom:15px; font-size:13px; color:#ff4d4d; font-weight:bold;">🚩 BASE DE DATOS LEY N°1 (SEGURIDAD)</div>';
+            funadosList.forEach(f => {
+                const div = document.createElement('div');
+                div.className = 'lead-card is-funado';
+                div.innerHTML = `
+                    <div class="lead-name" style="color:#ff4d4d;">${f.name}</div>
+                    <div style="font-size:10px; color:#888; margin:5px 0;">Motivo: ${f.reason}</div>
+                    <div style="font-size:10px; color:#00d4ff;">${f.phone}</div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
         function renderProperties(props) {
             const container = document.getElementById('prop-container');
             container.innerHTML = '';
-            // Mock properties if none exist in JSON
-            const list = props.length > 0 ? props : [
-                {title: "Dpto 2D 2B - Cóndores", value: "UF 2.450", status: "Publicado"},
-                {title: "Casa San Ramón", value: "$ 85.000.000", status: "Reservada"}
-            ];
+            const list = props.length > 0 ? props : [{title: "Dpto 2D 2B - Cóndores", value: "UF 2.450"}, {title: "Casa San Ramón", value: "$ 85.000.000"}];
             list.forEach(p => {
                 const div = document.createElement('div');
                 div.className = 'prop-card';
-                div.innerHTML = `<div class="prop-info"><div class="prop-title">${p.title}</div><div class="prop-meta"><span>${p.value}</span><span class="doc-status">${p.status}</span></div></div>`;
+                div.innerHTML = `<div class="prop-info"><div class="prop-title">${p.title}</div><div style="font-size:10px; color:#666;">${p.value} | DOCS: PENDIENTE</div></div>`;
                 container.appendChild(div);
             });
         }
@@ -224,13 +242,16 @@
             const query = document.getElementById('main-search').value.toLowerCase();
             const terms = query.split(' ').filter(t => t.length > 0);
             const filtered = allLeads.filter(l => {
-                return terms.every(t => l.name.toLowerCase().includes(t) || l.category.toLowerCase().includes(t) || l.circle.toLowerCase().includes(t));
+                return terms.every(t => l.name.toLowerCase().includes(t) || l.circle.toLowerCase().includes(t));
             });
             const container = document.getElementById('leads-container');
-            container.innerHTML = '<div class="category-header"><span class="category-name">Resultados de Búsqueda</span><span class="category-count">'+filtered.length+'</span></div>';
+            container.innerHTML = '<div class="category-header"><span class="category-name">Resultados</span><span class="category-count">'+filtered.length+'</span></div>';
             const list = document.createElement('div');
             list.className = 'leads-list active';
-            filtered.forEach(l => list.appendChild(createLeadCard(l)));
+            filtered.forEach(l => {
+                const isFunado = funadosList.some(f => l.name.toLowerCase().includes(f.name.toLowerCase()));
+                list.appendChild(createLeadCard(l, isFunado));
+            });
             container.appendChild(list);
             showView('leads-view');
         }
