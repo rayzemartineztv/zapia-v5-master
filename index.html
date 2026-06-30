@@ -51,12 +51,12 @@
         <header id="header">
             <div class="nav-group">
                 <button class="header-btn" onclick="location.reload()">🏠</button>
-                <button class="header-btn" title="Subir nivel" onclick="history.back()">↑</button>
+                <button class="header-btn" title="Subir nivel" onclick="goUp()">↑</button>
                 <button class="header-btn" title="Atrás" onclick="history.back()">←</button>
             </div>
             <div id="title-container">
                 <div id="header-title">Zapia Master V5</div>
-                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:11:18</div>
+                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:12:34</div>
             </div>
             <div class="nav-group">
                 <button class="header-btn" title="Adelante" onclick="history.forward()">→</button>
@@ -65,16 +65,16 @@
         </header>
 
         <nav id="cat-menu">
-            <div class="cat-item">🎯 Leads</div>
-            <div class="cat-item">🤝 Socios</div>
-            <div class="cat-item active">💰 Financiamiento</div>
-            <div class="cat-item">🏢 Propiedades</div>
-            <div class="cat-item">⭕ Círculos</div>
+            <div class="cat-item" onclick="switchTab(this)">🎯 Leads</div>
+            <div class="cat-item" onclick="switchTab(this)">🤝 Socios</div>
+            <div class="cat-item active" onclick="switchTab(this)">💰 Financiamiento</div>
+            <div class="cat-item" onclick="switchTab(this)">🏢 Propiedades</div>
+            <div class="cat-item" onclick="switchTab(this)">⭕ Círculos</div>
         </nav>
 
         <main id="chat-area">
             <!-- SECCIÓN FINANCIAMIENTO COMPLETA -->
-            <div class="fin-section">
+            <div id="fin-view" class="view-section active">
                 <div id="uf-bar">
                     <span class="uf-label">REFERENCIA UF</span>
                     <span class="uf-value">$38.450,75</span>
@@ -90,9 +90,16 @@
                 </div>
 
                 <!-- EJECUTIVOS INDEXADOS (NO ELIMINADOS) -->
-                <div class="exec-card">
+                <div class="exec-card" onclick="toggleCircle('exec1')">
                     <div class="exec-name">Valentina Ejecutivo (Casa Nuestra)</div>
                     <div style="font-size: 10px; color: #00d4ff;">10 Clientes en Círculos Indexados</div>
+                </div>
+                <div id="exec1" class="indexed-circles">
+                    <div class="client-circle">
+                        <span class="circle-path">⭕ RUTA: Valentina → Jefa</span>
+                        <span class="client-name">Diego Pérez</span>
+                        <div class="circle-status">ESTADO: Evaluación Mutuo</div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -116,6 +123,24 @@
             const val = document.getElementById('val-clp').value;
             const res = (val / uf).toFixed(2);
             document.getElementById('calc-result').innerText = res + ' UF';
+        }
+
+        function toggleCircle(id) {
+            const el = document.getElementById(id);
+            el.classList.toggle('active');
+        }
+
+        function switchTab(el) {
+            document.querySelectorAll('.cat-item').forEach(i => i.classList.remove('active'));
+            el.classList.add('active');
+        }
+
+        function goUp() {
+            // Lógica de "Subir": Cierra todos los desplegables abiertos y vuelve al estado base del menú activo
+            document.querySelectorAll('.indexed-circles').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.circle-dropdown').forEach(c => c.classList.remove('active'));
+            // Scroll al inicio de la pantalla
+            document.getElementById('chat-area').scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
 </body>
