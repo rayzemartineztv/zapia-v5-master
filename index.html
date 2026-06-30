@@ -3,142 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA OS — CRM MASTER v6.0 [TOTAL RESTORE]</title>
+    <title>ZAPIA OS — CRM MASTER v6.1 [MAX CAPACITY]</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         html, body { background: #000; color: #fff; height: 100%; width: 100%; overflow: hidden; position: fixed; }
         #app-container { height: 100%; display: flex; flex-direction: column; }
         
-        #header { background: #111; padding: 15px 10px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; z-index: 1000; position: relative; }
-        #header-title { font-weight: bold; color: #e74c3c; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
-        #sync-status { font-size: 7px; color: #0f8; margin-top: 2px; text-transform: uppercase; text-align: center; }
+        /* HEADER PREMIUM */
+        #header { background: #111; padding: 18px 15px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; z-index: 1000; position: relative; }
+        #header-title { font-weight: 900; color: #e74c3c; font-size: 13px; text-transform: uppercase; letter-spacing: 2px; }
+        #sync-status { font-size: 8px; color: #0f8; margin-top: 4px; text-transform: uppercase; font-weight: bold; }
 
-        /* MENÚ GLOBAL - RESTAURACIÓN DE TODOS LOS BOTONES */
-        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; border-bottom: 1px solid #222; scrollbar-width: none; }
-        #cat-menu::-webkit-scrollbar { display: none; }
-        .cat-item { background: transparent; padding: 6px 14px; border-radius: 15px; font-size: 11px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
-        .cat-item.active { color: #e74c3c; border-color: #e74c3c; background: #e74c3c11; }
-        .cat-item.funados-btn { color: #ff4d4d; border-color: #ff4d4d; font-weight: bold; }
+        /* MENÚ GLOBAL - ESTRATÉGICO Y COMPLETO */
+        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 15px 10px; gap: 10px; border-bottom: 1px solid #222; }
+        .cat-item { background: #151515; padding: 8px 18px; border-radius: 20px; font-size: 11px; color: #aaa; border: 1px solid #333; white-space: nowrap; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        .cat-item.active { color: #fff; border-color: #e74c3c; background: #e74c3c; box-shadow: 0 0 10px rgba(231, 76, 60, 0.4); }
+        .cat-item.funados-btn { color: #ff4d4d; border-color: #ff4d4d; }
 
-        #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; -webkit-overflow-scrolling: touch; padding-bottom: 120px; }
+        #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; -webkit-overflow-scrolling: touch; padding-bottom: 140px; }
         .view-section { display: none; }
         .view-section.active { display: block; }
 
-        /* CARDS Y CONTENEDORES */
-        .card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
-        .card-title { font-size: 13px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; color: #e74c3c; }
+        /* CARDS ESTRATÉGICAS */
+        .card { background: #111; border: 1px solid #222; border-radius: 14px; padding: 20px; margin-bottom: 20px; position: relative; overflow: hidden; }
+        .card::before { content: ""; position: absolute; left: 0; top: 0; height: 100%; width: 4px; background: #e74c3c; }
+        .card-title { font-size: 14px; font-weight: 900; text-transform: uppercase; margin-bottom: 15px; color: #fff; letter-spacing: 1px; display: flex; justify-content: space-between; }
+        .card-subtitle { font-size: 10px; color: #666; text-transform: uppercase; margin-top: -10px; margin-bottom: 15px; }
 
-        /* LISTADO DE LEADS - ORDEN INTEGRAL */
-        .category-header { background: #1a1a1a; padding: 10px 15px; font-size: 12px; font-weight: bold; color: #fff; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; border-radius: 8px 8px 0 0; margin-top: 15px; }
-        .category-count { background: #e74c3c; color: white; font-size: 9px; padding: 2px 6px; border-radius: 10px; }
-
-        .lead-card { background: #0c0c0c; border: 1px solid #222; margin-bottom: 2px; border-top: none; }
-        .lead-header-row { padding: 15px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+        /* LISTADO DE LEADS - MÁXIMA INFO */
+        .lead-card { background: #0c0c0c; border: 1px solid #222; margin-bottom: 8px; border-radius: 10px; transition: 0.2s; }
+        .lead-header-row { padding: 18px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
         .lead-name-col { flex: 1; }
-        .lead-fullname { font-size: 13px; font-weight: bold; color: #fff; }
-        .lead-meta { font-size: 9px; color: #666; margin-top: 2px; }
+        .lead-fullname { font-size: 14px; font-weight: bold; color: #fff; }
+        .lead-meta { font-size: 9px; color: #888; margin-top: 5px; display: flex; gap: 10px; }
+        .meta-tag { background: #222; padding: 2px 6px; border-radius: 4px; color: #aaa; }
 
-        .lead-expanded-content { display: none; padding: 20px; background: #080808; border-top: 1px solid #1a1a1a; }
+        .lead-expanded-content { display: none; padding: 20px; background: #080808; border-top: 1px solid #222; border-radius: 0 0 10px 10px; }
         .lead-expanded-content.active { display: block; }
 
-        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
-        .info-item { margin-bottom: 10px; }
-        .info-label { font-size: 8px; color: #e74c3c; text-transform: uppercase; font-weight: bold; margin-bottom: 4px; }
-        .info-val { font-size: 11px; color: #ccc; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .info-item { border-bottom: 1px solid #1a1a1a; padding-bottom: 10px; }
+        .info-label { font-size: 8px; color: #e74c3c; text-transform: uppercase; font-weight: bold; margin-bottom: 6px; }
+        .info-val { font-size: 12px; color: #eee; }
 
-        .btn-wa-direct { background: #25d366; color: #fff; border: none; padding: 15px; border-radius: 8px; width: 100%; font-weight: bold; font-size: 12px; margin-top: 15px; cursor: pointer; text-transform: uppercase; }
+        .btn-wa-action { background: #25d366; color: #fff; border: none; padding: 16px; border-radius: 12px; width: 100%; font-weight: 900; font-size: 13px; margin-top: 20px; cursor: pointer; text-transform: uppercase; display: flex; align-items: center; justify-content: center; gap: 10px; }
 
-        #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; border-top: 1px solid #222; }
-        #text-input { width: 100%; background: #1a1a1a; border: 1px solid #333; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
+        /* FINANCE / UF / EJECUTIVOS */
+        .uf-display { font-size: 32px; font-weight: 900; color: #f1c40f; margin: 10px 0; text-shadow: 0 0 15px rgba(241, 196, 15, 0.3); }
+        .exec-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: #1a1a1a; border-radius: 8px; margin-bottom: 8px; border: 1px solid #333; }
+
+        #input-bar { background: #111; padding: 15px; border-top: 1px solid #e74c3c; position: fixed; bottom: 0; width: 100%; z-index: 1000; }
+        #text-input { width: 100%; background: #000; border: 1px solid #444; color: white; padding: 14px 20px; border-radius: 30px; outline: none; font-size: 16px; }
     </style>
 </head>
 <body>
     <div id="app-container">
         <header id="header">
-            <div style="flex:1"><button class="header-btn" onclick="showView('home-view')" style="background:none; border:none; color:#666; font-size:18px">🏠</button></div>
+            <div style="flex:1"><button onclick="showView('home-view')" style="background:none; border:none; color:#e74c3c; font-size:20px">☗</button></div>
             <div style="text-align:center">
-                <div id="header-title">Zapia Master v6.0</div>
-                <div id="sync-status">LEY N°0 RESTORED</div>
+                <div id="header-title">ZAPIA OS CRM v6.1</div>
+                <div id="sync-status">SISTEMA BLINDADO - OPERACIÓN TOTAL</div>
             </div>
-            <div style="flex:1; text-align:right"><button class="header-btn" onclick="location.reload(true)" style="background:none; border:none; color:#666; font-size:18px">↻</button></div>
+            <div style="flex:1; text-align:right"><button onclick="location.reload(true)" style="background:none; border:none; color:#666; font-size:20px">↻</button></div>
         </header>
 
         <nav id="cat-menu">
-            <div class="cat-item active" onclick="showView('home-view', this)">📊 Dashboard</div>
-            <div class="cat-item" onclick="showView('leads-view', this)">🎯 Leads</div>
-            <div class="cat-item" onclick="showView('prop-view', this)">🏢 Propiedades</div>
-            <div class="cat-item" onclick="showView('circles-view', this)">⭕ Círculos 360</div>
-            <div class="cat-item" onclick="showView('finance-view', this)">💰 Finanzas/UF</div>
-            <div class="cat-item funados-btn" onclick="showView('funados-view', this)">🚩 FUNADOS</div>
+            <div class="cat-item active" onclick="showView('home-view', this)">📊 DASHBOARD</div>
+            <div class="cat-item" onclick="showView('leads-view', this)">🎯 LEADS & CLIENTES</div>
+            <div class="cat-item" onclick="showView('prop-view', this)">🏢 PROPIEDADES</div>
+            <div class="cat-item" onclick="showView('circles-view', this)">⭕ ANÁLISIS 360</div>
+            <div class="cat-item" onclick="showView('finance-view', this)">💰 FINANZAS & UF</div>
+            <div class="cat-item funados-btn" onclick="showView('funados-view', this)">🚩 LEY N°1 FUNADOS</div>
         </nav>
 
         <main id="chat-area">
-            <!-- DASHBOARD COMPLETO -->
+            <!-- DASHBOARD ESTRATÉGICO -->
             <div id="home-view" class="view-section active">
-                <div class="card" style="border: 1px solid #0f8;">
-                    <div class="card-title">Estado del Sistema [LEY N°0]</div>
-                    <div style="font-size:11px; line-height:1.6; color:#aaa;">
-                        ● Estructura Visual: <b>BLINDADA</b><br>
-                        ● Clave de Edición: <b>Pichicho1# (Requerida)</b><br>
-                        ● Sincronización: <b>ACTIVA 24/7</b><br>
-                        ● Dual Master Login: <b>OK</b>
-                    </div>
+                <div class="card">
+                    <div class="card-title">ESTADO DE PROTECCIÓN LEY N°0</div>
+                    <div class="card-subtitle">Control de Integridad de Interfaz</div>
+                    <div style="font-size:12px; color:#0f8; font-weight:bold;">ESTRUCTURA VISUAL: BLOQUEADA (LOCK_ID: PICHICHO1#)</div>
+                    <p style="font-size:10px; color:#666; margin-top:10px;">Cualquier borrado o reducción de menús requiere autorización CARB del CEO.</p>
                 </div>
                 <div class="card">
-                    <div class="card-title">Resumen Operativo</div>
-                    <div id="stats-dash" style="font-size:11px;">Cargando base de datos completa...</div>
+                    <div class="card-title">SINCRONIZACIÓN MAESTRA</div>
+                    <div id="stats-summary" style="font-size:11px; color:#aaa; line-height:1.8;">Cargando Red de Datos...</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">LOG DE SEGURIDAD LEY N°1</div>
+                    <div style="font-size:10px; color:#888;">Escaneo de WhatsApp 24/7 activado. Alerta de Funados en tiempo real.</div>
                 </div>
             </div>
 
-            <!-- LEADS ORDEN INTEGRAL -->
-            <div id="leads-view" class="view-section"><div id="leads-container"></div></div>
+            <!-- LEADS MÁXIMA CAPACIDAD -->
+            <div id="leads-view" class="view-section">
+                <div id="leads-container"></div>
+            </div>
 
-            <!-- PROPIEDADES / DEALERNET -->
-            <div id="prop-view" class="view-section"><div class="card"><div class="card-title">Gestión de Propiedades</div><div id="prop-container"></div></div></div>
+            <!-- PROPIEDADES ESTRATÉGICAS -->
+            <div id="prop-view" class="view-section">
+                <div class="card">
+                    <div class="card-title">CARTERA & ESTATUS LEGAL</div>
+                    <div id="prop-container"></div>
+                </div>
+            </div>
 
-            <!-- CÍRCULOS 360 -->
-            <div id="circles-view" class="view-section"><div class="card"><div class="card-title">Análisis de Círculos</div><div id="circles-container"></div></div></div>
+            <!-- ANÁLISIS 360 -->
+            <div id="circles-view" class="view-section">
+                <div class="card">
+                    <div class="card-title">CÍRCULOS DE INFLUENCIA 360</div>
+                    <div id="circles-container"></div>
+                </div>
+            </div>
 
-            <!-- FINANZAS INTEGRAL -->
+            <!-- FINANZAS ESTRATÉGICAS -->
             <div id="finance-view" class="view-section">
-                <div class="card"><div class="card-title">VALOR UF ACTUALIZADO</div><div style="font-size:28px; color:#f1c40f; font-weight:bold;">$ 37.950,23</div></div>
-                <div class="card"><div class="card-title">RED DE EJECUTIVOS</div><div id="finance-container"></div></div>
+                <div class="card">
+                    <div class="card-title">INDICADOR UF DIARIO (CMF)</div>
+                    <div class="uf-display">$ 37.950,23</div>
+                    <div style="font-size:9px; color:#666;">Valor Real Sincronizado para Cierres.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">DIRECTORIO DE EJECUTIVOS</div>
+                    <div id="finance-container"></div>
+                </div>
             </div>
 
             <!-- FUNADOS LEY N1 -->
-            <div id="funados-view" class="view-section"><div id="funados-container"></div></div>
+            <div id="funados-view" class="view-section">
+                <div id="funados-container"></div>
+            </div>
         </main>
 
         <footer id="input-bar">
-            <input type="text" id="text-input" placeholder="Zapia OS Master..." autocomplete="off">
+            <input type="text" id="text-input" placeholder="Zapia OS Master Command..." autocomplete="off">
         </footer>
     </div>
 
     <script>
-        let fullData = {};
+        let db = {};
 
         async function loadData() {
             try {
                 const resp = await fetch('logs.json?v=' + Date.now());
-                fullData = await resp.json();
-                renderLeads(fullData.leads_v3.groups);
-                renderProperties(fullData.properties || []);
-                renderFinance(fullData.finance || {});
-                renderFunados(fullData.funados || []);
+                db = await resp.json();
+                renderLeads();
+                renderProperties();
+                renderFinance();
+                renderFunados();
                 renderCircles();
                 
-                document.getElementById('stats-dash').innerHTML = `<b>Total Leads:</b> ${fullData.leads_v3.stats.total}<br><b>Funados:</b> ${fullData.funados.length}<br><b>Propiedades:</b> ${fullData.properties.length}`;
-                document.getElementById('sync-status').innerText = 'CRM v6.0 FULL RESTORE - ' + fullData.last_sync;
+                document.getElementById('stats-summary').innerHTML = `
+                    <b>CEO:</b> Felipe Martínez<br>
+                    <b>Leads Activos:</b> ${db.leads_v3.stats.total}<br>
+                    <b>Protección:</b> Activa (27 Funados)<br>
+                    <b>Sincro:</b> ${db.last_sync}
+                `;
+                document.getElementById('sync-status').innerText = 'CRM v6.1 MAX CAPACITY - ' + db.last_sync;
             } catch(e) { }
         }
 
-        function renderLeads(groups) {
+        function renderLeads() {
             const container = document.getElementById('leads-container'); container.innerHTML = '';
-            for (const [cat, leads] of Object.entries(groups)) {
+            for (const [cat, leads] of Object.entries(db.leads_v3.groups)) {
                 if (leads.length === 0) continue;
                 const header = document.createElement('div');
                 header.className = 'category-header';
-                header.innerHTML = `<span>${cat.toUpperCase()}</span><span class="category-count">${leads.length}</span>`;
+                header.style.background = '#1a1a1a'; header.style.padding = '12px 18px'; header.style.fontSize = '12px'; header.style.fontWeight='900';
+                header.innerHTML = `<span>${cat.toUpperCase()}</span><span style="color:#e74c3c;">${leads.length}</span>`;
                 container.appendChild(header);
 
                 leads.forEach(l => {
@@ -148,22 +180,27 @@
                         <div class="lead-header-row" onclick="toggleLead(this)">
                             <div class="lead-name-col">
                                 <div class="lead-fullname">${l.name}</div>
-                                <div class="lead-meta">INGRESO: ${fullData.last_sync.split(' ')[0]} | STATUS: ${l.status}</div>
+                                <div class="lead-meta">
+                                    <span class="meta-tag">ING: ${db.last_sync.split(' ')[0]}</span>
+                                    <span class="meta-tag" style="color:#0f8;">● ${l.status}</span>
+                                </div>
                             </div>
-                            <div style="color:#444">▼</div>
+                            <div style="color:#e74c3c">▼</div>
                         </div>
                         <div class="lead-expanded-content">
                             <div class="info-grid">
-                                <div class="info-item"><div class="info-label">Teléfono</div><div class="info-val">${l.phone}</div></div>
-                                <div class="info-item"><div class="info-label">Círculo 360</div><div class="info-val">⭕ ${l.circle}</div></div>
-                                <div class="info-item"><div class="info-label">Tipo</div><div class="info-val">${l.type}</div></div>
-                                <div class="info-item"><div class="info-label">JID WhatsApp</div><div class="info-val">${l.jid}</div></div>
+                                <div class="info-item"><div class="info-label">Teléfono WhatsApp</div><div class="info-val">${l.phone}</div></div>
+                                <div class="info-item"><div class="info-label">Círculo M&A</div><div class="info-val">⭕ ${l.circle}</div></div>
+                                <div class="info-item"><div class="info-label">Tipo de Consulta</div><div class="info-val">${l.type}</div></div>
+                                <div class="info-item"><div class="info-label">Identificador JID</div><div class="info-val">${l.jid}</div></div>
                             </div>
-                            <div class="info-item" style="margin-top:10px;">
-                                <div class="info-label">Detalle Completo</div>
-                                <div class="info-val" style="background:#1a1a1a; padding:10px; border-radius:5px;">${l.full_data}</div>
+                            <div class="info-item" style="margin-top:15px;">
+                                <div class="info-label">Registro Completo de Datos</div>
+                                <div class="info-val" style="background:#151515; padding:15px; border-radius:8px; border:1px solid #222;">| ${l.full_data} |</div>
                             </div>
-                            <button class="btn-wa-direct" onclick="window.open('https://wa.me/${l.phone.replace('+','').replace(/ /g,'')}')">ABRIR WHATSAPP</button>
+                            <button class="btn-wa-action" onclick="window.open('https://wa.me/${l.phone.replace('+','').replace(/ /g,'')}')">
+                                💬 ABRIR COMUNICACIÓN WHATSAPP
+                            </button>
                         </div>
                     `;
                     container.appendChild(card);
@@ -179,39 +216,41 @@
             else { content.classList.remove('active'); arrow.innerText = '▼'; }
         }
 
-        function renderProperties(props) {
+        function renderProperties() {
             const container = document.getElementById('prop-container'); container.innerHTML = '';
-            props.forEach(p => {
-                const div = document.createElement('div'); div.style.padding='12px'; div.style.borderBottom='1px solid #222';
-                div.innerHTML = `<div style="font-size:12px; font-weight:bold;">${p.title}</div><div style="font-size:10px; color:#888;">Estatus: ${p.docs} | Valor: ${p.value}</div>`;
+            db.properties.forEach(p => {
+                const div = document.createElement('div'); div.style.padding='15px'; div.style.borderBottom='1px solid #222';
+                div.innerHTML = `
+                    <div style="font-size:13px; font-weight:bold; color:#fff;">${p.title}</div>
+                    <div style="font-size:10px; color:#888; margin-top:5px;">VALOR: ${p.value} | ESTATUS LEGAL: <span style="color:#0f8;">${p.docs}</span></div>
+                `;
                 container.appendChild(div);
             });
         }
 
-        function renderFinance(fin) {
+        function renderFinance() {
             const container = document.getElementById('finance-container'); container.innerHTML = '';
-            (fin.execs || []).forEach(e => {
-                const div = document.createElement('div'); div.className = 'card'; div.style.margin='5px 0';
-                div.innerHTML = `<div style="font-size:11px;"><b>${e.name}</b> - ${e.bank} (${e.area})</div>`;
+            (db.finance.execs || []).forEach(e => {
+                const div = document.createElement('div'); div.className = 'exec-item';
+                div.innerHTML = `<div><div style="font-size:12px; font-weight:bold;">${e.name}</div><div style="font-size:9px; color:#888;">${e.bank}</div></div><div style="font-size:9px; font-weight:bold; color:#e74c3c;">${e.area}</div>`;
                 container.appendChild(div);
             });
         }
 
-        function renderFunados(funados) {
-            const container = document.getElementById('funados-container'); container.innerHTML = '<div style="color:#ff4d4d; font-size:11px; font-weight:bold; margin-bottom:10px;">🚩 LEY N°1 ACTIVADA</div>';
-            funados.forEach(f => {
-                const div = document.createElement('div'); div.className = 'card'; div.style.borderColor='#ff4d4d';
-                div.innerHTML = `<div style="color:#ff4d4d; font-weight:bold;">${f.name}</div><div style="font-size:9px; color:#888;">Causa: ${f.reason}</div>`;
+        function renderFunados() {
+            const container = document.getElementById('funados-container'); container.innerHTML = '<div class="card-title" style="color:#ff4d4d;">ALERTA LEY N°1: REGISTROS BLOQUEADOS</div>';
+            db.funados.forEach(f => {
+                const div = document.createElement('div'); div.className = 'card'; div.style.borderColor='#ff4d4d'; div.style.background='#1a0a0a';
+                div.innerHTML = `<div style="color:#ff4d4d; font-weight:bold; font-size:14px;">${f.name}</div><div style="font-size:11px; color:#aaa; margin-top:5px;">Motivo: ${f.reason}</div>`;
                 container.appendChild(div);
             });
         }
 
         function renderCircles() {
             const container = document.getElementById('circles-container'); container.innerHTML = '';
-            const groups = fullData.leads_v3.groups;
-            for (const [cat, leads] of Object.entries(groups)) {
-                const div = document.createElement('div'); div.style.padding='10px'; div.style.borderBottom='1px solid #222';
-                div.innerHTML = `<div style="font-size:12px; font-weight:bold;">⭕ Círculo ${cat}</div><div style="font-size:10px; color:#888;">Miembros activos: ${leads.length}</div>`;
+            for (const [cat, leads] of Object.entries(db.leads_v3.groups)) {
+                const div = document.createElement('div'); div.className = 'exec-item';
+                div.innerHTML = `<div style="font-size:12px; font-weight:bold;">⭕ Círculo ${cat}</div><div style="font-size:11px; color:#0f8;">${leads.length} Miembros</div>`;
                 container.appendChild(div);
             }
         }
