@@ -8,50 +8,23 @@
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         body { background: #000; color: #fff; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
         
-        #header { background: #111; padding: 15px 10px; border-bottom: 2px solid #e74c3c; display: flex; justify-content: center; align-items: center; position: relative; }
-        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 1px; font-size: 15px; text-transform: uppercase; }
+        #header { background: #111; padding: 12px 10px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; position: relative; }
+        
+        .nav-group { display: flex; gap: 15px; align-items: center; color: #555; }
+        .nav-btn { font-size: 18px; cursor: pointer; transition: 0.2s; }
+        .nav-btn:active { color: #e74c3c; }
 
-        #uf-bar { 
-            background: #1a1a1a; 
-            padding: 5px 12px; 
-            display: flex; 
-            align-items: center; 
-            justify-content: space-between; 
-            border-bottom: 1px solid #333;
-            font-size: 11px;
-        }
+        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 1px; font-size: 14px; text-transform: uppercase; position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; }
+
+        #refresh-btn { color: #555; font-size: 18px; cursor: pointer; width: 30px; text-align: right; }
+
+        #uf-bar { background: #1a1a1a; padding: 5px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #333; font-size: 11px; }
         .uf-val { color: #0f8; font-weight: bold; }
         
-        /* CALCULADORA COMPACTA ANTI-ERROR VERTICAL */
-        #uf-calc {
-            background: #111;
-            padding: 10px 8px;
-            display: flex;
-            gap: 4px;
-            align-items: center;
-            justify-content: center;
-            border-bottom: 1px solid #222;
-            width: 100%;
-        }
-        .calc-group {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-width: 0; /* Evita desbordamiento */
-        }
+        #uf-calc { background: #111; padding: 8px 10px; display: flex; gap: 4px; align-items: center; justify-content: center; border-bottom: 1px solid #222; width: 100%; }
+        .calc-group { flex: 1; display: flex; flex-direction: column; align-items: center; min-width: 0; }
         .calc-lbl { font-size: 9px; color: #666; margin-bottom: 3px; font-weight: bold; }
-        .calc-in {
-            width: 100%;
-            background: #222;
-            border: 1px solid #444;
-            color: #fff;
-            padding: 10px 4px;
-            border-radius: 8px;
-            font-size: 14px;
-            outline: none;
-            text-align: center;
-        }
+        .calc-in { width: 100%; background: #222; border: 1px solid #444; color: #fff; padding: 10px 4px; border-radius: 8px; font-size: 14px; outline: none; text-align: center; }
         .calc-arr { color: #e74c3c; font-size: 14px; font-weight: bold; padding: 0 4px; margin-top: 12px; }
 
         #chat-area { flex: 1; overflow-y: auto; padding: 15px; display: flex; flex-direction: column; gap: 12px; background: #050505; }
@@ -66,8 +39,16 @@
     </style>
 </head>
 <body>
-    <div id="build-stamp">V5 COMPACT - 30/06/2026 02:20:37</div>
-    <header id="header"><div id="header-title">Zapia Master V5</div></header>
+    <div id="build-stamp">30/06/2026 02:24:09</div>
+    <header id="header">
+        <div class="nav-group">
+            <span class="nav-btn" onclick="location.href='index.html'">🏠</span>
+            <span class="nav-btn" onclick="history.back()">←</span>
+            <span class="nav-btn" onclick="history.forward()">→</span>
+        </div>
+        <div id="header-title">Zapia Master V5</div>
+        <div id="refresh-btn" onclick="location.reload(true)">↻</div>
+    </header>
 
     <div id="uf-bar">
         <span>UF: <span class="uf-val">$38,450.75</span></span>
@@ -75,19 +56,13 @@
     </div>
 
     <div id="uf-calc">
-        <div class="calc-group">
-            <span class="calc-lbl">UF</span>
-            <input type="number" id="input-uf" class="calc-in" placeholder="0.00" oninput="convUFtoCLP(this.value)">
-        </div>
+        <div class="calc-group"><span class="calc-lbl">UF</span><input type="number" id="input-uf" class="calc-in" oninput="convUFtoCLP(this.value)"></div>
         <span class="calc-arr">⇄</span>
-        <div class="calc-group">
-            <span class="calc-lbl">PESOS ($)</span>
-            <input type="text" id="input-clp" class="calc-in" placeholder="0" oninput="convCLPtoUF(this.value)">
-        </div>
+        <div class="calc-group"><span class="calc-lbl">PESOS ($)</span><input type="text" id="input-clp" class="calc-in" oninput="convCLPtoUF(this.value)"></div>
     </div>
 
     <main id="chat-area">
-        <div class="m zap"><b>VERTICAL FIX:</b><br>Felipe, he compactado los cuadros al máximo para que no se corten en vertical.</div>
+        <div class="m zap"><b>SISTEMA DE NAVEGACIÓN ACTIVO:</b><br><br>🏠 Home<br>← Atrás<br>→ Adelante<br><br>Sello: 30/06/2026 02:24:09</div>
     </main>
 
     <footer id="input-bar">
@@ -101,7 +76,7 @@
         const VALOR_UF = 38450.75;
         function convUFtoCLP(v) {
             const r = v * VALOR_UF;
-            document.getElementById('input-clp').value = r ? Math.round(r).toLocaleString('es-CL') : '';
+            document.getElementById('input-clp').value = r ? '$' + Math.round(r).toLocaleString('es-CL') : '';
         }
         function convCLPtoUF(v) {
             const c = v.replace(/[^0-9]/g, '');
