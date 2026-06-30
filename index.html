@@ -3,43 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA MASTER V5</title>
+    <title>ZAPIA MASTER V5 — OS</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         body { background: #000; color: #fff; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
         
-        #header { background: #111; padding: 12px 10px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; position: relative; }
-        
-        .nav-group { display: flex; gap: 15px; align-items: center; color: #555; }
-        .nav-btn { font-size: 18px; cursor: pointer; transition: 0.2s; }
+        /* HEADER FIJO UNIVERSAL */
+        #header { 
+            background: #111; 
+            padding: 12px 10px; 
+            border-bottom: 2px solid #e74c3c; 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between; 
+            position: sticky; top: 0; z-index: 1000;
+        }
+        .nav-group { display: flex; gap: 12px; align-items: center; }
+        .nav-btn { font-size: 18px; cursor: pointer; color: #666; transition: 0.2s; }
         .nav-btn:active { color: #e74c3c; }
+        #header-title { font-weight: bold; color: #e74c3c; font-size: 14px; text-transform: uppercase; }
 
-        #header-title { font-weight: bold; color: #e74c3c; letter-spacing: 1px; font-size: 14px; text-transform: uppercase; position: absolute; left: 50%; transform: translateX(-50%); white-space: nowrap; }
+        /* MENÚ DE CATEGORÍAS (FIJO) */
+        #cat-menu { 
+            background: #0a0a0a; 
+            display: flex; 
+            overflow-x: auto; 
+            padding: 10px; 
+            gap: 8px; 
+            border-bottom: 1px solid #222;
+            scrollbar-width: none;
+        }
+        #cat-menu::-webkit-scrollbar { display: none; }
+        .cat-item { 
+            background: #1a1a1a; 
+            padding: 6px 12px; 
+            border-radius: 15px; 
+            font-size: 12px; 
+            color: #888; 
+            border: 1px solid #333; 
+            white-space: nowrap;
+        }
+        .cat-item.active { color: #e74c3c; border-color: #e74c3c; }
 
-        #refresh-btn { color: #555; font-size: 18px; cursor: pointer; width: 30px; text-align: right; }
+        /* MÓDULO FINANCIERO FIJO */
+        #uf-module { background: #111; border-bottom: 1px solid #222; }
+        #uf-info { padding: 5px 12px; font-size: 10px; color: #555; display: flex; justify-content: space-between; }
+        #uf-calc { padding: 8px 10px; display: flex; gap: 5px; align-items: center; }
+        .calc-box { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+        .calc-in { width: 100%; background: #222; border: 1px solid #444; color: #fff; padding: 10px 5px; border-radius: 6px; font-size: 14px; text-align: center; outline: none; }
 
-        #uf-bar { background: #1a1a1a; padding: 5px 12px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #333; font-size: 11px; }
-        .uf-val { color: #0f8; font-weight: bold; }
+        /* ÁREA DE CONTENIDO (CÍRCULOS / PROPIEDADES) */
+        #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; display: flex; flex-direction: column; gap: 15px; }
         
-        #uf-calc { background: #111; padding: 8px 10px; display: flex; gap: 4px; align-items: center; justify-content: center; border-bottom: 1px solid #222; width: 100%; }
-        .calc-group { flex: 1; display: flex; flex-direction: column; align-items: center; min-width: 0; }
-        .calc-lbl { font-size: 9px; color: #666; margin-bottom: 3px; font-weight: bold; }
-        .calc-in { width: 100%; background: #222; border: 1px solid #444; color: #fff; padding: 10px 4px; border-radius: 8px; font-size: 14px; outline: none; text-align: center; }
-        .calc-arr { color: #e74c3c; font-size: 14px; font-weight: bold; padding: 0 4px; margin-top: 12px; }
+        /* CARD DE PROPIEDAD / CÍRCULO CON AUTO-COPY */
+        .card { 
+            background: #111; 
+            border: 1px solid #222; 
+            border-radius: 12px; 
+            padding: 12px; 
+            position: relative;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .card:active { background: #1a1a1a; }
+        .card-title { font-size: 14px; font-weight: bold; color: #eee; margin-bottom: 5px; }
+        .card-link { font-size: 11px; color: #e74c3c; text-decoration: underline; display: block; overflow: hidden; text-overflow: ellipsis; }
+        .copy-hint { position: absolute; right: 10px; top: 10px; font-size: 10px; color: #444; }
 
-        #chat-area { flex: 1; overflow-y: auto; padding: 15px; display: flex; flex-direction: column; gap: 12px; background: #050505; }
-        .m { max-width: 85%; padding: 12px 16px; border-radius: 18px; font-size: 14px; line-height: 1.4; }
-        .zap { align-self: flex-start; background: #1a1a1a; color: #0f8; border: 1px solid #333; }
-
-        #input-bar { background: #111; padding: 10px 15px 35px 15px; display: flex; align-items: center; gap: 10px; border-top: 1px solid #222; }
+        #input-bar { 
+            background: #111; 
+            padding: 10px 15px 35px 15px; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+            border-top: 1px solid #222;
+        }
         #text-input { flex: 1; background: #222; border: 1px solid #444; color: white; padding: 10px 15px; border-radius: 20px; outline: none; font-size: 16px; }
-        .btn { background: none; border: none; color: #aaa; cursor: pointer; font-size: 22px; display: flex; align-items: center; }
         
-        #build-stamp { position: absolute; top: 2px; right: 5px; font-size: 7px; color: #333; }
+        #build-stamp { position: absolute; top: 2px; right: 5px; font-size: 7px; color: #222; }
+
+        /* NOTIFICACIÓN COPIADO */
+        #copy-toast { 
+            position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%); 
+            background: #e74c3c; color: white; padding: 8px 20px; border-radius: 20px; 
+            font-size: 12px; opacity: 0; transition: 0.3s; z-index: 2000;
+        }
     </style>
 </head>
 <body>
-    <div id="build-stamp">30/06/2026 02:24:09</div>
+    <div id="build-stamp">30/06/2026 02:27:17</div>
+    <div id="copy-toast">Copiado al portapapeles</div>
+
     <header id="header">
         <div class="nav-group">
             <span class="nav-btn" onclick="location.href='index.html'">🏠</span>
@@ -47,41 +101,54 @@
             <span class="nav-btn" onclick="history.forward()">→</span>
         </div>
         <div id="header-title">Zapia Master V5</div>
-        <div id="refresh-btn" onclick="location.reload(true)">↻</div>
+        <div class="nav-btn" style="color:#555" onclick="location.reload(true)">↻</div>
     </header>
 
-    <div id="uf-bar">
-        <span>UF: <span class="uf-val">$38,450.75</span></span>
-        <span style="font-size:9px; color:#555">30/06/2026</span>
-    </div>
+    <nav id="cat-menu">
+        <div class="cat-item active">🏠 Home</div>
+        <div class="cat-item">⭕ Círculos</div>
+        <div class="cat-item">🏢 Propiedades</div>
+        <div class="cat-item">👤 Dueños</div>
+        <div class="cat-item">📄 Documentos</div>
+        <div class="cat-item">💰 Finanzas</div>
+    </nav>
 
-    <div id="uf-calc">
-        <div class="calc-group"><span class="calc-lbl">UF</span><input type="number" id="input-uf" class="calc-in" oninput="convUFtoCLP(this.value)"></div>
-        <span class="calc-arr">⇄</span>
-        <div class="calc-group"><span class="calc-lbl">PESOS ($)</span><input type="text" id="input-clp" class="calc-in" oninput="convCLPtoUF(this.value)"></div>
-    </div>
+    <section id="uf-module">
+        <div id="uf-info"><span>UF: <b>$38,450.75</b></span> <span>30/06/2026</span></div>
+        <div id="uf-calc">
+            <div class="calc-box"><input type="number" id="in-uf" class="calc-in" placeholder="UF" oninput="cvU(this.value)"></div>
+            <div style="color:#e74c3c">⇄</div>
+            <div class="calc-box"><input type="text" id="in-clp" class="calc-in" placeholder="Pesos" oninput="cvC(this.value)"></div>
+        </div>
+    </section>
 
     <main id="chat-area">
-        <div class="m zap"><b>SISTEMA DE NAVEGACIÓN ACTIVO:</b><br><br>🏠 Home<br>← Atrás<br>→ Adelante<br><br>Sello: 30/06/2026 02:24:09</div>
+        <div class="card" onclick="copyText('https://kiteprop.com/p/12345', this)" oncontextmenu="event.preventDefault(); copyText('https://kiteprop.com/p/12345', this)">
+            <div class="card-title">Ejemplo: Casa San Ramón</div>
+            <div class="card-link">https://kiteprop.com/p/12345</div>
+            <div class="copy-hint">Tap para copiar</div>
+        </div>
+        <div class="m zap"><b>VERSIÓN OS INTEGRADA:</b><br><br>• Navegación fija universal.<br>• Menú de Dueños y Círculos.<br>• Auto-Copy al toque o clic.<br>• Nada queda fuera, todo fluye.</div>
     </main>
 
     <footer id="input-bar">
-        <button class="btn">📎</button>
-        <input type="text" id="text-input" placeholder="Escribir..." autocomplete="off">
-        <button class="btn">🎤</button>
-        <button class="btn" style="color:#e74c3c; font-size:26px">➤</button>
+        <button class="nav-btn">📎</button>
+        <input type="text" id="text-input" placeholder="Orden rápida..." autocomplete="off">
+        <button class="nav-btn">🎤</button>
+        <button class="nav-btn" style="color:#e74c3c; font-size:26px">➤</button>
     </footer>
 
     <script>
-        const VALOR_UF = 38450.75;
-        function convUFtoCLP(v) {
-            const r = v * VALOR_UF;
-            document.getElementById('input-clp').value = r ? '$' + Math.round(r).toLocaleString('es-CL') : '';
-        }
-        function convCLPtoUF(v) {
-            const c = v.replace(/[^0-9]/g, '');
-            const r = c / VALOR_UF;
-            document.getElementById('input-uf').value = r ? r.toFixed(2) : '';
+        const UF = 38450.75;
+        function cvU(v) { const r = v*UF; document.getElementById('in-clp').value = r ? '$'+Math.round(r).toLocaleString('es-CL') : ''; }
+        function cvC(v) { const c = v.replace(/[^0-9]/g,''); const r = c/UF; document.getElementById('in-uf').value = r ? r.toFixed(2) : ''; }
+        
+        function copyText(txt, el) {
+            navigator.clipboard.writeText(txt).then(() => {
+                const t = document.getElementById('copy-toast');
+                t.style.opacity = '1';
+                setTimeout(() => t.style.opacity = '0', 1500);
+            });
         }
     </script>
 </body>
