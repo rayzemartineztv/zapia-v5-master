@@ -31,11 +31,16 @@
         .uf-label { font-size: 10px; color: #e74c3c; font-weight: bold; }
         .uf-value { font-size: 13px; color: #fff; font-family: monospace; }
 
-        /* CALCULADORA INTERACTIVA */
-        .calc-box { background: #1a1a1a; padding: 15px; border-radius: 10px; border: 1px solid #333; margin-top: 10px; }
-        .calc-row { display: flex; gap: 10px; margin-bottom: 10px; }
-        .calc-input { flex: 1; background: #000; border: 1px solid #444; color: #fff; padding: 10px; border-radius: 5px; font-size: 14px; outline: none; text-align: center; }
-        .calc-res { font-size: 16px; color: #0f8; font-weight: bold; text-align: center; padding: 10px; background: #0f811; border-radius: 5px; }
+        /* CALCULADORA INTERACTIVA RESPONSIVA */
+        .calc-box { background: #1a1a1a; padding: 12px; border-radius: 10px; border: 1px solid #333; margin-top: 10px; width: 100%; }
+        .calc-row { display: flex; flex-direction: row; gap: 8px; margin-bottom: 8px; flex-wrap: nowrap; }
+        .calc-input { flex: 1; background: #000; border: 1px solid #444; color: #fff; padding: 12px 8px; border-radius: 5px; font-size: 14px; outline: none; text-align: center; min-width: 0; }
+        .calc-res { font-size: 15px; color: #0f8; font-weight: bold; text-align: center; padding: 12px; background: #0f811; border-radius: 5px; border: 1px solid #0f822; }
+
+        @media (max-width: 400px) {
+            .calc-row { flex-direction: column; }
+            .calc-input { width: 100%; }
+        }
 
         /* CRM CARDS */
         .exec-card { background: #1a1a1a; border-radius: 8px; padding: 12px; margin-top: 10px; border-left: 3px solid #00d4ff; cursor: pointer; }
@@ -56,7 +61,7 @@
             </div>
             <div id="title-container">
                 <div id="header-title">Zapia Master V5</div>
-                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:12:34</div>
+                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:13:49</div>
             </div>
             <div class="nav-group">
                 <button class="header-btn" title="Adelante" onclick="history.forward()">→</button>
