@@ -1,951 +1,1221 @@
 {
-  "leads_v2": {
+  "leads_v3": {
     "groups": {
       "ARRIENDO": [
         {
           "n": "1",
           "name": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2",
           "phone": "+56959013234",
+          "jid": "56959013234@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2"
+          "circle": "Puente Alto",
+          "full_data": "| 1 | Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2 | +56959013234 | 56959013234@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "2",
           "name": "Ale Munoz X Arriendo San Bernardo Laguna Empresa",
           "phone": "+56978699508",
+          "jid": "56978699508@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ale Munoz X Arriendo San Bernardo Laguna Empresa"
+          "circle": "San Bernardo",
+          "full_data": "| 2 | Ale Munoz X Arriendo San Bernardo Laguna Empresa | +56978699508 | 56978699508@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "3",
           "name": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis",
           "phone": "+56922036181",
+          "jid": "56922036181@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis"
+          "circle": "Puente Alto",
+          "full_data": "| 3 | Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis | +56922036181 | 56922036181@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "4",
           "name": "Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro",
           "phone": "+56984076424",
+          "jid": "56984076424@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro"
+          "circle": "Puente Alto",
+          "full_data": "| 4 | Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro | +56984076424 | 56984076424@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "5",
           "name": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550",
           "phone": "+56998717141",
+          "jid": "56998717141@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550"
+          "circle": "La Cisterna",
+          "full_data": "| 5 | Alejandra Rocuant X Arriendo La Cisterna Hasta 550 | +56998717141 | 56998717141@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "8",
           "name": "Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna",
           "phone": "+56982570330",
+          "jid": "56982570330@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 8 | Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna | +56982570330 | 56982570330@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "9",
           "name": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna",
           "phone": "+56939492894",
+          "jid": "56939492894@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 9 | Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna | +56939492894 | 56939492894@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "10",
           "name": "Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro",
           "phone": "+56979895624",
+          "jid": "56979895624@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro"
+          "circle": "General",
+          "full_data": "| 10 | Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro | +56979895624 | 56979895624@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "12",
           "name": "Alex Neira Busca Arriendo Permanente Argomedo Alicia 1H1B",
           "phone": "+56959409591",
+          "jid": "56959409591@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alex Neira Busca Arriendo Permanente Argomedo Alicia 1H1B"
+          "circle": "General",
+          "full_data": "| 12 | Alex Neira Busca Arriendo Permanente Argomedo Alicia 1H1B | +56959409591 | 56959409591@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "13",
           "name": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa",
           "phone": "+56976118544",
+          "jid": "56976118544@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa"
+          "circle": "General",
+          "full_data": "| 13 | Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa | +56976118544 | 56976118544@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "15",
           "name": "Alexis Leyton Arriendo Casa 550 Quinta Normal",
           "phone": "+56926331185",
+          "jid": "56926331185@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alexis Leyton Arriendo Casa 550 Quinta Normal"
+          "circle": "General",
+          "full_data": "| 15 | Alexis Leyton Arriendo Casa 550 Quinta Normal | +56926331185 | 56926331185@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "16",
           "name": "Alfredo Arriendo",
           "phone": "+56955229447",
+          "jid": "56955229447@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alfredo Arriendo"
+          "circle": "General",
+          "full_data": "| 16 | Alfredo Arriendo | +56955229447 | 56955229447@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "17",
           "name": "Alicia Avalos X Arriendo Depto Lastarria Ft Francisca Charrier",
           "phone": "+56945301930",
+          "jid": "56945301930@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alicia Avalos X Arriendo Depto Lastarria Ft Francisca Charrier"
+          "circle": "General",
+          "full_data": "| 17 | Alicia Avalos X Arriendo Depto Lastarria Ft Francisca Charrier | +56945301930 | 56945301930@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "18",
           "name": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro",
           "phone": "+56936390536",
+          "jid": "56936390536@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro"
+          "circle": "General",
+          "full_data": "| 18 | Almendra Daniblue Arriendo 1 Ambiente 300 Centro | +56936390536 | 56936390536@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "19",
           "name": "Alvaro Jara X Arriendo Depto Lastarria Ft Francisca Charrier",
           "phone": "+56937487043",
+          "jid": "56937487043@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alvaro Jara X Arriendo Depto Lastarria Ft Francisca Charrier"
+          "circle": "General",
+          "full_data": "| 19 | Alvaro Jara X Arriendo Depto Lastarria Ft Francisca Charrier | +56937487043 | 56937487043@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "20",
           "name": "Alvaro Matus Arriendo Casa Interior 350 Pero Es Menos El",
           "phone": "+56948818389",
+          "jid": "56948818389@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alvaro Matus Arriendo Casa Interior 350 Pero Es Menos El"
+          "circle": "General",
+          "full_data": "| 20 | Alvaro Matus Arriendo Casa Interior 350 Pero Es Menos El | +56948818389 | 56948818389@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "22",
           "name": "Ana Maria Aranda Busca Arriendo Quilicura 450 Tope Condominio 2h1e",
           "phone": "+56991001094",
+          "jid": "56991001094@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Maria Aranda Busca Arriendo Quilicura 450 Tope Condominio 2h1e"
+          "circle": "General",
+          "full_data": "| 22 | Ana Maria Aranda Busca Arriendo Quilicura 450 Tope Condominio 2h1e | +56991001094 | 56991001094@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "23",
           "name": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central Velasquez Ecuador",
           "phone": "+56985559915",
+          "jid": "56985559915@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central Velasquez Ecuador"
+          "circle": "General",
+          "full_data": "| 23 | Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central Velasquez Ecuador | +56985559915 | 56985559915@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "24",
           "name": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija Ft Dueña Janis",
           "phone": "+13476544804",
+          "jid": "13476544804@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija Ft Dueña Janis"
+          "circle": "General",
+          "full_data": "| 24 | Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija Ft Dueña Janis | +13476544804 | 13476544804@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "25",
           "name": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo",
           "phone": "+56971602129",
+          "jid": "56971602129@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo"
+          "circle": "San Bernardo",
+          "full_data": "| 25 | Ana Quezada X Busca Arriendo Hasta 450 San Bernardo | +56971602129 | 56971602129@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "26",
           "name": "Andrea Busca Arriendo Casa La Pintana 450 C/sa",
           "phone": "+56976942245",
+          "jid": "56976942245@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Busca Arriendo Casa La Pintana 450 C/sa"
+          "circle": "General",
+          "full_data": "| 26 | Andrea Busca Arriendo Casa La Pintana 450 C/sa | +56976942245 | 56976942245@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "27",
           "name": "Andrea Heisele X Arriendo Townhouse La Reina Ft Pablo Castro",
           "phone": "+56957093780",
+          "jid": "56957093780@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Heisele X Arriendo Townhouse La Reina Ft Pablo Castro"
+          "circle": "General",
+          "full_data": "| 27 | Andrea Heisele X Arriendo Townhouse La Reina Ft Pablo Castro | +56957093780 | 56957093780@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "28",
           "name": "Andrea Hernandez Arriendo 350 San Matias Domingo 16 Pm C",
           "phone": "+56978905069",
+          "jid": "56978905069@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Hernandez Arriendo 350 San Matias Domingo 16 Pm C"
+          "circle": "General",
+          "full_data": "| 28 | Andrea Hernandez Arriendo 350 San Matias Domingo 16 Pm C | +56978905069 | 56978905069@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "29",
           "name": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600 Mensual",
           "phone": "+56957017985",
+          "jid": "56957017985@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600 Mensual"
+          "circle": "San Bernardo",
+          "full_data": "| 29 | Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600 Mensual | +56957017985 | 56957017985@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "30",
           "name": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa",
           "phone": "+56937725606",
+          "jid": "56937725606@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa"
+          "circle": "Puente Alto",
+          "full_data": "| 30 | Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa | +56937725606 | 56937725606@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "32",
           "name": "Andrea Silva X Arriendo Depto Ñuñoa Ft Francisca Charrier",
           "phone": "+56961677964",
+          "jid": "56961677964@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Silva X Arriendo Depto Ñuñoa Ft Francisca Charrier"
+          "circle": "General",
+          "full_data": "| 32 | Andrea Silva X Arriendo Depto Ñuñoa Ft Francisca Charrier | +56961677964 | 56961677964@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "33",
           "name": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura Conchali",
           "phone": "+56941676887",
+          "jid": "56941676887@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura Conchali"
+          "circle": "General",
+          "full_data": "| 33 | Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura Conchali | +56941676887 | 56941676887@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "34",
           "name": "Andrés Marchant Arriendo Ismael Tocornal 450 Casa De Don Alberto",
           "phone": "+56942567657",
+          "jid": "56942567657@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrés Marchant Arriendo Ismael Tocornal 450 Casa De Don Alberto"
+          "circle": "General",
+          "full_data": "| 34 | Andrés Marchant Arriendo Ismael Tocornal 450 Casa De Don Alberto | +56942567657 | 56942567657@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "35",
           "name": "Angela Tao Busca Arriendo Casa 450 Puente Alto",
           "phone": "+56964266105",
+          "jid": "56964266105@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Angela Tao Busca Arriendo Casa 450 Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 35 | Angela Tao Busca Arriendo Casa 450 Puente Alto | +56964266105 | 56964266105@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "36",
           "name": "Angelica Espinoza X ARRIENDO MAIPU 1M CIUDAD SATELITE FT PAULINA SILVA",
           "phone": "+56981886561",
+          "jid": "56981886561@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Angelica Espinoza X ARRIENDO MAIPU 1M CIUDAD SATELITE FT PAULINA SILVA"
+          "circle": "General",
+          "full_data": "| 36 | Angelica Espinoza X ARRIENDO MAIPU 1M CIUDAD SATELITE FT PAULINA SILVA | +56981886561 | 56981886561@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "37",
           "name": "anthony carrero Arriendo Dato Block Para 350 La Pintana",
           "phone": "+56977907567",
+          "jid": "56977907567@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "anthony carrero Arriendo Dato Block Para 350 La Pintana"
+          "circle": "General",
+          "full_data": "| 37 | anthony carrero Arriendo Dato Block Para 350 La Pintana | +56977907567 | 56977907567@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "38",
           "name": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito",
           "phone": "+56992229304",
+          "jid": "56992229304@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito"
+          "circle": "General",
+          "full_data": "| 38 | Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito | +56992229304 | 56992229304@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "39",
           "name": "Aura Busca Arriendo Depto Estación Central",
           "phone": "+56953613909",
+          "jid": "56953613909@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Aura Busca Arriendo Depto Estación Central"
+          "circle": "General",
+          "full_data": "| 39 | Aura Busca Arriendo Depto Estación Central | +56953613909 | 56953613909@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "40",
           "name": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal 3a2n",
           "phone": "+56976519365",
+          "jid": "56976519365@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal 3a2n"
+          "circle": "General",
+          "full_data": "| 40 | Barbara Delgado Chama Busca Arriendo Casa Quinta Normal 3a2n | +56976519365 | 56976519365@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "41",
           "name": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF Ft Francisca Charrier",
           "phone": "+56988528002",
+          "jid": "56988528002@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF Ft Francisca Charrier"
+          "circle": "General",
+          "full_data": "| 41 | Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF Ft Francisca Charrier | +56988528002 | 56988528002@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "42",
           "name": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel De Janis",
           "phone": "+56949695502",
+          "jid": "56949695502@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel De Janis"
+          "circle": "General",
+          "full_data": "| 42 | Barbara Escort Venezuels Busca Arriendo Depto San Miguel De Janis | +56949695502 | 56949695502@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "43",
           "name": "Barbara X Paulina Casa Arriendo 550 Maiou Los Castaños",
           "phone": "+56963570329",
+          "jid": "56963570329@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara X Paulina Casa Arriendo 550 Maiou Los Castaños"
+          "circle": "General",
+          "full_data": "| 43 | Barbara X Paulina Casa Arriendo 550 Maiou Los Castaños | +56963570329 | 56963570329@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "44",
           "name": "Bastian Valenzuela Busca Arriendo 400 Con S/arriendo",
           "phone": "+56935699141",
+          "jid": "56935699141@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Bastian Valenzuela Busca Arriendo 400 Con S/arriendo"
+          "circle": "General",
+          "full_data": "| 44 | Bastian Valenzuela Busca Arriendo 400 Con S/arriendo | +56935699141 | 56935699141@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "45",
           "name": "Bautista Oyarzun X Arriendo Depto Lastarria 630 Ft Francisca Charrier",
           "phone": "+56939105365",
+          "jid": "56939105365@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Bautista Oyarzun X Arriendo Depto Lastarria 630 Ft Francisca Charrier"
+          "circle": "General",
+          "full_data": "| 45 | Bautista Oyarzun X Arriendo Depto Lastarria 630 Ft Francisca Charrier | +56939105365 | 56939105365@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "46",
           "name": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380 Tope Ideal Maximo",
           "phone": "+56936128776",
+          "jid": "56936128776@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380 Tope Ideal Maximo"
+          "circle": "General",
+          "full_data": "| 46 | Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380 Tope Ideal Maximo | +56936128776 | 56936128776@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "47",
           "name": "Belen Leiva X Arriendo Casa 700 Puente Alto Primo Felipe",
           "phone": "+56992170533",
+          "jid": "56992170533@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Belen Leiva X Arriendo Casa 700 Puente Alto Primo Felipe"
+          "circle": "Puente Alto",
+          "full_data": "| 47 | Belen Leiva X Arriendo Casa 700 Puente Alto Primo Felipe | +56992170533 | 56992170533@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "49",
           "name": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque",
           "phone": "+56992628028",
+          "jid": "56992628028@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque"
+          "circle": "La Cisterna",
+          "full_data": "| 49 | Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque | +56992628028 | 56992628028@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "52",
           "name": "Carolina Quiñones Busca Arriendo Casa Puente Alto 850 2 Empresas",
           "phone": "+56948720751",
+          "jid": "56948720751@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carolina Quiñones Busca Arriendo Casa Puente Alto 850 2 Empresas"
+          "circle": "Puente Alto",
+          "full_data": "| 52 | Carolina Quiñones Busca Arriendo Casa Puente Alto 850 2 Empresas | +56948720751 | 56948720751@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "68",
           "name": "Familia Busca Arriendo Con Subsidio De Arriendo Pudahuel",
           "phone": "+56989481721",
+          "jid": "56989481721@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Familia Busca Arriendo Con Subsidio De Arriendo Pudahuel"
+          "circle": "General",
+          "full_data": "| 68 | Familia Busca Arriendo Con Subsidio De Arriendo Pudahuel | +56989481721 | 56989481721@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "75",
           "name": "Gonzalo Amigo De Mascotas Benito Subsidio De Arriendo Esposa Y Tiene Dicom Ella",
           "phone": "+56931248927",
+          "jid": "56931248927@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Gonzalo Amigo De Mascotas Benito Subsidio De Arriendo Esposa Y Tiene Dicom Ella"
+          "circle": "General",
+          "full_data": "| 75 | Gonzalo Amigo De Mascotas Benito Subsidio De Arriendo Esposa Y Tiene Dicom Ella | +56931248927 | 56931248927@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "80",
           "name": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque La Pintana",
           "phone": "+56967774660",
+          "jid": "56967774660@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque La Pintana"
+          "circle": "General",
+          "full_data": "| 80 | Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque La Pintana | +56967774660 | 56967774660@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "104",
           "name": "Nicole Tens Busca Arriendo 450 Con subsidio 5p 2a3m",
           "phone": "+56945906469",
+          "jid": "56945906469@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Nicole Tens Busca Arriendo 450 Con subsidio 5p 2a3m"
+          "circle": "General",
+          "full_data": "| 104 | Nicole Tens Busca Arriendo 450 Con subsidio 5p 2a3m | +56945906469 | 56945906469@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "112",
           "name": "Romina Busca Casa Arriendo Con SUBSIDIO Hasta 400 Mensual",
           "phone": "+56930073814",
+          "jid": "56930073814@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Romina Busca Casa Arriendo Con SUBSIDIO Hasta 400 Mensual"
+          "circle": "General",
+          "full_data": "| 112 | Romina Busca Casa Arriendo Con SUBSIDIO Hasta 400 Mensual | +56930073814 | 56930073814@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "119",
           "name": "Stephanie Muñoz Arriendo 450 Silas 4055 Puente Alto los evangelistas casa de nicolas subsidio de arriendo ft paola arquipro",
           "phone": "+56968042597",
+          "jid": "56968042597@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Stephanie Muñoz Arriendo 450 Silas 4055 Puente Alto los evangelistas casa de nicolas subsidio de arriendo ft paola arquipro"
+          "circle": "Puente Alto",
+          "full_data": "| 119 | Stephanie Muñoz Arriendo 450 Silas 4055 Puente Alto los evangelistas casa de nicolas subsidio de arriendo ft paola arquipro | +56968042597 | 56968042597@s.whatsapp.net | Buscaba arriendo |"
         },
         {
           "n": "124",
           "name": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2",
           "phone": "+56959013234",
+          "jid": "56959013234@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2"
+          "circle": "Puente Alto",
+          "full_data": "| 124 | Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2 | +56959013234 | 56959013234@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "131",
           "name": "Ale Munoz X Arriendo San Bernardo Laguna Empresa",
           "phone": "+56978699508",
+          "jid": "56978699508@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ale Munoz X Arriendo San Bernardo Laguna Empresa"
+          "circle": "San Bernardo",
+          "full_data": "| 131 | Ale Munoz X Arriendo San Bernardo Laguna Empresa | +56978699508 | 56978699508@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "134",
           "name": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis",
           "phone": "+56922036181",
+          "jid": "56922036181@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis"
+          "circle": "Puente Alto",
+          "full_data": "| 134 | Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis | +56922036181 | 56922036181@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "135",
           "name": "Alejandra Farias Solis X Arriendo Casa Parcela Pirque",
           "phone": "+56984076424",
+          "jid": "56984076424@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Farias Solis X Arriendo Casa Parcela Pirque"
+          "circle": "General",
+          "full_data": "| 135 | Alejandra Farias Solis X Arriendo Casa Parcela Pirque | +56984076424 | 56984076424@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "138",
           "name": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550",
           "phone": "+56998717141",
+          "jid": "56998717141@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550"
+          "circle": "La Cisterna",
+          "full_data": "| 138 | Alejandra Rocuant X Arriendo La Cisterna Hasta 550 | +56998717141 | 56998717141@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "141",
           "name": "Alejandra X Arriendo Con Subsidio La Cisterna",
           "phone": "+56982570330",
+          "jid": "56982570330@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra X Arriendo Con Subsidio La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 141 | Alejandra X Arriendo Con Subsidio La Cisterna | +56982570330 | 56982570330@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "142",
           "name": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna",
           "phone": "+56939492894",
+          "jid": "56939492894@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 142 | Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna | +56939492894 | 56939492894@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "144",
           "name": "Alex Neira Busca Arriendo Permanente Argomedo Alicia",
           "phone": "+56959409591",
+          "jid": "56959409591@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alex Neira Busca Arriendo Permanente Argomedo Alicia"
+          "circle": "General",
+          "full_data": "| 144 | Alex Neira Busca Arriendo Permanente Argomedo Alicia | +56959409591 | 56959409591@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "146",
           "name": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa",
           "phone": "+56976118544",
+          "jid": "56976118544@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa"
+          "circle": "General",
+          "full_data": "| 146 | Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa | +56976118544 | 56976118544@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "149",
           "name": "alexis globalproduccion Busca Arriendo Casa",
           "phone": "+56987967971",
+          "jid": "56987967971@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "alexis globalproduccion Busca Arriendo Casa"
+          "circle": "General",
+          "full_data": "| 149 | alexis globalproduccion Busca Arriendo Casa | +56987967971 | 56987967971@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "150",
           "name": "Alexis Leyton Arriendo Casa 550 Quinta Normal",
           "phone": "+56926331185",
+          "jid": "56926331185@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alexis Leyton Arriendo Casa 550 Quinta Normal"
+          "circle": "General",
+          "full_data": "| 150 | Alexis Leyton Arriendo Casa 550 Quinta Normal | +56926331185 | 56926331185@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "151",
           "name": "Alfredo Arriendo",
           "phone": "+56955229447",
+          "jid": "56955229447@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alfredo Arriendo"
+          "circle": "General",
+          "full_data": "| 151 | Alfredo Arriendo | +56955229447 | 56955229447@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "152",
           "name": "Alicia Avalos X Arriendo Depto Lastarria",
           "phone": "+56945301930",
+          "jid": "56945301930@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alicia Avalos X Arriendo Depto Lastarria"
+          "circle": "General",
+          "full_data": "| 152 | Alicia Avalos X Arriendo Depto Lastarria | +56945301930 | 56945301930@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "153",
           "name": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro",
           "phone": "+56936390536",
+          "jid": "56936390536@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro"
+          "circle": "General",
+          "full_data": "| 153 | Almendra Daniblue Arriendo 1 Ambiente 300 Centro | +56936390536 | 56936390536@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "154",
           "name": "Alvaro Jara X Arriendo Depto Lastarria",
           "phone": "+56937487043",
+          "jid": "56937487043@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alvaro Jara X Arriendo Depto Lastarria"
+          "circle": "General",
+          "full_data": "| 154 | Alvaro Jara X Arriendo Depto Lastarria | +56937487043 | 56937487043@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "155",
           "name": "Alvaro Matus Arriendo Casa Interior 350",
           "phone": "+56948818389",
+          "jid": "56948818389@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Alvaro Matus Arriendo Casa Interior 350"
+          "circle": "General",
+          "full_data": "| 155 | Alvaro Matus Arriendo Casa Interior 350 | +56948818389 | 56948818389@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "158",
           "name": "Ana Maria Aranda Busca Arriendo Quilicura 450 Condominio",
           "phone": "+56991001094",
+          "jid": "56991001094@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Maria Aranda Busca Arriendo Quilicura 450 Condominio"
+          "circle": "General",
+          "full_data": "| 158 | Ana Maria Aranda Busca Arriendo Quilicura 450 Condominio | +56991001094 | 56991001094@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "159",
           "name": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central",
           "phone": "+56985559915",
+          "jid": "56985559915@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central"
+          "circle": "General",
+          "full_data": "| 159 | Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central | +56985559915 | 56985559915@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "160",
           "name": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija",
           "phone": "+13476544804",
+          "jid": "13476544804@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija"
+          "circle": "General",
+          "full_data": "| 160 | Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija | +13476544804 | 13476544804@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "161",
           "name": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo",
           "phone": "+56971602129",
+          "jid": "56971602129@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo"
+          "circle": "San Bernardo",
+          "full_data": "| 161 | Ana Quezada X Busca Arriendo Hasta 450 San Bernardo | +56971602129 | 56971602129@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "162",
           "name": "Andrea Busca Arriendo Casa La Pintana 450",
           "phone": "+56976942245",
+          "jid": "56976942245@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Busca Arriendo Casa La Pintana 450"
+          "circle": "General",
+          "full_data": "| 162 | Andrea Busca Arriendo Casa La Pintana 450 | +56976942245 | 56976942245@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "163",
           "name": "Andrea Heisele X Arriendo Townhouse La Reina",
           "phone": "+56957093780",
+          "jid": "56957093780@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Heisele X Arriendo Townhouse La Reina"
+          "circle": "General",
+          "full_data": "| 163 | Andrea Heisele X Arriendo Townhouse La Reina | +56957093780 | 56957093780@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "164",
           "name": "Andrea Hernandez Arriendo 350 San Matias",
           "phone": "+56978905069",
+          "jid": "56978905069@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Hernandez Arriendo 350 San Matias"
+          "circle": "General",
+          "full_data": "| 164 | Andrea Hernandez Arriendo 350 San Matias | +56978905069 | 56978905069@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "165",
           "name": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600",
           "phone": "+56957017985",
+          "jid": "56957017985@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600"
+          "circle": "San Bernardo",
+          "full_data": "| 165 | Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600 | +56957017985 | 56957017985@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "166",
           "name": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa",
           "phone": "+56937725606",
+          "jid": "56937725606@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa"
+          "circle": "Puente Alto",
+          "full_data": "| 166 | Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa | +56937725606 | 56937725606@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "171",
           "name": "Andrea Silva X Arriendo Depto Ñuñoa",
           "phone": "+56961677964",
+          "jid": "56961677964@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Silva X Arriendo Depto Ñuñoa"
+          "circle": "General",
+          "full_data": "| 171 | Andrea Silva X Arriendo Depto Ñuñoa | +56961677964 | 56961677964@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "172",
           "name": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura",
           "phone": "+56941676887",
+          "jid": "56941676887@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura"
+          "circle": "General",
+          "full_data": "| 172 | Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura | +56941676887 | 56941676887@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "175",
           "name": "Andrés Marchant Arriendo Ismael Tocornal 450",
           "phone": "+56942567657",
+          "jid": "56942567657@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Andrés Marchant Arriendo Ismael Tocornal 450"
+          "circle": "General",
+          "full_data": "| 175 | Andrés Marchant Arriendo Ismael Tocornal 450 | +56942567657 | 56942567657@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "178",
           "name": "Angela Tao Busca Arriendo Casa 450 Puente Alto",
           "phone": "+56964266105",
+          "jid": "56964266105@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Angela Tao Busca Arriendo Casa 450 Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 178 | Angela Tao Busca Arriendo Casa 450 Puente Alto | +56964266105 | 56964266105@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "181",
           "name": "Angelica Espinoza X Arriendo Maipu 1M Ciudad Satelite",
           "phone": "+56981886561",
+          "jid": "56981886561@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Angelica Espinoza X Arriendo Maipu 1M Ciudad Satelite"
+          "circle": "General",
+          "full_data": "| 181 | Angelica Espinoza X Arriendo Maipu 1M Ciudad Satelite | +56981886561 | 56981886561@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "184",
           "name": "anthony carrero Arriendo Dato Block Para 350 La Pintana",
           "phone": "+56977907567",
+          "jid": "56977907567@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "anthony carrero Arriendo Dato Block Para 350 La Pintana"
+          "circle": "General",
+          "full_data": "| 184 | anthony carrero Arriendo Dato Block Para 350 La Pintana | +56977907567 | 56977907567@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "186",
           "name": "Aracely Departamento Primer Piso 3 Dormitorios Rancagua Subsidio Ds49",
           "phone": "+56953446018",
+          "jid": "56953446018@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Aracely Departamento Primer Piso 3 Dormitorios Rancagua Subsidio Ds49"
+          "circle": "General",
+          "full_data": "| 186 | Aracely Departamento Primer Piso 3 Dormitorios Rancagua Subsidio Ds49 | +56953446018 | 56953446018@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "189",
           "name": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito",
           "phone": "+56992229304",
+          "jid": "56992229304@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito"
+          "circle": "General",
+          "full_data": "| 189 | Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito | +56992229304 | 56992229304@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "190",
           "name": "Aura Busca Arriendo Depto Estación Central",
           "phone": "+56953613909",
+          "jid": "56953613909@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Aura Busca Arriendo Depto Estación Central"
+          "circle": "General",
+          "full_data": "| 190 | Aura Busca Arriendo Depto Estación Central | +56953613909 | 56953613909@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "193",
           "name": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal",
           "phone": "+56976519365",
+          "jid": "56976519365@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal"
+          "circle": "General",
+          "full_data": "| 193 | Barbara Delgado Chama Busca Arriendo Casa Quinta Normal | +56976519365 | 56976519365@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "194",
           "name": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF",
           "phone": "+56988528002",
+          "jid": "56988528002@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF"
+          "circle": "General",
+          "full_data": "| 194 | Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF | +56988528002 | 56988528002@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "195",
           "name": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel",
           "phone": "+56949695502",
+          "jid": "56949695502@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel"
+          "circle": "General",
+          "full_data": "| 195 | Barbara Escort Venezuels Busca Arriendo Depto San Miguel | +56949695502 | 56949695502@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "196",
           "name": "Barbara X Casa Arriendo 550 Maiou Los Castaños",
           "phone": "+56963570329",
+          "jid": "56963570329@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Barbara X Casa Arriendo 550 Maiou Los Castaños"
+          "circle": "General",
+          "full_data": "| 196 | Barbara X Casa Arriendo 550 Maiou Los Castaños | +56963570329 | 56963570329@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "197",
           "name": "Bastian Valenzuela Busca Arriendo 400",
           "phone": "+56935699141",
+          "jid": "56935699141@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Bastian Valenzuela Busca Arriendo 400"
+          "circle": "General",
+          "full_data": "| 197 | Bastian Valenzuela Busca Arriendo 400 | +56935699141 | 56935699141@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "198",
           "name": "Bautista Oyarzun X Arriendo Depto Lastarria 630",
           "phone": "+56939105365",
+          "jid": "56939105365@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Bautista Oyarzun X Arriendo Depto Lastarria 630"
+          "circle": "General",
+          "full_data": "| 198 | Bautista Oyarzun X Arriendo Depto Lastarria 630 | +56939105365 | 56939105365@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "202",
           "name": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380",
           "phone": "+56936128776",
+          "jid": "56936128776@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380"
+          "circle": "General",
+          "full_data": "| 202 | Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380 | +56936128776 | 56936128776@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "203",
           "name": "Belen Leiva X Arriendo Casa 700 Puente Alto",
           "phone": "+56992170533",
+          "jid": "56992170533@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Belen Leiva X Arriendo Casa 700 Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 203 | Belen Leiva X Arriendo Casa 700 Puente Alto | +56992170533 | 56992170533@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "206",
           "name": "Boris Lazo X Busca Arriendo Casa 400 Puente Alto",
           "phone": "+56935941334",
+          "jid": "56935941334@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Boris Lazo X Busca Arriendo Casa 400 Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 206 | Boris Lazo X Busca Arriendo Casa 400 Puente Alto | +56935941334 | 56935941334@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "208",
           "name": "Brayan Jesus Salinas X Busca Arriendo La Pintana",
           "phone": "+56959406964",
+          "jid": "56959406964@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Brayan Jesus Salinas X Busca Arriendo La Pintana"
+          "circle": "General",
+          "full_data": "| 208 | Brayan Jesus Salinas X Busca Arriendo La Pintana | +56959406964 | 56959406964@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "210",
           "name": "Bryan Loaiza Busca Arriendo Casa 350",
           "phone": "+56934949803",
+          "jid": "56934949803@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Bryan Loaiza Busca Arriendo Casa 350"
+          "circle": "General",
+          "full_data": "| 210 | Bryan Loaiza Busca Arriendo Casa 350 | +56934949803 | 56934949803@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "211",
           "name": "Busca Arriendo 450 La Pintana DE Chiloe Paga Año Completo",
           "phone": "+56955385912",
+          "jid": "56955385912@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Busca Arriendo 450 La Pintana DE Chiloe Paga Año Completo"
+          "circle": "General",
+          "full_data": "| 211 | Busca Arriendo 450 La Pintana DE Chiloe Paga Año Completo | +56955385912 | 56955385912@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "212",
           "name": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque",
           "phone": "+56992628028",
+          "jid": "56992628028@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque"
+          "circle": "La Cisterna",
+          "full_data": "| 212 | Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque | +56992628028 | 56992628028@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "214",
           "name": "Cami Paz Salas Andes Solar SA Busca Arriendo Empresa 1m",
           "phone": "+56940664924",
+          "jid": "56940664924@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Cami Paz Salas Andes Solar SA Busca Arriendo Empresa 1m"
+          "circle": "General",
+          "full_data": "| 214 | Cami Paz Salas Andes Solar SA Busca Arriendo Empresa 1m | +56940664924 | 56940664924@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "215",
           "name": "Cami Villarroel Busca Arriendo San Miguel Lo Vial Hasta 750",
           "phone": "+56961411419",
+          "jid": "56961411419@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Cami Villarroel Busca Arriendo San Miguel Lo Vial Hasta 750"
+          "circle": "General",
+          "full_data": "| 215 | Cami Villarroel Busca Arriendo San Miguel Lo Vial Hasta 750 | +56961411419 | 56961411419@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "216",
           "name": "Camiblue X Busca Arriendo Hasta 550 Puente Alto",
           "phone": "+56950347118",
+          "jid": "56950347118@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camiblue X Busca Arriendo Hasta 550 Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 216 | Camiblue X Busca Arriendo Hasta 550 Puente Alto | +56950347118 | 56950347118@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "217",
           "name": "Camila Briones X Buscar Arriendo Quinta Normal 500",
           "phone": "+56939016975",
+          "jid": "56939016975@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camila Briones X Buscar Arriendo Quinta Normal 500"
+          "circle": "General",
+          "full_data": "| 217 | Camila Briones X Buscar Arriendo Quinta Normal 500 | +56939016975 | 56939016975@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "218",
           "name": "Camila Busca Arriendo 350 Mensual Con Aval Casa La Pintana",
           "phone": "+56992401681",
+          "jid": "56992401681@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camila Busca Arriendo 350 Mensual Con Aval Casa La Pintana"
+          "circle": "General",
+          "full_data": "| 218 | Camila Busca Arriendo 350 Mensual Con Aval Casa La Pintana | +56992401681 | 56992401681@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "219",
           "name": "Camila Busca Arriendo 350 Mensual Para La Pintana",
           "phone": "+56936766212",
+          "jid": "56936766212@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camila Busca Arriendo 350 Mensual Para La Pintana"
+          "circle": "General",
+          "full_data": "| 219 | Camila Busca Arriendo 350 Mensual Para La Pintana | +56936766212 | 56936766212@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "221",
           "name": "Camila Ferrada Busca Arriendo La Florida Puente Alto",
           "phone": "+56991228084",
+          "jid": "56991228084@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camila Ferrada Busca Arriendo La Florida Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 221 | Camila Ferrada Busca Arriendo La Florida Puente Alto | +56991228084 | 56991228084@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "222",
           "name": "Camila Recabarren Busca Arriendo 600 La Florida",
           "phone": "+56942653053",
+          "jid": "56942653053@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camila Recabarren Busca Arriendo 600 La Florida"
+          "circle": "General",
+          "full_data": "| 222 | Camila Recabarren Busca Arriendo 600 La Florida | +56942653053 | 56942653053@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "223",
           "name": "Camila Toro Busca Arriendo 550 Quinta Normal Casa",
           "phone": "+56934010907",
+          "jid": "56934010907@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Camila Toro Busca Arriendo 550 Quinta Normal Casa"
+          "circle": "General",
+          "full_data": "| 223 | Camila Toro Busca Arriendo 550 Quinta Normal Casa | +56934010907 | 56934010907@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "224",
           "name": "Carito Busca Arriendo Casa La Pintana 450",
           "phone": "+56998928333",
+          "jid": "56998928333@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carito Busca Arriendo Casa La Pintana 450"
+          "circle": "General",
+          "full_data": "| 224 | Carito Busca Arriendo Casa La Pintana 450 | +56998928333 | 56998928333@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "225",
           "name": "Carla Caro Bernal Subsidio Ds1 Credito",
           "phone": "+56966901215",
+          "jid": "56966901215@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carla Caro Bernal Subsidio Ds1 Credito"
+          "circle": "General",
+          "full_data": "| 225 | Carla Caro Bernal Subsidio Ds1 Credito | +56966901215 | 56966901215@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "226",
           "name": "Carla Espinosa Busca Arriendo Hasta 500 Puente Alto La Florida",
           "phone": "+56949177817",
+          "jid": "56949177817@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carla Espinosa Busca Arriendo Hasta 500 Puente Alto La Florida"
+          "circle": "Puente Alto",
+          "full_data": "| 226 | Carla Espinosa Busca Arriendo Hasta 500 Puente Alto La Florida | +56949177817 | 56949177817@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "230",
           "name": "Carlos Estupiñan Busca Arriendo 450 Puente Alto 3a",
           "phone": "+56986520119",
+          "jid": "56986520119@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carlos Estupiñan Busca Arriendo 450 Puente Alto 3a"
+          "circle": "Puente Alto",
+          "full_data": "| 230 | Carlos Estupiñan Busca Arriendo 450 Puente Alto 3a | +56986520119 | 56986520119@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "233",
           "name": "Carmen Pacheco Busca Arriendo Maipu 4 Poniente Hasta 800",
           "phone": "+56920476344",
+          "jid": "56920476344@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carmen Pacheco Busca Arriendo Maipu 4 Poniente Hasta 800"
+          "circle": "General",
+          "full_data": "| 233 | Carmen Pacheco Busca Arriendo Maipu 4 Poniente Hasta 800 | +56920476344 | 56920476344@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "237",
           "name": "Carolaine Guajardo X Busca Arriendo Casa San Ramón La Pintana",
           "phone": "+56949532003",
+          "jid": "56949532003@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carolaine Guajardo X Busca Arriendo Casa San Ramón La Pintana"
+          "circle": "San Ramón",
+          "full_data": "| 237 | Carolaine Guajardo X Busca Arriendo Casa San Ramón La Pintana | +56949532003 | 56949532003@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "238",
           "name": "Carolina Andrea Lincopi Busca Arriendo 1h 1b Estación Central",
           "phone": "+56984339428",
+          "jid": "56984339428@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carolina Andrea Lincopi Busca Arriendo 1h 1b Estación Central"
+          "circle": "General",
+          "full_data": "| 238 | Carolina Andrea Lincopi Busca Arriendo 1h 1b Estación Central | +56984339428 | 56984339428@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "239",
           "name": "Carolina Busca Arriendo Casa La Pintana 450",
           "phone": "+56996615584",
+          "jid": "56996615584@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carolina Busca Arriendo Casa La Pintana 450"
+          "circle": "General",
+          "full_data": "| 239 | Carolina Busca Arriendo Casa La Pintana 450 | +56996615584 | 56996615584@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "240",
           "name": "Carolina Busca Arriendo La Cisterna",
           "phone": "+56920870026",
+          "jid": "56920870026@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carolina Busca Arriendo La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 240 | Carolina Busca Arriendo La Cisterna | +56920870026 | 56920870026@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "241",
           "name": "Carolina Castro Busca Arriendo 400 La Granja",
           "phone": "+56948080420",
+          "jid": "56948080420@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Carolina Castro Busca Arriendo 400 La Granja"
+          "circle": "General",
+          "full_data": "| 241 | Carolina Castro Busca Arriendo 400 La Granja | +56948080420 | 56948080420@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "250",
           "name": "Claudia Perez Araya Arriendos Con Subsidio",
           "phone": "+56957310092",
+          "jid": "56957310092@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Claudia Perez Araya Arriendos Con Subsidio"
+          "circle": "General",
+          "full_data": "| 250 | Claudia Perez Araya Arriendos Con Subsidio | +56957310092 | 56957310092@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "254",
           "name": "damaris daza Subsidio Mas Crédito Hipotecario",
           "phone": "+56990335094",
+          "jid": "56990335094@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "damaris daza Subsidio Mas Crédito Hipotecario"
+          "circle": "General",
+          "full_data": "| 254 | damaris daza Subsidio Mas Crédito Hipotecario | +56990335094 | 56990335094@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "263",
           "name": "Diego Espera Subsidio",
           "phone": "+56984164713",
+          "jid": "56984164713@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Diego Espera Subsidio"
+          "circle": "General",
+          "full_data": "| 263 | Diego Espera Subsidio | +56984164713 | 56984164713@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "271",
           "name": "Enriqueta Subsidio 34m Rancagua",
           "phone": "+56992115670",
+          "jid": "56992115670@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Enriqueta Subsidio 34m Rancagua"
+          "circle": "General",
+          "full_data": "| 271 | Enriqueta Subsidio 34m Rancagua | +56992115670 | 56992115670@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "272",
           "name": "Erwin Valdes Silva Departamento 22m Con Subsidio Ds49 San Fernando",
           "phone": "+56957987632",
+          "jid": "56957987632@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Erwin Valdes Silva Departamento 22m Con Subsidio Ds49 San Fernando"
+          "circle": "General",
+          "full_data": "| 272 | Erwin Valdes Silva Departamento 22m Con Subsidio Ds49 San Fernando | +56957987632 | 56957987632@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "273",
           "name": "Evelyn Heredia Montecinos Esposa Jorge Arriendo Casa 550 Quilicura Subsidio",
           "phone": "+56930770493",
+          "jid": "56930770493@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Evelyn Heredia Montecinos Esposa Jorge Arriendo Casa 550 Quilicura Subsidio"
+          "circle": "General",
+          "full_data": "| 273 | Evelyn Heredia Montecinos Esposa Jorge Arriendo Casa 550 Quilicura Subsidio | +56930770493 | 56930770493@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "275",
           "name": "Familia Busca Arriendo Con Subsidio Pudahuel",
           "phone": "+56989481721",
+          "jid": "56989481721@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Familia Busca Arriendo Con Subsidio Pudahuel"
+          "circle": "General",
+          "full_data": "| 275 | Familia Busca Arriendo Con Subsidio Pudahuel | +56989481721 | 56989481721@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "284",
           "name": "Gonzalo Amigo Mascotas Subsidio De Arriendo Esposa",
           "phone": "+56931248927",
+          "jid": "56931248927@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Gonzalo Amigo Mascotas Subsidio De Arriendo Esposa"
+          "circle": "General",
+          "full_data": "| 284 | Gonzalo Amigo Mascotas Subsidio De Arriendo Esposa | +56931248927 | 56931248927@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "288",
           "name": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque",
           "phone": "+56967774660",
+          "jid": "56967774660@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque"
+          "circle": "General",
+          "full_data": "| 288 | Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque | +56967774660 | 56967774660@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "289",
           "name": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente",
           "phone": "+56989772395",
+          "jid": "56989772395@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente"
+          "circle": "General",
+          "full_data": "| 289 | Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente | +56989772395 | 56989772395@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "296",
           "name": "Jorge Patricio Norambuena Toledo Arrendatario Subsidio",
           "phone": "+56948613083",
+          "jid": "56948613083@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Jorge Patricio Norambuena Toledo Arrendatario Subsidio"
+          "circle": "General",
+          "full_data": "| 296 | Jorge Patricio Norambuena Toledo Arrendatario Subsidio | +56948613083 | 56948613083@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "301",
           "name": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua",
           "phone": "+56978017980",
+          "jid": "56978017980@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua"
+          "circle": "General",
+          "full_data": "| 301 | Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua | +56978017980 | 56978017980@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "302",
           "name": "Maria Jose Miercoles Subsidio Credito Y Efectivo",
           "phone": "+56982035144",
+          "jid": "56982035144@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Maria Jose Miercoles Subsidio Credito Y Efectivo"
+          "circle": "General",
+          "full_data": "| 302 | Maria Jose Miercoles Subsidio Credito Y Efectivo | +56982035144 | 56982035144@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "305",
           "name": "Nicole Tens Busca Arriendo 450 Con Subsidio",
           "phone": "+56945906469",
+          "jid": "56945906469@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Nicole Tens Busca Arriendo 450 Con Subsidio"
+          "circle": "General",
+          "full_data": "| 305 | Nicole Tens Busca Arriendo 450 Con Subsidio | +56945906469 | 56945906469@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "306",
           "name": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico",
           "phone": "+56972836776",
+          "jid": "56972836776@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico"
+          "circle": "General",
+          "full_data": "| 306 | Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico | +56972836776 | 56972836776@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "309",
           "name": "Romina Busca Casa Arriendo Con Subsidio Hasta 400",
           "phone": "+56930073814",
+          "jid": "56930073814@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Romina Busca Casa Arriendo Con Subsidio Hasta 400"
+          "circle": "General",
+          "full_data": "| 309 | Romina Busca Casa Arriendo Con Subsidio Hasta 400 | +56930073814 | 56930073814@s.whatsapp.net | Arriendo |"
         },
         {
           "n": "310",
           "name": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación",
           "phone": "+56987338270",
+          "jid": "56987338270@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación"
+          "circle": "General",
+          "full_data": "| 310 | Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación | +56987338270 | 56987338270@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "311",
           "name": "Roxana Palma Esposa De Don Enrique Busca Rancagua Subsidio 35m",
           "phone": "+56983378001",
+          "jid": "56983378001@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Roxana Palma Esposa De Don Enrique Busca Rancagua Subsidio 35m"
+          "circle": "General",
+          "full_data": "| 311 | Roxana Palma Esposa De Don Enrique Busca Rancagua Subsidio 35m | +56983378001 | 56983378001@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "312",
           "name": "Sandra Contador Auditor Rancagua 757 Uf Ds1t1 Subsidio Depa",
           "phone": "+56940326395",
+          "jid": "56940326395@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Sandra Contador Auditor Rancagua 757 Uf Ds1t1 Subsidio Depa"
+          "circle": "General",
+          "full_data": "| 312 | Sandra Contador Auditor Rancagua 757 Uf Ds1t1 Subsidio Depa | +56940326395 | 56940326395@s.whatsapp.net | Compra/Arriendo — Subsidio |"
         },
         {
           "n": "313",
           "name": "Stephanie Muñoz Arriendo 450 Puente Alto Subsidio De Arriendo",
           "phone": "+56968042597",
+          "jid": "56968042597@s.whatsapp.net",
           "category": "ARRIENDO",
-          "details": "Stephanie Muñoz Arriendo 450 Puente Alto Subsidio De Arriendo"
+          "circle": "Puente Alto",
+          "full_data": "| 313 | Stephanie Muñoz Arriendo 450 Puente Alto Subsidio De Arriendo | +56968042597 | 56968042597@s.whatsapp.net | Arriendo |"
         }
       ],
       "COMPRA": [
@@ -953,491 +1223,631 @@
           "n": "48",
           "name": "Brahyan silva Crédito Hipotecario Banco Scotiabank 75m Renca 10m PIE Casa No Departamento",
           "phone": "+56974906561",
+          "jid": "56974906561@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Brahyan silva Crédito Hipotecario Banco Scotiabank 75m Renca 10m PIE Casa No Departamento"
+          "circle": "General",
+          "full_data": "| 48 | Brahyan silva Crédito Hipotecario Banco Scotiabank 75m Renca 10m PIE Casa No Departamento | +56974906561 | 56974906561@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "67",
           "name": "Fabián 🍣 Mutuo Hipotecario Ds1 T2 Amigo Cespedes",
           "phone": "+56952144242",
+          "jid": "56952144242@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Fabián 🍣 Mutuo Hipotecario Ds1 T2 Amigo Cespedes"
+          "circle": "General",
+          "full_data": "| 67 | Fabián 🍣 Mutuo Hipotecario Ds1 T2 Amigo Cespedes | +56952144242 | 56952144242@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "125",
           "name": "Agata Lobos X Compra Casa San Bernardo Laguna Cóndores 5000 UF",
           "phone": "+56937624068",
+          "jid": "56937624068@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Agata Lobos X Compra Casa San Bernardo Laguna Cóndores 5000 UF"
+          "circle": "Cóndores",
+          "full_data": "| 125 | Agata Lobos X Compra Casa San Bernardo Laguna Cóndores 5000 UF | +56937624068 | 56937624068@s.whatsapp.net | Compra |"
         },
         {
           "n": "126",
           "name": "Agus X Depto Compra Las Condes",
           "phone": "+56990967980",
+          "jid": "56990967980@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Agus X Depto Compra Las Condes"
+          "circle": "General",
+          "full_data": "| 126 | Agus X Depto Compra Las Condes | +56990967980 | 56990967980@s.whatsapp.net | Compra |"
         },
         {
           "n": "128",
           "name": "Alberto Compra Casa Arica 65m Efectivo",
           "phone": "+56971210024",
+          "jid": "56971210024@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alberto Compra Casa Arica 65m Efectivo"
+          "circle": "General",
+          "full_data": "| 128 | Alberto Compra Casa Arica 65m Efectivo | +56971210024 | 56971210024@s.whatsapp.net | Compra |"
         },
         {
           "n": "129",
           "name": "Alberto Isaias Sánchez Medina X Busca Casa San Bernardo 85m Ver Credito",
           "phone": "+56945245752",
+          "jid": "56945245752@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alberto Isaias Sánchez Medina X Busca Casa San Bernardo 85m Ver Credito"
+          "circle": "San Bernardo",
+          "full_data": "| 129 | Alberto Isaias Sánchez Medina X Busca Casa San Bernardo 85m Ver Credito | +56945245752 | 56945245752@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "130",
           "name": "Aldo Gonzalez X Compra 180m Ch Para Taller Mínimo 400m²",
           "phone": "+56997484791",
+          "jid": "56997484791@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Aldo Gonzalez X Compra 180m Ch Para Taller Mínimo 400m²"
+          "circle": "General",
+          "full_data": "| 130 | Aldo Gonzalez X Compra 180m Ch Para Taller Mínimo 400m² | +56997484791 | 56997484791@s.whatsapp.net | Compra |"
         },
         {
           "n": "136",
           "name": "Alejandra Martinez X Compra Depto Las Condes",
           "phone": "+56940427973",
+          "jid": "56940427973@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alejandra Martinez X Compra Depto Las Condes"
+          "circle": "General",
+          "full_data": "| 136 | Alejandra Martinez X Compra Depto Las Condes | +56940427973 | 56940427973@s.whatsapp.net | Compra |"
         },
         {
           "n": "137",
           "name": "Alejandra Quispe Demanet X Compra Depto El Bosque 75m",
           "phone": "+56944150977",
+          "jid": "56944150977@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alejandra Quispe Demanet X Compra Depto El Bosque 75m"
+          "circle": "General",
+          "full_data": "| 137 | Alejandra Quispe Demanet X Compra Depto El Bosque 75m | +56944150977 | 56944150977@s.whatsapp.net | Compra |"
         },
         {
           "n": "140",
           "name": "Alejandra Vélez X Compra Terreno",
           "phone": "+56996403879",
+          "jid": "56996403879@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alejandra Vélez X Compra Terreno"
+          "circle": "General",
+          "full_data": "| 140 | Alejandra Vélez X Compra Terreno | +56996403879 | 56996403879@s.whatsapp.net | Compra |"
         },
         {
           "n": "145",
           "name": "Alexandra Compra Casa Manuel Dialisis 85m",
           "phone": "+56945952407",
+          "jid": "56945952407@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alexandra Compra Casa Manuel Dialisis 85m"
+          "circle": "General",
+          "full_data": "| 145 | Alexandra Compra Casa Manuel Dialisis 85m | +56945952407 | 56945952407@s.whatsapp.net | Compra |"
         },
         {
           "n": "148",
           "name": "Alexis Alfaro 90m Ch Aprobado Compra Casa San Bernardo El Bosque",
           "phone": "+56981320386",
+          "jid": "56981320386@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Alexis Alfaro 90m Ch Aprobado Compra Casa San Bernardo El Bosque"
+          "circle": "San Bernardo",
+          "full_data": "| 148 | Alexis Alfaro 90m Ch Aprobado Compra Casa San Bernardo El Bosque | +56981320386 | 56981320386@s.whatsapp.net | Compra |"
         },
         {
           "n": "167",
           "name": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m",
           "phone": "+56926177562",
+          "jid": "56926177562@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m"
+          "circle": "General",
+          "full_data": "| 167 | Andrea Olivares Vargas X Compra Brisas De Pomaire 185m | +56926177562 | 56926177562@s.whatsapp.net | Compra |"
         },
         {
           "n": "168",
           "name": "Andrea Paz X Compra Casa Harás De Nos San Bernardo",
           "phone": "+56959507470",
+          "jid": "56959507470@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Andrea Paz X Compra Casa Harás De Nos San Bernardo"
+          "circle": "San Bernardo",
+          "full_data": "| 168 | Andrea Paz X Compra Casa Harás De Nos San Bernardo | +56959507470 | 56959507470@s.whatsapp.net | Compra |"
         },
         {
           "n": "169",
           "name": "Andrea Paz X Compra Casa San Bernardo Harás De Nos Tipo A",
           "phone": "+56973110758",
+          "jid": "56973110758@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Andrea Paz X Compra Casa San Bernardo Harás De Nos Tipo A"
+          "circle": "San Bernardo",
+          "full_data": "| 169 | Andrea Paz X Compra Casa San Bernardo Harás De Nos Tipo A | +56973110758 | 56973110758@s.whatsapp.net | Compra |"
         },
         {
           "n": "173",
           "name": "Andres Compra Ch Bci Casa La Cisterna 140m",
           "phone": "+56976964113",
+          "jid": "56976964113@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Andres Compra Ch Bci Casa La Cisterna 140m"
+          "circle": "La Cisterna",
+          "full_data": "| 173 | Andres Compra Ch Bci Casa La Cisterna 140m | +56976964113 | 56976964113@s.whatsapp.net | Compra |"
         },
         {
           "n": "174",
           "name": "Andres Vasquez X Compra Depto El Bosque 65m",
           "phone": "+56996707280",
+          "jid": "56996707280@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Andres Vasquez X Compra Depto El Bosque 65m"
+          "circle": "General",
+          "full_data": "| 174 | Andres Vasquez X Compra Depto El Bosque 65m | +56996707280 | 56996707280@s.whatsapp.net | Compra |"
         },
         {
           "n": "176",
           "name": "Angel Daille X Busca Comprar Casa En Nocedal",
           "phone": "+56976451619",
+          "jid": "56976451619@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Angel Daille X Busca Comprar Casa En Nocedal"
+          "circle": "General",
+          "full_data": "| 176 | Angel Daille X Busca Comprar Casa En Nocedal | +56976451619 | 56976451619@s.whatsapp.net | Compra |"
         },
         {
           "n": "177",
           "name": "Angel Muñoz X Compra Casa El Bosque 65m",
           "phone": "+56953600765",
+          "jid": "56953600765@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Angel Muñoz X Compra Casa El Bosque 65m"
+          "circle": "General",
+          "full_data": "| 177 | Angel Muñoz X Compra Casa El Bosque 65m | +56953600765 | 56953600765@s.whatsapp.net | Compra |"
         },
         {
           "n": "179",
           "name": "Angela Y Benhur X Compra Depto Quilicura 62m",
           "phone": "+56961828922",
+          "jid": "56961828922@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Angela Y Benhur X Compra Depto Quilicura 62m"
+          "circle": "General",
+          "full_data": "| 179 | Angela Y Benhur X Compra Depto Quilicura 62m | +56961828922 | 56961828922@s.whatsapp.net | Compra |"
         },
         {
           "n": "180",
           "name": "Angelica Ch Coopeuch Compra Casa San Ramon 75m",
           "phone": "+56947589018",
+          "jid": "56947589018@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Angelica Ch Coopeuch Compra Casa San Ramon 75m"
+          "circle": "San Ramon",
+          "full_data": "| 180 | Angelica Ch Coopeuch Compra Casa San Ramon 75m | +56947589018 | 56947589018@s.whatsapp.net | Compra |"
         },
         {
           "n": "182",
           "name": "Angélica Armijo X Compra Casa Nova Vida 80m",
           "phone": "+56950049271",
+          "jid": "56950049271@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Angélica Armijo X Compra Casa Nova Vida 80m"
+          "circle": "General",
+          "full_data": "| 182 | Angélica Armijo X Compra Casa Nova Vida 80m | +56950049271 | 56950049271@s.whatsapp.net | Compra |"
         },
         {
           "n": "183",
           "name": "Anny Solicita Credito 3000 Uf Para Esposo Coopeuch",
           "phone": "+56952236335",
+          "jid": "56952236335@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Anny Solicita Credito 3000 Uf Para Esposo Coopeuch"
+          "circle": "General",
+          "full_data": "| 183 | Anny Solicita Credito 3000 Uf Para Esposo Coopeuch | +56952236335 | 56952236335@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "185",
           "name": "Antonius Máximo Decimo Compra Casa La Granja Evaluar 7m Pie",
           "phone": "+56922444113",
+          "jid": "56922444113@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Antonius Máximo Decimo Compra Casa La Granja Evaluar 7m Pie"
+          "circle": "General",
+          "full_data": "| 185 | Antonius Máximo Decimo Compra Casa La Granja Evaluar 7m Pie | +56922444113 | 56922444113@s.whatsapp.net | Compra |"
         },
         {
           "n": "187",
           "name": "Arnaldo Gatica X Compra Parcela Paine",
           "phone": "+56999912536",
+          "jid": "56999912536@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Arnaldo Gatica X Compra Parcela Paine"
+          "circle": "General",
+          "full_data": "| 187 | Arnaldo Gatica X Compra Parcela Paine | +56999912536 | 56999912536@s.whatsapp.net | Compra |"
         },
         {
           "n": "188",
           "name": "Arshad Abbas Compra Dpto Quilicura",
           "phone": "+56977605634",
+          "jid": "56977605634@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Arshad Abbas Compra Dpto Quilicura"
+          "circle": "General",
+          "full_data": "| 188 | Arshad Abbas Compra Dpto Quilicura | +56977605634 | 56977605634@s.whatsapp.net | Compra |"
         },
         {
           "n": "191",
           "name": "Barbara Alarcon Bravo Compra 2700UF Jardín Alto La Florida",
           "phone": "+56956371321",
+          "jid": "56956371321@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Barbara Alarcon Bravo Compra 2700UF Jardín Alto La Florida"
+          "circle": "General",
+          "full_data": "| 191 | Barbara Alarcon Bravo Compra 2700UF Jardín Alto La Florida | +56956371321 | 56956371321@s.whatsapp.net | Compra |"
         },
         {
           "n": "192",
           "name": "Barbara Compra En Efectivo 29m",
           "phone": "+56975948354",
+          "jid": "56975948354@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Barbara Compra En Efectivo 29m"
+          "circle": "General",
+          "full_data": "| 192 | Barbara Compra En Efectivo 29m | +56975948354 | 56975948354@s.whatsapp.net | Compra |"
         },
         {
           "n": "199",
           "name": "Bayron Credito H Aprobado B Estado Depa La Florida 50m",
           "phone": "+56972990662",
+          "jid": "56972990662@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Bayron Credito H Aprobado B Estado Depa La Florida 50m"
+          "circle": "General",
+          "full_data": "| 199 | Bayron Credito H Aprobado B Estado Depa La Florida 50m | +56972990662 | 56972990662@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "200",
           "name": "Beatrix Cuadra X Compra Depto La Cisterna Jorge Saez Carlos Condell",
           "phone": "+56974486792",
+          "jid": "56974486792@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Beatrix Cuadra X Compra Depto La Cisterna Jorge Saez Carlos Condell"
+          "circle": "La Cisterna",
+          "full_data": "| 200 | Beatrix Cuadra X Compra Depto La Cisterna Jorge Saez Carlos Condell | +56974486792 | 56974486792@s.whatsapp.net | Compra |"
         },
         {
           "n": "201",
           "name": "Beatriz Compra Depto Con 1e Quilicura 65m Efectivo",
           "phone": "+56966411680",
+          "jid": "56966411680@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Beatriz Compra Depto Con 1e Quilicura 65m Efectivo"
+          "circle": "General",
+          "full_data": "| 201 | Beatriz Compra Depto Con 1e Quilicura 65m Efectivo | +56966411680 | 56966411680@s.whatsapp.net | Compra |"
         },
         {
           "n": "204",
           "name": "Benhur Novio Angela X Compra Depto Quilicura De Victor 62m",
           "phone": "+56953044186",
+          "jid": "56953044186@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Benhur Novio Angela X Compra Depto Quilicura De Victor 62m"
+          "circle": "General",
+          "full_data": "| 204 | Benhur Novio Angela X Compra Depto Quilicura De Victor 62m | +56953044186 | 56953044186@s.whatsapp.net | Compra |"
         },
         {
           "n": "205",
           "name": "Benjamin Contador Auditor Sub Ds1t3 Credito Santander O Bci Hasta 2200 Uf",
           "phone": "+56946831018",
+          "jid": "56946831018@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Benjamin Contador Auditor Sub Ds1t3 Credito Santander O Bci Hasta 2200 Uf"
+          "circle": "General",
+          "full_data": "| 205 | Benjamin Contador Auditor Sub Ds1t3 Credito Santander O Bci Hasta 2200 Uf | +56946831018 | 56946831018@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "207",
           "name": "Brahyan Silva Crédito Hipotecario Banco Scotiabank 75m Renca",
           "phone": "+56974906561",
+          "jid": "56974906561@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Brahyan Silva Crédito Hipotecario Banco Scotiabank 75m Renca"
+          "circle": "General",
+          "full_data": "| 207 | Brahyan Silva Crédito Hipotecario Banco Scotiabank 75m Renca | +56974906561 | 56974906561@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "209",
           "name": "Bruja X Compra Depto En Efectivo El Bosque Oferta",
           "phone": "+56971938610",
+          "jid": "56971938610@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Bruja X Compra Depto En Efectivo El Bosque Oferta"
+          "circle": "General",
+          "full_data": "| 209 | Bruja X Compra Depto En Efectivo El Bosque Oferta | +56971938610 | 56971938610@s.whatsapp.net | Compra |"
         },
         {
           "n": "213",
           "name": "Cachatiana Hogar Ejecutiva Marc Alisme X Compra La Pintana 58m Depto",
           "phone": "+56965769437",
+          "jid": "56965769437@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Cachatiana Hogar Ejecutiva Marc Alisme X Compra La Pintana 58m Depto"
+          "circle": "General",
+          "full_data": "| 213 | Cachatiana Hogar Ejecutiva Marc Alisme X Compra La Pintana 58m Depto | +56965769437 | 56965769437@s.whatsapp.net | Compra |"
         },
         {
           "n": "220",
           "name": "Camila Compra 90m CH Banco ITAU",
           "phone": "+56968440115",
+          "jid": "56968440115@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Camila Compra 90m CH Banco ITAU"
+          "circle": "General",
+          "full_data": "| 220 | Camila Compra 90m CH Banco ITAU | +56968440115 | 56968440115@s.whatsapp.net | Compra |"
         },
         {
           "n": "227",
           "name": "Carlos Compra Efectivo Depto 55m La Florida",
           "phone": "+56978870698",
+          "jid": "56978870698@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carlos Compra Efectivo Depto 55m La Florida"
+          "circle": "General",
+          "full_data": "| 227 | Carlos Compra Efectivo Depto 55m La Florida | +56978870698 | 56978870698@s.whatsapp.net | Compra |"
         },
         {
           "n": "228",
           "name": "Carlos Cruchaga X Compra Casa San Bernardo Evaluar Crédito Hipotecario",
           "phone": "+56944001956",
+          "jid": "56944001956@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carlos Cruchaga X Compra Casa San Bernardo Evaluar Crédito Hipotecario"
+          "circle": "San Bernardo",
+          "full_data": "| 228 | Carlos Cruchaga X Compra Casa San Bernardo Evaluar Crédito Hipotecario | +56944001956 | 56944001956@s.whatsapp.net | Compra |"
         },
         {
           "n": "229",
           "name": "Carlos Esteban Compra Casa Avenida La Pintana",
           "phone": "+56961150469",
+          "jid": "56961150469@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carlos Esteban Compra Casa Avenida La Pintana"
+          "circle": "General",
+          "full_data": "| 229 | Carlos Esteban Compra Casa Avenida La Pintana | +56961150469 | 56961150469@s.whatsapp.net | Compra |"
         },
         {
           "n": "231",
           "name": "Carlos Gutierrez Compra Efectivo 75m San Ramón",
           "phone": "+56977556058",
+          "jid": "56977556058@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carlos Gutierrez Compra Efectivo 75m San Ramón"
+          "circle": "San Ramón",
+          "full_data": "| 231 | Carlos Gutierrez Compra Efectivo 75m San Ramón | +56977556058 | 56977556058@s.whatsapp.net | Compra |"
         },
         {
           "n": "234",
           "name": "Carmen Torrealba X Compra Depto 57m La Cisterna",
           "phone": "+56994774159",
+          "jid": "56994774159@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carmen Torrealba X Compra Depto 57m La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 234 | Carmen Torrealba X Compra Depto 57m La Cisterna | +56994774159 | 56994774159@s.whatsapp.net | Compra |"
         },
         {
           "n": "235",
           "name": "Carol Alarcón X Compra Casa Puente Alto 107m",
           "phone": "+56946852332",
+          "jid": "56946852332@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carol Alarcón X Compra Casa Puente Alto 107m"
+          "circle": "Puente Alto",
+          "full_data": "| 235 | Carol Alarcón X Compra Casa Puente Alto 107m | +56946852332 | 56946852332@s.whatsapp.net | Compra |"
         },
         {
           "n": "236",
           "name": "Carola Andrea Cifuentes Araya X Compra Depto La Florida",
           "phone": "+56950162522",
+          "jid": "56950162522@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carola Andrea Cifuentes Araya X Compra Depto La Florida"
+          "circle": "General",
+          "full_data": "| 236 | Carola Andrea Cifuentes Araya X Compra Depto La Florida | +56950162522 | 56950162522@s.whatsapp.net | Compra |"
         },
         {
           "n": "242",
           "name": "Carolina Rios Evaluar Credito Y Ver Casa En San Bernardo",
           "phone": "+56989110956",
+          "jid": "56989110956@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carolina Rios Evaluar Credito Y Ver Casa En San Bernardo"
+          "circle": "San Bernardo",
+          "full_data": "| 242 | Carolina Rios Evaluar Credito Y Ver Casa En San Bernardo | +56989110956 | 56989110956@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "243",
           "name": "Carolina Sensualrap Credito Busca Casa O Depa",
           "phone": "+56950390476",
+          "jid": "56950390476@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Carolina Sensualrap Credito Busca Casa O Depa"
+          "circle": "General",
+          "full_data": "| 243 | Carolina Sensualrap Credito Busca Casa O Depa | +56950390476 | 56950390476@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "244",
           "name": "Catalina Compra Depa 2000uf Itau La Cisterna",
           "phone": "+56965724698",
+          "jid": "56965724698@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Catalina Compra Depa 2000uf Itau La Cisterna"
+          "circle": "La Cisterna",
+          "full_data": "| 244 | Catalina Compra Depa 2000uf Itau La Cisterna | +56965724698 | 56965724698@s.whatsapp.net | Compra |"
         },
         {
           "n": "245",
           "name": "Catalina Rubilar X Compra Casa Ds1 Y Ch Nova Vida San Bernardo",
           "phone": "+56973805365",
+          "jid": "56973805365@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Catalina Rubilar X Compra Casa Ds1 Y Ch Nova Vida San Bernardo"
+          "circle": "San Bernardo",
+          "full_data": "| 245 | Catalina Rubilar X Compra Casa Ds1 Y Ch Nova Vida San Bernardo | +56973805365 | 56973805365@s.whatsapp.net | Compra |"
         },
         {
           "n": "246",
           "name": "Caterina X Compra Casa Lampa Laguna Norte",
           "phone": "+56999676485",
+          "jid": "56999676485@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Caterina X Compra Casa Lampa Laguna Norte"
+          "circle": "General",
+          "full_data": "| 246 | Caterina X Compra Casa Lampa Laguna Norte | +56999676485 | 56999676485@s.whatsapp.net | Compra |"
         },
         {
           "n": "247",
           "name": "Catherine Compra Casa 150m La Granja",
           "phone": "+56948933018",
+          "jid": "56948933018@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Catherine Compra Casa 150m La Granja"
+          "circle": "General",
+          "full_data": "| 247 | Catherine Compra Casa 150m La Granja | +56948933018 | 56948933018@s.whatsapp.net | Compra |"
         },
         {
           "n": "251",
           "name": "Claudio Credito",
           "phone": "+56962085962",
+          "jid": "56962085962@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Claudio Credito"
+          "circle": "General",
+          "full_data": "| 251 | Claudio Credito | +56962085962 | 56962085962@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "252",
           "name": "Credito Buscar Papeles",
           "phone": "+56952582255",
+          "jid": "56952582255@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Credito Buscar Papeles"
+          "circle": "General",
+          "full_data": "| 252 | Credito Buscar Papeles | +56952582255 | 56952582255@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "253",
           "name": "Credito Para Esposo 1.3m Gana",
           "phone": "+56993137926",
+          "jid": "56993137926@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Credito Para Esposo 1.3m Gana"
+          "circle": "General",
+          "full_data": "| 253 | Credito Para Esposo 1.3m Gana | +56993137926 | 56993137926@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "256",
           "name": "Dannhy Vende Su Casa A Su Cliente Ver Credito",
           "phone": "+56946292242",
+          "jid": "56946292242@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Dannhy Vende Su Casa A Su Cliente Ver Credito"
+          "circle": "General",
+          "full_data": "| 256 | Dannhy Vende Su Casa A Su Cliente Ver Credito | +56946292242 | 56946292242@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "257",
           "name": "Dario Restrepo Credito",
           "phone": "+56951157068",
+          "jid": "56951157068@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Dario Restrepo Credito"
+          "circle": "General",
+          "full_data": "| 257 | Dario Restrepo Credito | +56951157068 | 56951157068@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "258",
           "name": "David Credito Bci Depa La Florida 50m",
           "phone": "+56956990929",
+          "jid": "56956990929@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "David Credito Bci Depa La Florida 50m"
+          "circle": "General",
+          "full_data": "| 258 | David Credito Bci Depa La Florida 50m | +56956990929 | 56956990929@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "260",
           "name": "David Tapia Casanueva Credito Maximo Y Buscar Casa",
           "phone": "+56937151121",
+          "jid": "56937151121@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "David Tapia Casanueva Credito Maximo Y Buscar Casa"
+          "circle": "General",
+          "full_data": "| 260 | David Tapia Casanueva Credito Maximo Y Buscar Casa | +56937151121 | 56937151121@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "262",
           "name": "Deyanira Cordoba Busca Credito Con Pie 13m",
           "phone": "+56988647117",
+          "jid": "56988647117@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Deyanira Cordoba Busca Credito Con Pie 13m"
+          "circle": "General",
+          "full_data": "| 262 | Deyanira Cordoba Busca Credito Con Pie 13m | +56988647117 | 56988647117@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "265",
           "name": "DJ JoakoMix Credito Suegra",
           "phone": "+56975482377",
+          "jid": "56975482377@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "DJ JoakoMix Credito Suegra"
+          "circle": "General",
+          "full_data": "| 265 | DJ JoakoMix Credito Suegra | +56975482377 | 56975482377@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "266",
           "name": "Edith Credito Para Paola Bignami Codeudor Hermano Sandoval",
           "phone": "+56999133506",
+          "jid": "56999133506@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Edith Credito Para Paola Bignami Codeudor Hermano Sandoval"
+          "circle": "General",
+          "full_data": "| 266 | Edith Credito Para Paola Bignami Codeudor Hermano Sandoval | +56999133506 | 56999133506@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "267",
           "name": "Eduardo 32m Efectivo Para Creditos",
           "phone": "+56966027096",
+          "jid": "56966027096@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Eduardo 32m Efectivo Para Creditos"
+          "circle": "General",
+          "full_data": "| 267 | Eduardo 32m Efectivo Para Creditos | +56966027096 | 56966027096@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "274",
           "name": "Evelyn Palmares Credito",
           "phone": "+56990727920",
+          "jid": "56990727920@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Evelyn Palmares Credito"
+          "circle": "General",
+          "full_data": "| 274 | Evelyn Palmares Credito | +56990727920 | 56990727920@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "277",
           "name": "Fernando Alexis Cadiz Gonzales Bajista De Jordan Credito",
           "phone": "+56959122874",
+          "jid": "56959122874@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Fernando Alexis Cadiz Gonzales Bajista De Jordan Credito"
+          "circle": "General",
+          "full_data": "| 277 | Fernando Alexis Cadiz Gonzales Bajista De Jordan Credito | +56959122874 | 56959122874@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "278",
           "name": "Fernando Osorio Cliente Para Credito Ver Despues",
           "phone": "+56954185108",
+          "jid": "56954185108@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Fernando Osorio Cliente Para Credito Ver Despues"
+          "circle": "General",
+          "full_data": "| 278 | Fernando Osorio Cliente Para Credito Ver Despues | +56954185108 | 56954185108@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "280",
           "name": "Flavia Credito Santander 95m Compra Para Inversión",
           "phone": "+56971098137",
+          "jid": "56971098137@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Flavia Credito Santander 95m Compra Para Inversión"
+          "circle": "General",
+          "full_data": "| 280 | Flavia Credito Santander 95m Compra Para Inversión | +56971098137 | 56971098137@s.whatsapp.net | Compra |"
         },
         {
           "n": "281",
           "name": "Flor Ortiz Ds1 T3 Buscar Casa Y Ayudar Credito 4m",
           "phone": "+56936182397",
+          "jid": "56936182397@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Flor Ortiz Ds1 T3 Buscar Casa Y Ayudar Credito 4m"
+          "circle": "General",
+          "full_data": "| 281 | Flor Ortiz Ds1 T3 Buscar Casa Y Ayudar Credito 4m | +56936182397 | 56936182397@s.whatsapp.net | Compra — Crédito Hipotecario |"
         },
         {
           "n": "307",
           "name": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto",
           "phone": "+56968032342",
+          "jid": "56968032342@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 307 | Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto | +56968032342 | 56968032342@s.whatsapp.net | Compra |"
         },
         {
           "n": "308",
           "name": "Rodrigo Veloso X Compra Depto 42m Ch Be Sin Subsidios Inversion",
           "phone": "+56945342976",
+          "jid": "56945342976@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Rodrigo Veloso X Compra Depto 42m Ch Be Sin Subsidios Inversion"
+          "circle": "General",
+          "full_data": "| 308 | Rodrigo Veloso X Compra Depto 42m Ch Be Sin Subsidios Inversion | +56945342976 | 56945342976@s.whatsapp.net | Compra |"
         },
         {
           "n": "314",
           "name": "Tania Compra Casa Rancagua 40m Subsidio Credito Y Efectivo",
           "phone": "+56957394404",
+          "jid": "56957394404@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Tania Compra Casa Rancagua 40m Subsidio Credito Y Efectivo"
+          "circle": "General",
+          "full_data": "| 314 | Tania Compra Casa Rancagua 40m Subsidio Credito Y Efectivo | +56957394404 | 56957394404@s.whatsapp.net | Compra |"
         },
         {
           "n": "315",
           "name": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m",
           "phone": "+56944346581",
+          "jid": "56944346581@s.whatsapp.net",
           "category": "COMPRA",
-          "details": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m"
+          "circle": "General",
+          "full_data": "| 315 | Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m | +56944346581 | 56944346581@s.whatsapp.net | Compra |"
         }
       ],
       "LEASING": [
@@ -1445,687 +1855,883 @@
           "n": "6",
           "name": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta",
           "phone": "+56976494234",
+          "jid": "56976494234@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta"
+          "circle": "General",
+          "full_data": "| 6 | Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta | +56976494234 | 56976494234@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "7",
           "name": "Alejandra Vélez X Compra Terreno Ft Francisca Charrier",
           "phone": "+56996403879",
+          "jid": "56996403879@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Alejandra Vélez X Compra Terreno Ft Francisca Charrier"
+          "circle": "General",
+          "full_data": "| 7 | Alejandra Vélez X Compra Terreno Ft Francisca Charrier | +56996403879 | 56996403879@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "11",
           "name": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m",
           "phone": "+56991041444",
+          "jid": "56991041444@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m"
+          "circle": "General",
+          "full_data": "| 11 | Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m | +56991041444 | 56991041444@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "14",
           "name": "Alexis 40m Leasing Lo Prado Departamento Conductor Camiones Kar",
           "phone": "+56961107068",
+          "jid": "56961107068@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Alexis 40m Leasing Lo Prado Departamento Conductor Camiones Kar"
+          "circle": "General",
+          "full_data": "| 14 | Alexis 40m Leasing Lo Prado Departamento Conductor Camiones Kar | +56961107068 | 56961107068@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "21",
           "name": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto",
           "phone": "+56997116468",
+          "jid": "56997116468@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto"
+          "circle": "General",
+          "full_data": "| 21 | Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto | +56997116468 | 56997116468@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "31",
           "name": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m Ft Carla Del Bosque Propiedades",
           "phone": "+56926177562",
+          "jid": "56926177562@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m Ft Carla Del Bosque Propiedades"
+          "circle": "General",
+          "full_data": "| 31 | Andrea Olivares Vargas X Compra Brisas De Pomaire 185m Ft Carla Del Bosque Propiedades | +56926177562 | 56926177562@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "50",
           "name": "Carlos Cruchaga X Compra Casa Sa Bernardo Lomas De Mirasur Evaluar Crédito Hipotecario",
           "phone": "+56944001956",
+          "jid": "56944001956@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Carlos Cruchaga X Compra Casa Sa Bernardo Lomas De Mirasur Evaluar Crédito Hipotecario"
+          "circle": "General",
+          "full_data": "| 50 | Carlos Cruchaga X Compra Casa Sa Bernardo Lomas De Mirasur Evaluar Crédito Hipotecario | +56944001956 | 56944001956@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "51",
           "name": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo",
           "phone": "+56987395592",
+          "jid": "56987395592@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo"
+          "circle": "General",
+          "full_data": "| 51 | Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo | +56987395592 | 56987395592@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "53",
           "name": "Chico Uber Ver Credito Para Casa Leasing",
           "phone": "+56979339357",
+          "jid": "56979339357@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Chico Uber Ver Credito Para Casa Leasing"
+          "circle": "General",
+          "full_data": "| 53 | Chico Uber Ver Credito Para Casa Leasing | +56979339357 | 56979339357@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "54",
           "name": "Chris Compra Leasing 3h 1b Hasta 60m",
           "phone": "+56930930077",
+          "jid": "56930930077@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Chris Compra Leasing 3h 1b Hasta 60m"
+          "circle": "General",
+          "full_data": "| 54 | Chris Compra Leasing 3h 1b Hasta 60m | +56930930077 | 56930930077@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "55",
           "name": "damaris daza Subsidio Mas Crédito Hipotecario",
           "phone": "+56990335094",
+          "jid": "56990335094@s.whatsapp.net",
           "category": "LEASING",
-          "details": "damaris daza Subsidio Mas Crédito Hipotecario"
+          "circle": "General",
+          "full_data": "| 55 | damaris daza Subsidio Mas Crédito Hipotecario | +56990335094 | 56990335094@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "56",
           "name": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua",
           "phone": "+56986554464",
+          "jid": "56986554464@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua"
+          "circle": "General",
+          "full_data": "| 56 | Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua | +56986554464 | 56986554464@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "57",
           "name": "Daniel velasquez X Compra Terreno La Florida 69m CH Aprobado",
           "phone": "+56954554646",
+          "jid": "56954554646@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Daniel velasquez X Compra Terreno La Florida 69m CH Aprobado"
+          "circle": "General",
+          "full_data": "| 57 | Daniel velasquez X Compra Terreno La Florida 69m CH Aprobado | +56954554646 | 56954554646@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "58",
           "name": "David Gutiérrez Credito Leasing Habitacional",
           "phone": "+56954906594",
+          "jid": "56954906594@s.whatsapp.net",
           "category": "LEASING",
-          "details": "David Gutiérrez Credito Leasing Habitacional"
+          "circle": "General",
+          "full_data": "| 58 | David Gutiérrez Credito Leasing Habitacional | +56954906594 | 56954906594@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "59",
           "name": "Dayan Rodriguez Busca Compra 60 Leasing X Erika",
           "phone": "+56971297895",
+          "jid": "56971297895@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Dayan Rodriguez Busca Compra 60 Leasing X Erika"
+          "circle": "General",
+          "full_data": "| 59 | Dayan Rodriguez Busca Compra 60 Leasing X Erika | +56971297895 | 56971297895@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "60",
           "name": "Diego Espera Subsidio 🦁",
           "phone": "+56984164713",
+          "jid": "56984164713@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Diego Espera Subsidio 🦁"
+          "circle": "General",
+          "full_data": "| 60 | Diego Espera Subsidio 🦁 | +56984164713 | 56984164713@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "62",
           "name": "Eli Peluquería Leasing 48m La Florida",
           "phone": "+56956844449",
+          "jid": "56956844449@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Eli Peluquería Leasing 48m La Florida"
+          "circle": "General",
+          "full_data": "| 62 | Eli Peluquería Leasing 48m La Florida | +56956844449 | 56956844449@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "63",
           "name": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva",
           "phone": "+56935265885",
+          "jid": "56935265885@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva"
+          "circle": "General",
+          "full_data": "| 63 | Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva | +56935265885 | 56935265885@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "64",
           "name": "Enrique Millapan Leasing Compra Depto El Bosque Observatorio 65m",
           "phone": "+56969073256",
+          "jid": "56969073256@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Enrique Millapan Leasing Compra Depto El Bosque Observatorio 65m"
+          "circle": "General",
+          "full_data": "| 64 | Enrique Millapan Leasing Compra Depto El Bosque Observatorio 65m | +56969073256 | 56969073256@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "65",
           "name": "Enriqueta Subsidio 34m Rancagua Busca Ubal",
           "phone": "+56992115670",
+          "jid": "56992115670@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Enriqueta Subsidio 34m Rancagua Busca Ubal"
+          "circle": "General",
+          "full_data": "| 65 | Enriqueta Subsidio 34m Rancagua Busca Ubal | +56992115670 | 56992115670@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "66",
           "name": "Erwin valdes silva departamento 22m 23m Con subsidio ds49 san fernando departamento 3 piso",
           "phone": "+56957987632",
+          "jid": "56957987632@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Erwin valdes silva departamento 22m 23m Con subsidio ds49 san fernando departamento 3 piso"
+          "circle": "General",
+          "full_data": "| 66 | Erwin valdes silva departamento 22m 23m Con subsidio ds49 san fernando departamento 3 piso | +56957987632 | 56957987632@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "69",
           "name": "Felipe Fernández Finley Compra Terreno Carrascal 6079 220m",
           "phone": "+56954045586",
+          "jid": "56954045586@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Felipe Fernández Finley Compra Terreno Carrascal 6079 220m"
+          "circle": "General",
+          "full_data": "| 69 | Felipe Fernández Finley Compra Terreno Carrascal 6079 220m | +56954045586 | 56954045586@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "70",
           "name": "Fernanda Busca Leasing Para Hermana",
           "phone": "+56982038654",
+          "jid": "56982038654@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Fernanda Busca Leasing Para Hermana"
+          "circle": "General",
+          "full_data": "| 70 | Fernanda Busca Leasing Para Hermana | +56982038654 | 56982038654@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "72",
           "name": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing O Hipotecario",
           "phone": "+56933595695",
+          "jid": "56933595695@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing O Hipotecario"
+          "circle": "General",
+          "full_data": "| 72 | Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing O Hipotecario | +56933595695 | 56933595695@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "73",
           "name": "Franco Valdevenito Compra Casa Pauly 65m Leasing",
           "phone": "+56999352915",
+          "jid": "56999352915@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Franco Valdevenito Compra Casa Pauly 65m Leasing"
+          "circle": "General",
+          "full_data": "| 73 | Franco Valdevenito Compra Casa Pauly 65m Leasing | +56999352915 | 56999352915@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "74",
           "name": "Gabriel Amigo Armando Generar Leasing Para La Serena Panguinao",
           "phone": "+56949151853",
+          "jid": "56949151853@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Gabriel Amigo Armando Generar Leasing Para La Serena Panguinao"
+          "circle": "General",
+          "full_data": "| 74 | Gabriel Amigo Armando Generar Leasing Para La Serena Panguinao | +56949151853 | 56949151853@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "76",
           "name": "Guido Lara Busca Credito Hipotecario Alto Valor Militar",
           "phone": "+56930932160",
+          "jid": "56930932160@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Guido Lara Busca Credito Hipotecario Alto Valor Militar"
+          "circle": "General",
+          "full_data": "| 76 | Guido Lara Busca Credito Hipotecario Alto Valor Militar | +56930932160 | 56930932160@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "77",
           "name": "Gunter Quezada Dueño Fullmateriales Spa X Compra Leasing Casa Galpón Taller La Granja 250m Bancho De",
           "phone": "+56988127576",
+          "jid": "56988127576@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Gunter Quezada Dueño Fullmateriales Spa X Compra Leasing Casa Galpón Taller La Granja 250m Bancho De"
+          "circle": "General",
+          "full_data": "| 77 | Gunter Quezada Dueño Fullmateriales Spa X Compra Leasing Casa Galpón Taller La Granja 250m Bancho De | +56988127576 | 56988127576@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "78",
           "name": "Haitiano Leasing 46m Compra Depto San Bernardo 1er Piso De Paula 55m",
           "phone": "+56936691663",
+          "jid": "56936691663@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Haitiano Leasing 46m Compra Depto San Bernardo 1er Piso De Paula 55m"
+          "circle": "San Bernardo",
+          "full_data": "| 78 | Haitiano Leasing 46m Compra Depto San Bernardo 1er Piso De Paula 55m | +56936691663 | 56936691663@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "79",
           "name": "Hans Protect Cars Amigo Pato Gbv Busca Leasing",
           "phone": "+56944014592",
+          "jid": "56944014592@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Hans Protect Cars Amigo Pato Gbv Busca Leasing"
+          "circle": "General",
+          "full_data": "| 79 | Hans Protect Cars Amigo Pato Gbv Busca Leasing | +56944014592 | 56944014592@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "81",
           "name": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente Hasta 35m Dicen",
           "phone": "+56989772395",
+          "jid": "56989772395@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente Hasta 35m Dicen"
+          "circle": "General",
+          "full_data": "| 81 | Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente Hasta 35m Dicen | +56989772395 | 56989772395@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "82",
           "name": "Jaime Alberto Candia Busca Terreno Lavado De Autos",
           "phone": "+56932066087",
+          "jid": "56932066087@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jaime Alberto Candia Busca Terreno Lavado De Autos"
+          "circle": "General",
+          "full_data": "| 82 | Jaime Alberto Candia Busca Terreno Lavado De Autos | +56932066087 | 56932066087@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "83",
           "name": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa",
           "phone": "+56971054762",
+          "jid": "56971054762@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa"
+          "circle": "General",
+          "full_data": "| 83 | Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa | +56971054762 | 56971054762@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "84",
           "name": "Je ne suis Haitiano 29.5m Credito Hipotecario Rancagua pas disponible",
           "phone": "+56947358146",
+          "jid": "56947358146@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Je ne suis Haitiano 29.5m Credito Hipotecario Rancagua pas disponible"
+          "circle": "General",
+          "full_data": "| 84 | Je ne suis Haitiano 29.5m Credito Hipotecario Rancagua pas disponible | +56947358146 | 56947358146@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "85",
           "name": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo",
           "phone": "+56933480326",
+          "jid": "56933480326@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo"
+          "circle": "General",
+          "full_data": "| 85 | Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo | +56933480326 | 56933480326@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "86",
           "name": "Jeff Guillaume x compra casa San Bernardo Ariel 65m 61500uf 61m austral leasing Ariel ft Francisca Charrier Oferta 64m",
           "phone": "+56963867066",
+          "jid": "56963867066@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jeff Guillaume x compra casa San Bernardo Ariel 65m 61500uf 61m austral leasing Ariel ft Francisca Charrier Oferta 64m"
+          "circle": "San Bernardo",
+          "full_data": "| 86 | Jeff Guillaume x compra casa San Bernardo Ariel 65m 61500uf 61m austral leasing Ariel ft Francisca Charrier Oferta 64m | +56963867066 | 56963867066@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "87",
           "name": "Jhonny Wallace Amigo Carolina Sensualrap Leasing",
           "phone": "+56934978295",
+          "jid": "56934978295@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jhonny Wallace Amigo Carolina Sensualrap Leasing"
+          "circle": "General",
+          "full_data": "| 87 | Jhonny Wallace Amigo Carolina Sensualrap Leasing | +56934978295 | 56934978295@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "88",
           "name": "Jocelin 28m Leasing Departamento Primer Piso Rancagua",
           "phone": "+56930875711",
+          "jid": "56930875711@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jocelin 28m Leasing Departamento Primer Piso Rancagua"
+          "circle": "General",
+          "full_data": "| 88 | Jocelin 28m Leasing Departamento Primer Piso Rancagua | +56930875711 | 56930875711@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "89",
           "name": "Jorge Lagos Leasing + $ Depa La Florida 50m",
           "phone": "+56942151859",
+          "jid": "56942151859@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jorge Lagos Leasing + $ Depa La Florida 50m"
+          "circle": "General",
+          "full_data": "| 89 | Jorge Lagos Leasing + $ Depa La Florida 50m | +56942151859 | 56942151859@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "90",
           "name": "Jorge Perez Montenegro Cliente Busca Leasing",
           "phone": "+56956827231",
+          "jid": "56956827231@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jorge Perez Montenegro Cliente Busca Leasing"
+          "circle": "General",
+          "full_data": "| 90 | Jorge Perez Montenegro Cliente Busca Leasing | +56956827231 | 56956827231@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "91",
           "name": "Joseph Sebastien X Compra Casa San Bernardo 65m Ariel En 62 Casa Nuestra Leasing 55m Ft Francisca Charrier",
           "phone": "+56987923328",
+          "jid": "56987923328@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Joseph Sebastien X Compra Casa San Bernardo 65m Ariel En 62 Casa Nuestra Leasing 55m Ft Francisca Charrier"
+          "circle": "San Bernardo",
+          "full_data": "| 91 | Joseph Sebastien X Compra Casa San Bernardo 65m Ariel En 62 Casa Nuestra Leasing 55m Ft Francisca Charrier | +56987923328 | 56987923328@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "92",
           "name": "Keyla Herrera 41m Leasing Compra",
           "phone": "+56962350974",
+          "jid": "56962350974@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Keyla Herrera 41m Leasing Compra"
+          "circle": "General",
+          "full_data": "| 92 | Keyla Herrera 41m Leasing Compra | +56962350974 | 56962350974@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "93",
           "name": "Lalo Pareja Mirna Busca Parcelas En Litueche 9 A 10m",
           "phone": "+56993052654",
+          "jid": "56993052654@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Lalo Pareja Mirna Busca Parcelas En Litueche 9 A 10m"
+          "circle": "General",
+          "full_data": "| 93 | Lalo Pareja Mirna Busca Parcelas En Litueche 9 A 10m | +56993052654 | 56993052654@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "95",
           "name": "Liannys Cuba X Compra Terreno La Florida 69m Arquipro CH en Aprobación",
           "phone": "+56971386665",
+          "jid": "56971386665@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Liannys Cuba X Compra Terreno La Florida 69m Arquipro CH en Aprobación"
+          "circle": "General",
+          "full_data": "| 95 | Liannys Cuba X Compra Terreno La Florida 69m Arquipro CH en Aprobación | +56971386665 | 56971386665@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "96",
           "name": "Llamar A Las 10 Pm Leasing La Florida Ver",
           "phone": "+56959084278",
+          "jid": "56959084278@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Llamar A Las 10 Pm Leasing La Florida Ver"
+          "circle": "General",
+          "full_data": "| 96 | Llamar A Las 10 Pm Leasing La Florida Ver | +56959084278 | 56959084278@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "97",
           "name": "Louidin saintilma leasing Depa 40m Lo Prado",
           "phone": "+56986700650",
+          "jid": "56986700650@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Louidin saintilma leasing Depa 40m Lo Prado"
+          "circle": "General",
+          "full_data": "| 97 | Louidin saintilma leasing Depa 40m Lo Prado | +56986700650 | 56986700650@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "98",
           "name": "Marcelo Invertir En 2 Creditos Para Propiedades La Granja Casa Departamento Leasing Mutuo Hipotecario Ver Muebles",
           "phone": "+56998159440",
+          "jid": "56998159440@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Marcelo Invertir En 2 Creditos Para Propiedades La Granja Casa Departamento Leasing Mutuo Hipotecario Ver Muebles"
+          "circle": "General",
+          "full_data": "| 98 | Marcelo Invertir En 2 Creditos Para Propiedades La Granja Casa Departamento Leasing Mutuo Hipotecario Ver Muebles | +56998159440 | 56998159440@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "99",
           "name": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua",
           "phone": "+56978017980",
+          "jid": "56978017980@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua"
+          "circle": "General",
+          "full_data": "| 99 | Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua | +56978017980 | 56978017980@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "100",
           "name": "Maria José X Compra Casa Terreno La Florida 69m 60m Ch Aprobados",
           "phone": "+56954301369",
+          "jid": "56954301369@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Maria José X Compra Casa Terreno La Florida 69m 60m Ch Aprobados"
+          "circle": "General",
+          "full_data": "| 100 | Maria José X Compra Casa Terreno La Florida 69m 60m Ch Aprobados | +56954301369 | 56954301369@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "101",
           "name": "Maria Soto Ver Credito Leasing Concreces Para Pareja 1. 2m",
           "phone": "+56920378985",
+          "jid": "56920378985@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Maria Soto Ver Credito Leasing Concreces Para Pareja 1. 2m"
+          "circle": "General",
+          "full_data": "| 101 | Maria Soto Ver Credito Leasing Concreces Para Pareja 1. 2m | +56920378985 | 56920378985@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "102",
           "name": "Marie Elda X Compra Depto Quilicura 51m Leasing Buscar",
           "phone": "+56932386895",
+          "jid": "56932386895@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Marie Elda X Compra Depto Quilicura 51m Leasing Buscar"
+          "circle": "General",
+          "full_data": "| 102 | Marie Elda X Compra Depto Quilicura 51m Leasing Buscar | +56932386895 | 56932386895@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "105",
           "name": "Omar X Compra Terreno La Florida 69m Ft Paola Arquipro",
           "phone": "+56978248993",
+          "jid": "56978248993@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Omar X Compra Terreno La Florida 69m Ft Paola Arquipro"
+          "circle": "General",
+          "full_data": "| 105 | Omar X Compra Terreno La Florida 69m Ft Paola Arquipro | +56978248993 | 56978248993@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "106",
           "name": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico",
           "phone": "+56972836776",
+          "jid": "56972836776@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico"
+          "circle": "General",
+          "full_data": "| 106 | Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico | +56972836776 | 56972836776@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "108",
           "name": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto",
           "phone": "+56968032342",
+          "jid": "56968032342@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto"
+          "circle": "Puente Alto",
+          "full_data": "| 108 | Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto | +56968032342 | 56968032342@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "110",
           "name": "Rodrigo Veloso X Compra Depto 42m San Nestor Sara Ch Be Sin Subsidios Inversion",
           "phone": "+56945342976",
+          "jid": "56945342976@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Rodrigo Veloso X Compra Depto 42m San Nestor Sara Ch Be Sin Subsidios Inversion"
+          "circle": "General",
+          "full_data": "| 110 | Rodrigo Veloso X Compra Depto 42m San Nestor Sara Ch Be Sin Subsidios Inversion | +56945342976 | 56945342976@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "111",
           "name": "Rodrigo Vera X Compra Terreno La Florida 69m",
           "phone": "+56940502934",
+          "jid": "56940502934@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Rodrigo Vera X Compra Terreno La Florida 69m"
+          "circle": "General",
+          "full_data": "| 111 | Rodrigo Vera X Compra Terreno La Florida 69m | +56940502934 | 56940502934@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "113",
           "name": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación",
           "phone": "+56987338270",
+          "jid": "56987338270@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación"
+          "circle": "General",
+          "full_data": "| 113 | Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación | +56987338270 | 56987338270@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "114",
           "name": "Roxana Mella Compra Depa 50m Florida Credito Hipotecario Aprobado",
           "phone": "+56963415116",
+          "jid": "56963415116@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Roxana Mella Compra Depa 50m Florida Credito Hipotecario Aprobado"
+          "circle": "General",
+          "full_data": "| 114 | Roxana Mella Compra Depa 50m Florida Credito Hipotecario Aprobado | +56963415116 | 56963415116@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "115",
           "name": "Roxana Palma Esposa De Don Enrique Busca Para Rancagua Suegra Subsidio 35m Tiene",
           "phone": "+56983378001",
+          "jid": "56983378001@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Roxana Palma Esposa De Don Enrique Busca Para Rancagua Suegra Subsidio 35m Tiene"
+          "circle": "General",
+          "full_data": "| 115 | Roxana Palma Esposa De Don Enrique Busca Para Rancagua Suegra Subsidio 35m Tiene | +56983378001 | 56983378001@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "116",
           "name": "Sandra Arraño X Busca Comprar Casa En La Florida 180m² Mínimos De Terreno 180m",
           "phone": "+56975384403",
+          "jid": "56975384403@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Sandra Arraño X Busca Comprar Casa En La Florida 180m² Mínimos De Terreno 180m"
+          "circle": "General",
+          "full_data": "| 116 | Sandra Arraño X Busca Comprar Casa En La Florida 180m² Mínimos De Terreno 180m | +56975384403 | 56975384403@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "117",
           "name": "Sandra Contador Auditor Rancagua 757 Uf Total Ds1t1 Subsidio Depa",
           "phone": "+56940326395",
+          "jid": "56940326395@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Sandra Contador Auditor Rancagua 757 Uf Total Ds1t1 Subsidio Depa"
+          "circle": "General",
+          "full_data": "| 117 | Sandra Contador Auditor Rancagua 757 Uf Total Ds1t1 Subsidio Depa | +56940326395 | 56940326395@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "118",
           "name": "Silvia Mauricci X Compra Terreno La Florida 69m Ft Paola Arquipro",
           "phone": "+56957111198",
+          "jid": "56957111198@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Silvia Mauricci X Compra Terreno La Florida 69m Ft Paola Arquipro"
+          "circle": "General",
+          "full_data": "| 118 | Silvia Mauricci X Compra Terreno La Florida 69m Ft Paola Arquipro | +56957111198 | 56957111198@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "120",
           "name": "Tania Compra Casa Rancagua 40m Subsidio Credito hipotecario Y Efectivo",
           "phone": "+56957394404",
+          "jid": "56957394404@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Tania Compra Casa Rancagua 40m Subsidio Credito hipotecario Y Efectivo"
+          "circle": "General",
+          "full_data": "| 120 | Tania Compra Casa Rancagua 40m Subsidio Credito hipotecario Y Efectivo | +56957394404 | 56957394404@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "121",
           "name": "Teobaldo Alvarez Compra Terreno Quinta Normal 220m Ex 270m",
           "phone": "+56987284095",
+          "jid": "56987284095@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Teobaldo Alvarez Compra Terreno Quinta Normal 220m Ex 270m"
+          "circle": "General",
+          "full_data": "| 121 | Teobaldo Alvarez Compra Terreno Quinta Normal 220m Ex 270m | +56987284095 | 56987284095@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "122",
           "name": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m",
           "phone": "+56944346581",
+          "jid": "56944346581@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m"
+          "circle": "General",
+          "full_data": "| 122 | Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m | +56944346581 | 56944346581@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "123",
           "name": "Yovanna 40m Busca San Joaquin Credito Hipotecario",
           "phone": "+56988325292",
+          "jid": "56988325292@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Yovanna 40m Busca San Joaquin Credito Hipotecario"
+          "circle": "General",
+          "full_data": "| 123 | Yovanna 40m Busca San Joaquin Credito Hipotecario | +56988325292 | 56988325292@s.whatsapp.net | Buscaba compra/leasing |"
         },
         {
           "n": "143",
           "name": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m",
           "phone": "+56991041444",
+          "jid": "56991041444@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m"
+          "circle": "General",
+          "full_data": "| 143 | Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m | +56991041444 | 56991041444@s.whatsapp.net | Compra |"
         },
         {
           "n": "147",
           "name": "Alexis 40m Leasing Lo Prado Departamento",
           "phone": "+56961107068",
+          "jid": "56961107068@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Alexis 40m Leasing Lo Prado Departamento"
+          "circle": "General",
+          "full_data": "| 147 | Alexis 40m Leasing Lo Prado Departamento | +56961107068 | 56961107068@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "156",
           "name": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto",
           "phone": "+56997116468",
+          "jid": "56997116468@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto"
+          "circle": "General",
+          "full_data": "| 156 | Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto | +56997116468 | 56997116468@s.whatsapp.net | Compra |"
         },
         {
           "n": "157",
           "name": "Ana Leasing",
           "phone": "+56973817901",
+          "jid": "56973817901@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Ana Leasing"
+          "circle": "General",
+          "full_data": "| 157 | Ana Leasing | +56973817901 | 56973817901@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "232",
           "name": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo",
           "phone": "+56987395592",
+          "jid": "56987395592@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo"
+          "circle": "General",
+          "full_data": "| 232 | Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo | +56987395592 | 56987395592@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "248",
           "name": "Chico Uber Ver Credito Para Casa Leasing",
           "phone": "+56979339357",
+          "jid": "56979339357@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Chico Uber Ver Credito Para Casa Leasing"
+          "circle": "General",
+          "full_data": "| 248 | Chico Uber Ver Credito Para Casa Leasing | +56979339357 | 56979339357@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "249",
           "name": "Chris Compra Leasing 3h 1b Hasta 60m",
           "phone": "+56930930077",
+          "jid": "56930930077@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Chris Compra Leasing 3h 1b Hasta 60m"
+          "circle": "General",
+          "full_data": "| 249 | Chris Compra Leasing 3h 1b Hasta 60m | +56930930077 | 56930930077@s.whatsapp.net | Compra |"
         },
         {
           "n": "255",
           "name": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua",
           "phone": "+56986554464",
+          "jid": "56986554464@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua"
+          "circle": "General",
+          "full_data": "| 255 | Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua | +56986554464 | 56986554464@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "259",
           "name": "David Gutiérrez Credito Leasing Habitacional",
           "phone": "+56954906594",
+          "jid": "56954906594@s.whatsapp.net",
           "category": "LEASING",
-          "details": "David Gutiérrez Credito Leasing Habitacional"
+          "circle": "General",
+          "full_data": "| 259 | David Gutiérrez Credito Leasing Habitacional | +56954906594 | 56954906594@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "261",
           "name": "Dayan Rodriguez Busca Compra 60 Leasing",
           "phone": "+56971297895",
+          "jid": "56971297895@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Dayan Rodriguez Busca Compra 60 Leasing"
+          "circle": "General",
+          "full_data": "| 261 | Dayan Rodriguez Busca Compra 60 Leasing | +56971297895 | 56971297895@s.whatsapp.net | Compra |"
         },
         {
           "n": "268",
           "name": "Eli Peluquería Leasing 48m La Florida",
           "phone": "+56956844449",
+          "jid": "56956844449@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Eli Peluquería Leasing 48m La Florida"
+          "circle": "General",
+          "full_data": "| 268 | Eli Peluquería Leasing 48m La Florida | +56956844449 | 56956844449@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "269",
           "name": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva",
           "phone": "+56935265885",
+          "jid": "56935265885@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva"
+          "circle": "General",
+          "full_data": "| 269 | Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva | +56935265885 | 56935265885@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "270",
           "name": "Enrique Millapan Leasing Compra Depto El Bosque 65m",
           "phone": "+56969073256",
+          "jid": "56969073256@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Enrique Millapan Leasing Compra Depto El Bosque 65m"
+          "circle": "General",
+          "full_data": "| 270 | Enrique Millapan Leasing Compra Depto El Bosque 65m | +56969073256 | 56969073256@s.whatsapp.net | Compra |"
         },
         {
           "n": "276",
           "name": "Fernanda Busca Leasing Para Hermana",
           "phone": "+56982038654",
+          "jid": "56982038654@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Fernanda Busca Leasing Para Hermana"
+          "circle": "General",
+          "full_data": "| 276 | Fernanda Busca Leasing Para Hermana | +56982038654 | 56982038654@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "279",
           "name": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing",
           "phone": "+56933595695",
+          "jid": "56933595695@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing"
+          "circle": "General",
+          "full_data": "| 279 | Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing | +56933595695 | 56933595695@s.whatsapp.net | Compra |"
         },
         {
           "n": "282",
           "name": "Franco Valdevenito Compra Casa Pauly 65m Leasing",
           "phone": "+56999352915",
+          "jid": "56999352915@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Franco Valdevenito Compra Casa Pauly 65m Leasing"
+          "circle": "General",
+          "full_data": "| 282 | Franco Valdevenito Compra Casa Pauly 65m Leasing | +56999352915 | 56999352915@s.whatsapp.net | Compra |"
         },
         {
           "n": "283",
           "name": "Gabriel Amigo Armando Generar Leasing La Serena",
           "phone": "+56949151853",
+          "jid": "56949151853@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Gabriel Amigo Armando Generar Leasing La Serena"
+          "circle": "General",
+          "full_data": "| 283 | Gabriel Amigo Armando Generar Leasing La Serena | +56949151853 | 56949151853@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "285",
           "name": "Gunter Quezada Dueño Fullmateriales X Compra Leasing Casa Galpón La Granja",
           "phone": "+56988127576",
+          "jid": "56988127576@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Gunter Quezada Dueño Fullmateriales X Compra Leasing Casa Galpón La Granja"
+          "circle": "General",
+          "full_data": "| 285 | Gunter Quezada Dueño Fullmateriales X Compra Leasing Casa Galpón La Granja | +56988127576 | 56988127576@s.whatsapp.net | Compra |"
         },
         {
           "n": "286",
           "name": "Haitiano Leasing 46m Compra Depto San Bernardo",
           "phone": "+56936691663",
+          "jid": "56936691663@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Haitiano Leasing 46m Compra Depto San Bernardo"
+          "circle": "San Bernardo",
+          "full_data": "| 286 | Haitiano Leasing 46m Compra Depto San Bernardo | +56936691663 | 56936691663@s.whatsapp.net | Compra |"
         },
         {
           "n": "287",
           "name": "Hans Protect Cars Busca Leasing",
           "phone": "+56944014592",
+          "jid": "56944014592@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Hans Protect Cars Busca Leasing"
+          "circle": "General",
+          "full_data": "| 287 | Hans Protect Cars Busca Leasing | +56944014592 | 56944014592@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "290",
           "name": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa",
           "phone": "+56971054762",
+          "jid": "56971054762@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa"
+          "circle": "General",
+          "full_data": "| 290 | Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa | +56971054762 | 56971054762@s.whatsapp.net | Compra |"
         },
         {
           "n": "291",
           "name": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo",
           "phone": "+56933480326",
+          "jid": "56933480326@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo"
+          "circle": "General",
+          "full_data": "| 291 | Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo | +56933480326 | 56933480326@s.whatsapp.net | Compra |"
         },
         {
           "n": "292",
           "name": "Jeff Guillaume X Compra Casa San Bernardo 65m Leasing",
           "phone": "+56963867066",
+          "jid": "56963867066@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jeff Guillaume X Compra Casa San Bernardo 65m Leasing"
+          "circle": "San Bernardo",
+          "full_data": "| 292 | Jeff Guillaume X Compra Casa San Bernardo 65m Leasing | +56963867066 | 56963867066@s.whatsapp.net | Compra |"
         },
         {
           "n": "293",
           "name": "Jhonny Wallace Amigo Carolina Sensualrap Leasing",
           "phone": "+56934978295",
+          "jid": "56934978295@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jhonny Wallace Amigo Carolina Sensualrap Leasing"
+          "circle": "General",
+          "full_data": "| 293 | Jhonny Wallace Amigo Carolina Sensualrap Leasing | +56934978295 | 56934978295@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "294",
           "name": "Jocelin 28m Leasing Departamento Primer Piso Rancagua",
           "phone": "+56930875711",
+          "jid": "56930875711@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jocelin 28m Leasing Departamento Primer Piso Rancagua"
+          "circle": "General",
+          "full_data": "| 294 | Jocelin 28m Leasing Departamento Primer Piso Rancagua | +56930875711 | 56930875711@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "295",
           "name": "Jorge Lagos Leasing Depa La Florida 50m",
           "phone": "+56942151859",
+          "jid": "56942151859@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jorge Lagos Leasing Depa La Florida 50m"
+          "circle": "General",
+          "full_data": "| 295 | Jorge Lagos Leasing Depa La Florida 50m | +56942151859 | 56942151859@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "297",
           "name": "Jorge Perez Montenegro Cliente Busca Leasing",
           "phone": "+56956827231",
+          "jid": "56956827231@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Jorge Perez Montenegro Cliente Busca Leasing"
+          "circle": "General",
+          "full_data": "| 297 | Jorge Perez Montenegro Cliente Busca Leasing | +56956827231 | 56956827231@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "298",
           "name": "Keyla Herrera 41m Leasing Compra",
           "phone": "+56962350974",
+          "jid": "56962350974@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Keyla Herrera 41m Leasing Compra"
+          "circle": "General",
+          "full_data": "| 298 | Keyla Herrera 41m Leasing Compra | +56962350974 | 56962350974@s.whatsapp.net | Compra |"
         },
         {
           "n": "299",
           "name": "Llamar A Las 10 Pm Leasing La Florida Ver",
           "phone": "+56959084278",
+          "jid": "56959084278@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Llamar A Las 10 Pm Leasing La Florida Ver"
+          "circle": "General",
+          "full_data": "| 299 | Llamar A Las 10 Pm Leasing La Florida Ver | +56959084278 | 56959084278@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "300",
           "name": "Louidin Saintilma Leasing Depa 40m Lo Prado",
           "phone": "+56986700650",
+          "jid": "56986700650@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Louidin Saintilma Leasing Depa 40m Lo Prado"
+          "circle": "General",
+          "full_data": "| 300 | Louidin Saintilma Leasing Depa 40m Lo Prado | +56986700650 | 56986700650@s.whatsapp.net | Compra — Leasing |"
         },
         {
           "n": "303",
           "name": "Marie Elda X Compra Depto Quilicura 51m Leasing",
           "phone": "+56932386895",
+          "jid": "56932386895@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Marie Elda X Compra Depto Quilicura 51m Leasing"
+          "circle": "General",
+          "full_data": "| 303 | Marie Elda X Compra Depto Quilicura 51m Leasing | +56932386895 | 56932386895@s.whatsapp.net | Compra |"
         },
         {
           "n": "304",
           "name": "Mauricio Gestión Leasing X Ranel Aceus X Sara Venta Depto 42m",
           "phone": "+56942148462",
+          "jid": "56942148462@s.whatsapp.net",
           "category": "LEASING",
-          "details": "Mauricio Gestión Leasing X Ranel Aceus X Sara Venta Depto 42m"
+          "circle": "General",
+          "full_data": "| 304 | Mauricio Gestión Leasing X Ranel Aceus X Sara Venta Depto 42m | +56942148462 | 56942148462@s.whatsapp.net | Compra — Leasing |"
         }
       ],
       "VENTA": [],
@@ -2135,92 +2741,116 @@
           "n": "61",
           "name": "Eladio 1 A 2 Parcelas Guajardo Escalona",
           "phone": "+56957595329",
+          "jid": "56957595329@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Eladio 1 A 2 Parcelas Guajardo Escalona"
+          "circle": "General",
+          "full_data": "| 61 | Eladio 1 A 2 Parcelas Guajardo Escalona | +56957595329 | 56957595329@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "71",
           "name": "Fernando Espinoza X Terreno La Florida 69m Ft Paola Arquipro",
           "phone": "+56944180962",
+          "jid": "56944180962@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Fernando Espinoza X Terreno La Florida 69m Ft Paola Arquipro"
+          "circle": "General",
+          "full_data": "| 71 | Fernando Espinoza X Terreno La Florida 69m Ft Paola Arquipro | +56944180962 | 56944180962@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "94",
           "name": "Lead: PIBA Construccion e inmobiliaria",
           "phone": "+56937254779",
+          "jid": "56937254779@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Lead: PIBA Construccion e inmobiliaria"
+          "circle": "General",
+          "full_data": "| 94 | Lead: PIBA Construccion e inmobiliaria | +56937254779 | 56937254779@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "103",
           "name": "Mitzy Averiguara Contacto Con Cuñada X Terreno Pasaje San Lucas",
           "phone": "+56955341034",
+          "jid": "56955341034@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Mitzy Averiguara Contacto Con Cuñada X Terreno Pasaje San Lucas"
+          "circle": "General",
+          "full_data": "| 103 | Mitzy Averiguara Contacto Con Cuñada X Terreno Pasaje San Lucas | +56955341034 | 56955341034@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "107",
           "name": "Patricia X Terrenos Para Comités",
           "phone": "+56995559158",
+          "jid": "56995559158@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Patricia X Terrenos Para Comités"
+          "circle": "General",
+          "full_data": "| 107 | Patricia X Terrenos Para Comités | +56995559158 | 56995559158@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "109",
           "name": "Rodrigo Osorio A Cliente Terreno Rio Puelo Cochamo",
           "phone": "+56993730354",
+          "jid": "56993730354@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Rodrigo Osorio A Cliente Terreno Rio Puelo Cochamo"
+          "circle": "General",
+          "full_data": "| 109 | Rodrigo Osorio A Cliente Terreno Rio Puelo Cochamo | +56993730354 | 56993730354@s.whatsapp.net | Lead/Cliente |"
         },
         {
           "n": "127",
           "name": "Alberto Busca Casa 700 Para Sushi Calle Avenida La Florida",
           "phone": "+56956438890",
+          "jid": "56956438890@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Alberto Busca Casa 700 Para Sushi Calle Avenida La Florida"
+          "circle": "General",
+          "full_data": "| 127 | Alberto Busca Casa 700 Para Sushi Calle Avenida La Florida | +56956438890 | 56956438890@s.whatsapp.net | Lead |"
         },
         {
           "n": "132",
           "name": "Alejandra 2014 Busca Con Aire",
           "phone": "+56962726363",
+          "jid": "56962726363@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Alejandra 2014 Busca Con Aire"
+          "circle": "General",
+          "full_data": "| 132 | Alejandra 2014 Busca Con Aire | +56962726363 | 56962726363@s.whatsapp.net | Lead |"
         },
         {
           "n": "133",
           "name": "Alejandra Efectivo Depa La Florida 50m Buscar Depa 100m A 120m",
           "phone": "+56988947149",
+          "jid": "56988947149@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Alejandra Efectivo Depa La Florida 50m Buscar Depa 100m A 120m"
+          "circle": "General",
+          "full_data": "| 133 | Alejandra Efectivo Depa La Florida 50m Buscar Depa 100m A 120m | +56988947149 | 56988947149@s.whatsapp.net | Lead |"
         },
         {
           "n": "139",
           "name": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo",
           "phone": "+56976494234",
+          "jid": "56976494234@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo"
+          "circle": "General",
+          "full_data": "| 139 | Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo | +56976494234 | 56976494234@s.whatsapp.net | Lead |"
         },
         {
           "n": "264",
           "name": "Dina Maulén Dicom",
           "phone": "+56945019520",
+          "jid": "56945019520@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Dina Maulén Dicom"
+          "circle": "General",
+          "full_data": "| 264 | Dina Maulén Dicom | +56945019520 | 56945019520@s.whatsapp.net | Lead |"
         },
         {
           "n": "316",
           "name": "Lead: Linda Paredes",
           "phone": "+56935755109",
+          "jid": "56935755109@s.whatsapp.net",
           "category": "OTROS",
-          "details": "Lead: Linda Paredes"
+          "circle": "General",
+          "full_data": "| 316 | Lead: Linda Paredes | +56935755109 | 56935755109@s.whatsapp.net | Venta — Depto La Pintana 3hab 1baño 70m2 $55M — Método de pago pendiente |"
         }
       ]
     },
     "stats": {
-      "total_registros": 315,
-      "last_update": "30/06/2026 03:34:26"
+      "total": 315,
+      "sync": "30/06/2026 03:43:01"
     }
   },
-  "last_sync": "30/06/2026 03:34:26"
+  "last_sync": "30/06/2026 03:43:01"
 }
