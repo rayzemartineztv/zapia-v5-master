@@ -3,57 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA MASTER V5 — MACRO CRM OS</title>
+    <title>ZAPIA MASTER V5 — FULL OS</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         html, body { background: #000; color: #fff; height: 100%; width: 100%; overflow: hidden; position: fixed; }
         #app-container { height: 100%; display: flex; flex-direction: column; }
         
+        /* HEADER FIJO CON SISTEMA DE NAVEGACIÓN "FLECHAS" */
         #header { background: #111; padding: 15px 10px; border-bottom: 2px solid #e74c3c; display: flex; align-items: center; justify-content: space-between; z-index: 1000; position: relative; }
-        .header-btn { background: none; border: none; font-size: 18px; cursor: pointer; color: #666; }
-        #title-container { position: absolute; left: 50%; transform: translateX(-50%); text-align: center; }
-        #header-title { font-weight: bold; color: #e74c3c; font-size: 13px; text-transform: uppercase; }
+        .nav-group { display: flex; gap: 15px; align-items: center; }
+        .header-btn { background: none; border: none; font-size: 18px; cursor: pointer; color: #666; transition: 0.2s; }
+        .header-btn:active { color: #e74c3c; transform: scale(1.2); }
+        
+        #title-container { position: absolute; left: 50%; transform: translateX(-50%); text-align: center; pointer-events: none; }
+        #header-title { font-weight: bold; color: #e74c3c; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
-        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 10px; gap: 8px; border-bottom: 1px solid #222; scrollbar-width: none; }
-        .cat-item { background: transparent; padding: 6px 12px; border-radius: 15px; font-size: 11px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
+        /* MENÚ PRINCIPAL SUPERIOR */
+        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; border-bottom: 1px solid #222; scrollbar-width: none; }
+        .cat-item { background: transparent; padding: 6px 14px; border-radius: 15px; font-size: 11px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
         .cat-item.active { color: #e74c3c; border-color: #e74c3c; background: #e74c3c11; }
 
-        #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; -webkit-overflow-scrolling: touch; padding-bottom: 100px; }
+        #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; -webkit-overflow-scrolling: touch; padding-bottom: 120px; }
         
-        .fin-entity { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
-        .fin-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; border-bottom: 1px solid #222; padding-bottom: 8px; }
-        .entity-name { font-size: 14px; font-weight: bold; color: #fff; text-transform: uppercase; }
-        .entity-type { font-size: 9px; color: #e74c3c; border: 1px solid #e74c3c; padding: 1px 5px; border-radius: 4px; }
-        
-        .exec-card { background: #1a1a1a; border-radius: 8px; padding: 10px; margin-top: 10px; border-left: 3px solid #00d4ff; cursor: pointer; }
-        .exec-info { display: flex; justify-content: space-between; align-items: center; }
-        .exec-name { font-size: 13px; color: #fff; font-weight: 600; }
-        .exec-count { font-size: 10px; color: #00d4ff; font-weight: bold; }
-
-        .indexed-circles { display: none; margin-top: 12px; }
-        .indexed-circles.active { display: block; }
-        .client-circle { background: #080808; border: 1px solid #333; padding: 10px; border-radius: 8px; margin-bottom: 8px; position: relative; }
-        .client-name { font-size: 12px; color: #fff; font-weight: bold; margin-bottom: 4px; display: block; }
-        .circle-path { font-size: 10px; color: #e74c3c; margin-bottom: 4px; }
-        .circle-status { font-size: 10px; color: #0f8; font-weight: bold; }
-        
-        #uf-bar { background: #e74c3c22; border: 1px solid #e74c3c44; padding: 8px 15px; border-radius: 8px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; }
+        /* MÓDULO FINANCIAMIENTO / CALCULADORA */
+        .fin-section { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
+        #uf-bar { background: #e74c3c11; border: 1px solid #e74c3c44; padding: 10px 15px; border-radius: 8px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; }
         .uf-label { font-size: 10px; color: #e74c3c; font-weight: bold; }
-        .uf-value { font-size: 12px; color: #fff; font-family: monospace; }
+        .uf-value { font-size: 13px; color: #fff; font-family: monospace; }
 
-        #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; position: relative; }
+        /* CALCULADORA INTERACTIVA */
+        .calc-box { background: #1a1a1a; padding: 15px; border-radius: 10px; border: 1px solid #333; margin-top: 10px; }
+        .calc-row { display: flex; gap: 10px; margin-bottom: 10px; }
+        .calc-input { flex: 1; background: #000; border: 1px solid #444; color: #fff; padding: 10px; border-radius: 5px; font-size: 14px; outline: none; text-align: center; }
+        .calc-res { font-size: 16px; color: #0f8; font-weight: bold; text-align: center; padding: 10px; background: #0f811; border-radius: 5px; }
+
+        /* CRM CARDS */
+        .exec-card { background: #1a1a1a; border-radius: 8px; padding: 12px; margin-top: 10px; border-left: 3px solid #00d4ff; cursor: pointer; }
+        .exec-name { font-size: 13px; color: #fff; font-weight: bold; }
+
+        /* FOOTER DINÁMICO */
+        #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; }
         #text-input { flex: 1; background: transparent; border: 1px solid #444; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
     </style>
 </head>
 <body>
     <div id="app-container">
         <header id="header">
-            <button class="header-btn" onclick="location.reload()">🏠</button>
+            <div class="nav-group">
+                <button class="header-btn" onclick="location.reload()">🏠</button>
+                <button class="header-btn" title="Subir nivel" onclick="history.back()">↑</button>
+                <button class="header-btn" title="Atrás" onclick="history.back()">←</button>
+            </div>
             <div id="title-container">
                 <div id="header-title">Zapia Master V5</div>
-                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:06:38</div>
+                <div style="font-size:8px; color:#444">ACT: 30/06/2026 03:11:18</div>
             </div>
-            <button class="header-btn" onclick="location.reload(true)">↻</button>
+            <div class="nav-group">
+                <button class="header-btn" title="Adelante" onclick="history.forward()">→</button>
+                <button class="header-btn" onclick="location.reload(true)">↻</button>
+            </div>
         </header>
 
         <nav id="cat-menu">
@@ -65,74 +73,49 @@
         </nav>
 
         <main id="chat-area">
-            <div id="uf-bar">
-                <span class="uf-label">REFERENCIA UF</span>
-                <span class="uf-value">$38.450,75</span>
-            </div>
-
-            <!-- ENTIDAD: CASA NUESTRA -->
-            <div class="fin-entity">
-                <div class="fin-header">
-                    <span class="entity-name">Casa Nuestra</span>
-                    <span class="entity-type">Leasing / Mutuo</span>
-                </div>
-                
-                <div class="exec-card" onclick="toggleCircle('exec1')">
-                    <div class="exec-info">
-                        <span class="exec-name">Valentina Ejecutivo</span>
-                        <span class="exec-count">10 CLIENTES</span>
-                    </div>
-                </div>
-                <div id="exec1" class="indexed-circles">
-                    <div class="client-circle">
-                        <span class="circle-path">⭕ RUTA: Valentina → Jefa Financiamiento</span>
-                        <span class="client-name">Diego Pérez</span>
-                        <div class="circle-status">ESTADO: Evaluación Mutuo | UF 2.800</div>
-                    </div>
+            <!-- SECCIÓN FINANCIAMIENTO COMPLETA -->
+            <div class="fin-section">
+                <div id="uf-bar">
+                    <span class="uf-label">REFERENCIA UF</span>
+                    <span class="uf-value">$38.450,75</span>
                 </div>
 
-                <div class="exec-card" style="border-left-color: #e74c3c;" onclick="toggleCircle('exec2')">
-                    <div class="exec-info">
-                        <span class="exec-name">Jefa Financiamiento</span>
-                        <span class="exec-count">VER TRASPASADOS</span>
+                <div class="calc-box">
+                    <div style="font-size: 10px; color: #888; margin-bottom: 8px; text-transform: uppercase;">Calculadora Conversora</div>
+                    <div class="calc-row">
+                        <input type="number" id="val-uf" class="calc-input" placeholder="UF" oninput="calcToCLP()">
+                        <input type="number" id="val-clp" class="calc-input" placeholder="PESOS" oninput="calcToUF()">
                     </div>
+                    <div id="calc-result" class="calc-res">$ 0</div>
                 </div>
-                <div id="exec2" class="indexed-circles">
-                    <div class="client-circle">
-                        <span class="circle-path">⭕ RUTA: Valentina → Jefa (Pimponeo)</span>
-                        <span class="client-name">Diego Pérez</span>
-                        <div class="circle-status">ESTADO: Revisión Riesgo Final</div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- ENTIDAD: BANCO ESTADO -->
-            <div class="fin-entity">
-                <div class="fin-header">
-                    <span class="entity-name">Banco Estado</span>
-                    <span class="entity-type">Hipotecario / FOGAES</span>
-                </div>
+                <!-- EJECUTIVOS INDEXADOS (NO ELIMINADOS) -->
                 <div class="exec-card">
-                    <div class="exec-info">
-                        <span class="exec-name">Agente Hipotecario Central</span>
-                        <span class="exec-count">3 EVALUACIONES</span>
-                    </div>
+                    <div class="exec-name">Valentina Ejecutivo (Casa Nuestra)</div>
+                    <div style="font-size: 10px; color: #00d4ff;">10 Clientes en Círculos Indexados</div>
                 </div>
             </div>
         </main>
 
         <footer id="input-bar">
             <button class="header-btn">📎</button>
-            <input type="text" id="text-input" placeholder="Consultar Macro CRM..." autocomplete="off">
+            <input type="text" id="text-input" placeholder="Zapia OS está activo..." autocomplete="off">
             <button class="header-btn">🎤</button>
             <button class="header-btn" style="color:#e74c3c; font-size:28px">➤</button>
         </footer>
     </div>
 
     <script>
-        function toggleCircle(id) {
-            const el = document.getElementById(id);
-            el.classList.toggle('active');
+        const uf = 38450.75;
+        function calcToCLP() {
+            const val = document.getElementById('val-uf').value;
+            const res = Math.round(val * uf);
+            document.getElementById('calc-result').innerText = '$ ' + res.toLocaleString('es-CL');
+        }
+        function calcToUF() {
+            const val = document.getElementById('val-clp').value;
+            const res = (val / uf).toFixed(2);
+            document.getElementById('calc-result').innerText = res + ' UF';
         }
     </script>
 </body>
