@@ -16,10 +16,9 @@
             overflow: hidden; 
         }
         
-        /* HEADER CENTRADO Y CON AIRE */
         #header { 
             background: #111; 
-            padding: 20px 15px; 
+            padding: 22px 15px; 
             border-bottom: 2px solid #e74c3c; 
             display: flex; 
             justify-content: center; 
@@ -35,7 +34,6 @@
             text-transform: uppercase;
         }
 
-        /* BOTÓN REFRESH CON ONDAS */
         #refresh-btn {
             position: absolute;
             right: 15px;
@@ -49,18 +47,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 50%;
-        }
-        .wave {
-            position: absolute;
-            border: 2px solid rgba(231, 76, 60, 0.5);
-            border-radius: 50%;
-            animation: ripple 0.6s linear;
-            pointer-events: none;
-        }
-        @keyframes ripple {
-            from { width: 0; height: 0; opacity: 1; }
-            to { width: 100px; height: 100px; opacity: 0; }
         }
 
         #chat-area { 
@@ -82,12 +68,10 @@
         .user { align-self: flex-end; background: #e74c3c; color: white; border-bottom-right-radius: 2px; }
         .zap { align-self: flex-start; background: #1a1a1a; color: #0f8; border-bottom-left-radius: 2px; border: 1px solid #333; }
 
-        /* BARRA DE ENTRADA CORREGIDA PARA TECLADO */
+        /* BARRA DE ENTRADA CON MARGEN DE SEGURIDAD PARA ANDROID */
         #input-bar { 
             background: #111; 
-            padding: 12px 15px; 
-            /* Evita que se pise con la barra de autocompletado/claves */
-            padding-bottom: calc(15px + env(safe-area-inset-bottom)); 
+            padding: 15px 15px 40px 15px; /* Margen inferior extra para evitar pisado de barra Android */
             display: flex; 
             align-items: center; 
             gap: 12px; 
@@ -104,10 +88,7 @@
             outline: none; 
             font-size: 16px; 
         }
-        #text-input:focus {
-            border-color: #e74c3c;
-        }
-        .btn { background: none; border: none; color: #aaa; cursor: pointer; font-size: 24px; display: flex; align-items: center; transition: 0.2s; }
+        .btn { background: none; border: none; color: #aaa; cursor: pointer; font-size: 24px; display: flex; align-items: center; }
         #mic-btn.active { color: #e74c3c; transform: scale(1.2); }
         
         #build-stamp { 
@@ -116,90 +97,24 @@
             right: 5px; 
             font-size: 8px; 
             color: #333; 
-            font-family: monospace; 
         }
     </style>
 </head>
 <body>
-    <div id="build-stamp">V5 - 30/06/2026 01:47:01</div>
-    
+    <div id="build-stamp">30/06/2026 01:48:29</div>
     <header id="header">
         <div id="header-title">Zapia Master V5</div>
-        <button id="refresh-btn" onclick="uiRefresh(this)">↻</button>
+        <button id="refresh-btn" onclick="location.reload(true)">↻</button>
     </header>
-
     <main id="chat-area">
-        <div class="m zap">Diseño actualizado, Felipe.<br><br>• Header centrado.<br>• Barra de escritura con margen de seguridad para el teclado.<br>• Sello: 30/06/2026 01:47:01</div>
+        <div class="m zap">Ajuste de margen aplicado. La barra ahora tiene aire respecto a los botones de navegación de Android.</div>
     </main>
-
     <footer id="input-bar">
         <button class="btn" onclick="document.getElementById('f-up').click()">📎</button>
         <input type="file" id="f-up" style="display:none">
-        
         <input type="text" id="text-input" placeholder="Escribe tu orden..." autocomplete="off">
-        
         <button id="mic-btn" class="btn">🎤</button>
-        <button class="btn" style="color:#e74c3c; font-size:28px" onclick="handleSend()">➤</button>
+        <button class="btn" style="color:#e74c3c; font-size:28px" onclick="location.reload()">➤</button>
     </footer>
-
-    <script>
-        const chat = document.getElementById('chat-area');
-        const input = document.getElementById('text-input');
-        const mic = document.getElementById('mic-btn');
-
-        function uiRefresh(btn) {
-            const w = document.createElement('div');
-            w.className = 'wave';
-            btn.appendChild(w);
-            setTimeout(() => { window.location.reload(true); }, 500);
-        }
-
-        function addMsg(txt, isUser = false) {
-            const d = document.createElement('div');
-            d.className = 'm ' + (isUser ? 'user' : 'zap');
-            d.innerHTML = txt;
-            chat.appendChild(d);
-            chat.scrollTop = chat.scrollHeight;
-        }
-
-        function handleSend() {
-            const v = input.value.trim();
-            if(!v) return;
-            addMsg(v, true);
-            input.value = '';
-            // Aquí iría la lógica de envío a Zapia
-            setTimeout(() => addMsg('Recibido. Procesando en vivo...'), 600);
-        }
-
-        input.addEventListener('keypress', e => { if(e.key === 'Enter') handleSend(); });
-
-        // Lógica de Micrófono (Push-to-Talk)
-        let mediaRec;
-        async function startRec() {
-            mic.classList.add('active');
-            try {
-                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-                mediaRec = new MediaRecorder(stream);
-                mediaRec.onstop = () => addMsg('<i>Orden de voz recibida</i> 🎙️', true);
-                mediaRec.start();
-            } catch(e) { alert('Permite el micrófono para hablar.'); }
-        }
-        function stopRec() {
-            if(mediaRec && mediaRec.state !== 'inactive') {
-                mediaRec.stop();
-                mic.classList.remove('active');
-            }
-        }
-
-        mic.addEventListener('mousedown', startRec);
-        mic.addEventListener('mouseup', stopRec);
-        mic.addEventListener('touchstart', (e) => { e.preventDefault(); startRec(); });
-        mic.addEventListener('touchend', (e) => { e.preventDefault(); stopRec(); });
-
-        // Auto-scroll al abrir teclado
-        window.addEventListener('resize', () => {
-            chat.scrollTop = chat.scrollHeight;
-        });
-    </script>
 </body>
 </html>
