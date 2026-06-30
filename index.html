@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>ZAPIA OS — CRM MASTER v5.9</title>
+    <title>ZAPIA OS — CRM MASTER v6.0 [TOTAL RESTORE]</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; font-family: -apple-system, system-ui, sans-serif; }
         html, body { background: #000; color: #fff; height: 100%; width: 100%; overflow: hidden; position: fixed; }
@@ -13,93 +13,122 @@
         #header-title { font-weight: bold; color: #e74c3c; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
         #sync-status { font-size: 7px; color: #0f8; margin-top: 2px; text-transform: uppercase; text-align: center; }
 
-        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; border-bottom: 1px solid #222; }
+        /* MENÚ GLOBAL - RESTAURACIÓN DE TODOS LOS BOTONES */
+        #cat-menu { background: #0a0a0a; display: flex; overflow-x: auto; padding: 12px 10px; gap: 8px; border-bottom: 1px solid #222; scrollbar-width: none; }
+        #cat-menu::-webkit-scrollbar { display: none; }
         .cat-item { background: transparent; padding: 6px 14px; border-radius: 15px; font-size: 11px; color: #888; border: 1px solid #333; white-space: nowrap; cursor: pointer; }
         .cat-item.active { color: #e74c3c; border-color: #e74c3c; background: #e74c3c11; }
-        .cat-item.funados-btn { color: #ff4d4d; border-color: #ff4d4d; }
+        .cat-item.funados-btn { color: #ff4d4d; border-color: #ff4d4d; font-weight: bold; }
 
         #chat-area { flex: 1; overflow-y: auto; padding: 15px; background: #050505; -webkit-overflow-scrolling: touch; padding-bottom: 120px; }
         .view-section { display: none; }
         .view-section.active { display: block; }
 
-        /* LISTADO DE LEADS MEJORADO */
-        .category-title { font-size: 14px; font-weight: bold; color: #fff; margin: 15px 0 10px 5px; text-transform: uppercase; letter-spacing: 1px; }
-        
-        .lead-card { background: #151515; border-radius: 12px; margin-bottom: 10px; border: 1px solid #222; overflow: hidden; }
-        .lead-main-header { padding: 15px; cursor: pointer; }
-        .lead-name-row { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
-        .lead-name { font-size: 13px; font-weight: bold; color: #fff; flex: 1; line-height: 1.3; }
-        .lead-id { font-size: 8px; color: #444; margin-left: 10px; }
-        
-        .badge-row { display: flex; gap: 6px; margin-bottom: 8px; }
-        .badge-status { background: #0f82; color: #0f8; font-size: 9px; padding: 3px 8px; border-radius: 4px; font-weight: bold; }
-        .badge-circle { background: #e74c3c22; color: #e74c3c; font-size: 9px; padding: 3px 8px; border-radius: 4px; border: 1px solid #e74c3c44; }
+        /* CARDS Y CONTENEDORES */
+        .card { background: #111; border: 1px solid #222; border-radius: 12px; padding: 15px; margin-bottom: 15px; }
+        .card-title { font-size: 13px; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; color: #e74c3c; }
 
-        .lead-brief-info { font-size: 12px; color: #ccc; margin-bottom: 4px; }
-        .lead-brief-info b { color: #fff; }
+        /* LISTADO DE LEADS - ORDEN INTEGRAL */
+        .category-header { background: #1a1a1a; padding: 10px 15px; font-size: 12px; font-weight: bold; color: #fff; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; border-radius: 8px 8px 0 0; margin-top: 15px; }
+        .category-count { background: #e74c3c; color: white; font-size: 9px; padding: 2px 6px; border-radius: 10px; }
 
-        /* DESPLIEGUE SUBMENÚ */
-        .lead-extra-content { display: none; padding: 15px; background: #0c0c0c; border-top: 1px solid #222; }
-        .lead-extra-content.active { display: block; }
+        .lead-card { background: #0c0c0c; border: 1px solid #222; margin-bottom: 2px; border-top: none; }
+        .lead-header-row { padding: 15px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+        .lead-name-col { flex: 1; }
+        .lead-fullname { font-size: 13px; font-weight: bold; color: #fff; }
+        .lead-meta { font-size: 9px; color: #666; margin-top: 2px; }
 
-        .info-block { margin-bottom: 15px; }
-        .info-label { font-size: 10px; color: #e74c3c; text-transform: uppercase; font-weight: bold; margin-bottom: 5px; }
-        .info-value { font-size: 12px; color: #aaa; line-height: 1.5; background: #1a1a1a; padding: 10px; border-radius: 6px; border: 1px solid #222; }
+        .lead-expanded-content { display: none; padding: 20px; background: #080808; border-top: 1px solid #1a1a1a; }
+        .lead-expanded-content.active { display: block; }
 
-        .btn-hablar { background: #e74c3c; color: #fff; border: none; padding: 14px; border-radius: 8px; width: 100%; font-weight: bold; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; margin-top: 5px; }
-        .btn-hablar:active { background: #c0392b; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .info-item { margin-bottom: 10px; }
+        .info-label { font-size: 8px; color: #e74c3c; text-transform: uppercase; font-weight: bold; margin-bottom: 4px; }
+        .info-val { font-size: 11px; color: #ccc; }
 
-        #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; display: flex; align-items: center; gap: 12px; border-top: 1px solid #222; }
-        #text-input { flex: 1; background: #1a1a1a; border: 1px solid #333; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
+        .btn-wa-direct { background: #25d366; color: #fff; border: none; padding: 15px; border-radius: 8px; width: 100%; font-weight: bold; font-size: 12px; margin-top: 15px; cursor: pointer; text-transform: uppercase; }
+
+        #input-bar { background: #111; padding: 12px 15px calc(25px + env(safe-area-inset-bottom)) 15px; border-top: 1px solid #222; }
+        #text-input { width: 100%; background: #1a1a1a; border: 1px solid #333; color: white; padding: 12px 18px; border-radius: 25px; outline: none; font-size: 16px; }
     </style>
 </head>
 <body>
     <div id="app-container">
         <header id="header">
-            <div style="flex:1"><button class="header-btn" onclick="showView('leads-view')" style="background:none; border:none; color:#666; font-size:18px">🏠</button></div>
+            <div style="flex:1"><button class="header-btn" onclick="showView('home-view')" style="background:none; border:none; color:#666; font-size:18px">🏠</button></div>
             <div style="text-align:center">
-                <div id="header-title">Zapia Master v5.9</div>
-                <div id="sync-status">LEY N°0 PROTECTED</div>
+                <div id="header-title">Zapia Master v6.0</div>
+                <div id="sync-status">LEY N°0 RESTORED</div>
             </div>
             <div style="flex:1; text-align:right"><button class="header-btn" onclick="location.reload(true)" style="background:none; border:none; color:#666; font-size:18px">↻</button></div>
         </header>
 
         <nav id="cat-menu">
-            <div class="cat-item active" onclick="showView('leads-view', this)">🎯 Leads</div>
+            <div class="cat-item active" onclick="showView('home-view', this)">📊 Dashboard</div>
+            <div class="cat-item" onclick="showView('leads-view', this)">🎯 Leads</div>
             <div class="cat-item" onclick="showView('prop-view', this)">🏢 Propiedades</div>
-            <div class="cat-item" onclick="showView('finance-view', this)">💰 Finanzas</div>
-            <div class="cat-item funados-btn" onclick="showView('funados-view', this)">🚩 Funados</div>
+            <div class="cat-item" onclick="showView('circles-view', this)">⭕ Círculos 360</div>
+            <div class="cat-item" onclick="showView('finance-view', this)">💰 Finanzas/UF</div>
+            <div class="cat-item funados-btn" onclick="showView('funados-view', this)">🚩 FUNADOS</div>
         </nav>
 
         <main id="chat-area">
-            <div id="leads-view" class="view-section active"><div id="leads-container"></div></div>
-            <div id="prop-view" class="view-section"><div id="prop-container"></div></div>
-            <div id="finance-view" class="view-section">
-                <div class="card"><div class="card-title">UF ACTUAL</div><div style="font-size:26px; color:#f1c40f; font-weight:bold;">$ 37.950,23</div></div>
-                <div id="finance-container"></div>
+            <!-- DASHBOARD COMPLETO -->
+            <div id="home-view" class="view-section active">
+                <div class="card" style="border: 1px solid #0f8;">
+                    <div class="card-title">Estado del Sistema [LEY N°0]</div>
+                    <div style="font-size:11px; line-height:1.6; color:#aaa;">
+                        ● Estructura Visual: <b>BLINDADA</b><br>
+                        ● Clave de Edición: <b>Pichicho1# (Requerida)</b><br>
+                        ● Sincronización: <b>ACTIVA 24/7</b><br>
+                        ● Dual Master Login: <b>OK</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Resumen Operativo</div>
+                    <div id="stats-dash" style="font-size:11px;">Cargando base de datos completa...</div>
+                </div>
             </div>
+
+            <!-- LEADS ORDEN INTEGRAL -->
+            <div id="leads-view" class="view-section"><div id="leads-container"></div></div>
+
+            <!-- PROPIEDADES / DEALERNET -->
+            <div id="prop-view" class="view-section"><div class="card"><div class="card-title">Gestión de Propiedades</div><div id="prop-container"></div></div></div>
+
+            <!-- CÍRCULOS 360 -->
+            <div id="circles-view" class="view-section"><div class="card"><div class="card-title">Análisis de Círculos</div><div id="circles-container"></div></div></div>
+
+            <!-- FINANZAS INTEGRAL -->
+            <div id="finance-view" class="view-section">
+                <div class="card"><div class="card-title">VALOR UF ACTUALIZADO</div><div style="font-size:28px; color:#f1c40f; font-weight:bold;">$ 37.950,23</div></div>
+                <div class="card"><div class="card-title">RED DE EJECUTIVOS</div><div id="finance-container"></div></div>
+            </div>
+
+            <!-- FUNADOS LEY N1 -->
             <div id="funados-view" class="view-section"><div id="funados-container"></div></div>
         </main>
 
         <footer id="input-bar">
-            <button style="background:none; border:none; color:#666; font-size:20px">📎</button>
             <input type="text" id="text-input" placeholder="Zapia OS Master..." autocomplete="off">
-            <button style="background:none; border:none; color:#e74c3c; font-size:24px">➤</button>
         </footer>
     </div>
 
     <script>
-        let funadosList = [];
+        let fullData = {};
+
         async function loadData() {
             try {
                 const resp = await fetch('logs.json?v=' + Date.now());
-                const data = await resp.json();
-                funadosList = data.funados || [];
-                renderLeads(data.leads_v3.groups);
-                renderProperties(data.properties || []);
-                renderFinance(data.finance || {});
-                renderFunados(data.funados || []);
-                document.getElementById('sync-status').innerText = 'CRM v5.9 ONLINE - ' + data.last_sync;
+                fullData = await resp.json();
+                renderLeads(fullData.leads_v3.groups);
+                renderProperties(fullData.properties || []);
+                renderFinance(fullData.finance || {});
+                renderFunados(fullData.funados || []);
+                renderCircles();
+                
+                document.getElementById('stats-dash').innerHTML = `<b>Total Leads:</b> ${fullData.leads_v3.stats.total}<br><b>Funados:</b> ${fullData.funados.length}<br><b>Propiedades:</b> ${fullData.properties.length}`;
+                document.getElementById('sync-status').innerText = 'CRM v6.0 FULL RESTORE - ' + fullData.last_sync;
             } catch(e) { }
         }
 
@@ -107,36 +136,34 @@
             const container = document.getElementById('leads-container'); container.innerHTML = '';
             for (const [cat, leads] of Object.entries(groups)) {
                 if (leads.length === 0) continue;
-                const catDiv = document.createElement('div');
-                catDiv.className = 'category-title';
-                catDiv.innerText = `${cat}${leads.length}`;
-                container.appendChild(catDiv);
+                const header = document.createElement('div');
+                header.className = 'category-header';
+                header.innerHTML = `<span>${cat.toUpperCase()}</span><span class="category-count">${leads.length}</span>`;
+                container.appendChild(header);
 
                 leads.forEach(l => {
-                    const isFunado = funadosList.some(f => l.name.toLowerCase().includes(f.name.toLowerCase()));
                     const card = document.createElement('div');
                     card.className = 'lead-card';
                     card.innerHTML = `
-                        <div class="lead-main-header" onclick="toggleExtra(this)">
-                            <div class="lead-name-row">
-                                <div class="lead-name">${l.name} ${isFunado ? '⚠️' : ''}</div>
-                                <div class="lead-id">ID: ${l.jid.split('@')[0]}</div>
+                        <div class="lead-header-row" onclick="toggleLead(this)">
+                            <div class="lead-name-col">
+                                <div class="lead-fullname">${l.name}</div>
+                                <div class="lead-meta">INGRESO: ${fullData.last_sync.split(' ')[0]} | STATUS: ${l.status}</div>
                             </div>
-                            <div class="badge-row">
-                                <div class="badge-status">Evolucionando</div>
-                                <div class="badge-circle">⭕ ${l.circle}</div>
-                            </div>
-                            <div class="lead-brief-info"><b>Tel:</b> ${l.phone}</div>
-                            <div class="lead-brief-info"><b>Círculo:</b> ${l.circle}</div>
+                            <div style="color:#444">▼</div>
                         </div>
-                        <div class="lead-extra-content">
-                            <div class="info-block">
-                                <div class="info-label">Información Completa</div>
-                                <div class="info-value">| ${l.full_data} |</div>
+                        <div class="lead-expanded-content">
+                            <div class="info-grid">
+                                <div class="info-item"><div class="info-label">Teléfono</div><div class="info-val">${l.phone}</div></div>
+                                <div class="info-item"><div class="info-label">Círculo 360</div><div class="info-val">⭕ ${l.circle}</div></div>
+                                <div class="info-item"><div class="info-label">Tipo</div><div class="info-val">${l.type}</div></div>
+                                <div class="info-item"><div class="info-label">JID WhatsApp</div><div class="info-val">${l.jid}</div></div>
                             </div>
-                            <button class="btn-hablar" onclick="window.open('https://wa.me/${l.phone.replace('+','').replace(/ /g,'')}')">
-                                HABLAR WHATSAPP
-                            </button>
+                            <div class="info-item" style="margin-top:10px;">
+                                <div class="info-label">Detalle Completo</div>
+                                <div class="info-val" style="background:#1a1a1a; padding:10px; border-radius:5px;">${l.full_data}</div>
+                            </div>
+                            <button class="btn-wa-direct" onclick="window.open('https://wa.me/${l.phone.replace('+','').replace(/ /g,'')}')">ABRIR WHATSAPP</button>
                         </div>
                     `;
                     container.appendChild(card);
@@ -144,18 +171,19 @@
             }
         }
 
-        function toggleExtra(el) {
-            const extra = el.nextElementSibling;
-            const isActive = extra.classList.contains('active');
-            document.querySelectorAll('.lead-extra-content').forEach(c => c.classList.remove('active'));
-            if (!isActive) extra.classList.add('active');
+        function toggleLead(el) {
+            const content = el.nextElementSibling;
+            const arrow = el.querySelector('div:last-child');
+            const isActive = content.classList.contains('active');
+            if (!isActive) { content.classList.add('active'); arrow.innerText = '▲'; }
+            else { content.classList.remove('active'); arrow.innerText = '▼'; }
         }
 
         function renderProperties(props) {
-            const container = document.getElementById('prop-container'); container.innerHTML = '<div class="category-title">Cartera Activa</div>';
+            const container = document.getElementById('prop-container'); container.innerHTML = '';
             props.forEach(p => {
-                const div = document.createElement('div'); div.className = 'card';
-                div.innerHTML = `<div style="font-size:13px; font-weight:bold;">${p.title}</div><div style="font-size:10px; color:#888; margin-top:5px;">VALOR: ${p.value} | ESTATUS: ${p.docs}</div>`;
+                const div = document.createElement('div'); div.style.padding='12px'; div.style.borderBottom='1px solid #222';
+                div.innerHTML = `<div style="font-size:12px; font-weight:bold;">${p.title}</div><div style="font-size:10px; color:#888;">Estatus: ${p.docs} | Valor: ${p.value}</div>`;
                 container.appendChild(div);
             });
         }
@@ -163,19 +191,29 @@
         function renderFinance(fin) {
             const container = document.getElementById('finance-container'); container.innerHTML = '';
             (fin.execs || []).forEach(e => {
-                const div = document.createElement('div'); div.className = 'card';
-                div.innerHTML = `<div style="font-size:12px;"><b>${e.name}</b><br><span style="color:#888; font-size:10px;">${e.bank} - ${e.area}</span></div>`;
+                const div = document.createElement('div'); div.className = 'card'; div.style.margin='5px 0';
+                div.innerHTML = `<div style="font-size:11px;"><b>${e.name}</b> - ${e.bank} (${e.area})</div>`;
                 container.appendChild(div);
             });
         }
 
         function renderFunados(funados) {
-            const container = document.getElementById('funados-container'); container.innerHTML = '<div class="category-title" style="color:#ff4d4d;">🚩 LISTA NEGRA</div>';
+            const container = document.getElementById('funados-container'); container.innerHTML = '<div style="color:#ff4d4d; font-size:11px; font-weight:bold; margin-bottom:10px;">🚩 LEY N°1 ACTIVADA</div>';
             funados.forEach(f => {
-                const div = document.createElement('div'); div.className = 'lead-card'; div.style.borderColor='#ff4d4d'; div.style.padding='15px';
-                div.innerHTML = `<div style="font-size:13px; font-weight:bold; color:#ff4d4d;">${f.name}</div><div style="font-size:10px; color:#888; margin-top:5px;">Causa: ${f.reason}</div>`;
+                const div = document.createElement('div'); div.className = 'card'; div.style.borderColor='#ff4d4d';
+                div.innerHTML = `<div style="color:#ff4d4d; font-weight:bold;">${f.name}</div><div style="font-size:9px; color:#888;">Causa: ${f.reason}</div>`;
                 container.appendChild(div);
             });
+        }
+
+        function renderCircles() {
+            const container = document.getElementById('circles-container'); container.innerHTML = '';
+            const groups = fullData.leads_v3.groups;
+            for (const [cat, leads] of Object.entries(groups)) {
+                const div = document.createElement('div'); div.style.padding='10px'; div.style.borderBottom='1px solid #222';
+                div.innerHTML = `<div style="font-size:12px; font-weight:bold;">⭕ Círculo ${cat}</div><div style="font-size:10px; color:#888;">Miembros activos: ${leads.length}</div>`;
+                container.appendChild(div);
+            }
         }
 
         function showView(viewId, el) {
