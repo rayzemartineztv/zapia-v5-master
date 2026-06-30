@@ -1,69 +1,2226 @@
 {
-  "leads": [
-    "> M&A Propiedades Chile | Felipe Martinez Barrera",
-    "> Ultima actualizacion: 2026-06-23",
-    "> **Total: 316 registros**",
-    "---",
-    "| N | Nombre | Telefono | JID WhatsApp | Tipo |",
-    "| 1 | Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2 | +56959013234 | 56959013234@s.whatsapp.net | Buscaba arriendo |",
-    "| 2 | Ale Munoz X Arriendo San Bernardo Laguna Empresa | +56978699508 | 56978699508@s.whatsapp.net | Buscaba arriendo |",
-    "| 3 | Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis | +56922036181 | 56922036181@s.whatsapp.net | Buscaba arriendo |",
-    "| 4 | Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro | +56984076424 | 56984076424@s.whatsapp.net | Buscaba arriendo |",
-    "| 5 | Alejandra Rocuant X Arriendo La Cisterna Hasta 550 | +56998717141 | 56998717141@s.whatsapp.net | Buscaba arriendo |",
-    "| 6 | Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta | +56976494234 | 56976494234@s.whatsapp.net | Buscaba compra/leasing |",
-    "| 7 | Alejandra Vélez X Compra Terreno Ft Francisca Charrier | +56996403879 | 56996403879@s.whatsapp.net | Buscaba compra/leasing |",
-    "| 8 | Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna | +56982570330 | 56982570330@s.whatsapp.net | Buscaba arriendo |",
-    "| 9 | Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna | +56939492894 | 56939492894@s.whatsapp.net | Buscaba arriendo |",
-    "| 10 | Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro | +56979895624 | 56979895624@s.whatsapp.net | Buscaba arriendo |"
-  ],
-  "socios": [
-    "> M&A Propiedades Chile | Felipe Martinez Barrera",
-    "> Ultima actualizacion: 2026-06-23 | Depurado por Felipe",
-    "> **Total socios validos: 196**",
-    "---",
-    "| N | Nombre (como esta en el telefono de Felipe) | Telefono | JID WhatsApp |",
-    "| 1 | Aamy Sol Álvarez Abogada Especializada En Posesiones Efectivas Socia Canjes Corredora De Propiedades | +56931991446 | 56931991446@s.whatsapp.net |",
-    "| 2 | Abogada Carolina García Corredora De Propiedades Socia Canjes | +56942314124 | 56942314124@s.whatsapp.net |",
-    "| 3 | Ada Maturana Corredora De Propiedades Santiago La Florida | +56975116277 | 56975116277@s.whatsapp.net |",
-    "| 4 | Adm Procanje.com | +56932320459 | 56932320459@s.whatsapp.net |",
-    "| 5 | Adriana Ocarez Morez Propiedades Corredora Socia Canjes | +56972448622 | 56972448622@s.whatsapp.net |"
-  ],
-  "finanzas": [
-    "> Última actualización: 2026-06-24",
-    "> Fuente: WhatsApp (búsqueda exhaustiva — ejecutivos, operaciones, riesgo, tasación, empresas financieras)",
-    "> **REGLA:** Mantener siempre actualizada. Agregar todo contacto nuevo de banco, gestora, leasing, operaciones, riesgo o tasación con su área indicada.",
-    "---",
-    "| Nombre | Teléfono | JID WhatsApp | Área / Rol |",
-    "| Carlos Villa | +56 9 8983 9821 | 56989839821@s.whatsapp.net | Tasación — Tasador Banco Estado |",
-    "| Camila Ramírez Lagos | +56 2 2970 2077 | 56229702077@s.whatsapp.net | Comercial — Ejecutivo Comercial, Subgerencia Metropolitana Poniente, Suc. Stgo. José María Caro — cramir17@bancoestado.cl — Av. Central 6298, Pedro Aguirre Cerda |",
-    "| Nombre | Teléfono | JID WhatsApp | Área / Rol |",
-    "| Arlett Ulloa | +56 9 7487 0326 | 56974870326@s.whatsapp.net | Comercial — Ejecutiva BCI |",
-    "| Carlos (BCI Arica) | +56 9 9706 7974 | 56997067974@s.whatsapp.net | Comercial — Ejecutivo BCI Créditos / Financiamiento |"
-  ],
-  "propiedades_propias": [
-    "> M&A Propiedades Chile | Felipe Martinez Barrera",
-    "> Ultima actualizacion: 2026-06-23",
-    "> **Total: 83 registros**",
-    "---",
-    "| N | Nombre | Telefono | JID WhatsApp | Tipo | Nota |",
-    "| 1 | Adrian Hijo Dueña Depto Arriendo Venta Estación Central Ft Carla Del Bosque Propiedades | +56922266591 | 56922266591@s.whatsapp.net | dueno |  |",
-    "| 2 | Alejandra Alvarez Terreno Olmue | +56920926494 | 56920926494@s.whatsapp.net | duena |  |",
-    "| 3 | Alejandra Escarlet Quezada Novia Jordan Arriendo 350 Cristobal Depa Puente | +56930621130 | 56930621130@s.whatsapp.net | cliente arrendatario |  |",
-    "| 4 | alejandra gonzalez paiva X Dueña Arriendo Casa Buin Hermana Sebastián | +56987385084 | 56987385084@s.whatsapp.net | duena |  |",
-    "| 5 | Alejandro Catalan Hijo Pablino Dueño Arriendo Casa Quilicura Liberación Fin | +56976970663 | 56976970663@s.whatsapp.net | hijo dueno |  |"
-  ],
-  "propiedades_socios": [
-    "> Última actualización: 2026-06-21",
-    "> Total propiedades registradas: 42+",
-    "> Fuente: Barrido WhatsApp — Chats individuales + Grupos de canje",
-    "---",
-    "- **Dirección:** Villa San Matías, La Pintana, RM",
-    "- **Tipo:** Casa",
-    "- **Operación:** Venta",
-    "- **Precio:** $65.000.000 (≈ UF 1.593 conversable)",
-    "- **Características:** 2D/1B, 5 ambientes, patio cubierto, est. 1-2 vehículos",
-    "- **m²:** Terreno 70m² | Construidos 48m²"
-  ],
-  "uf": 38450.75,
-  "last_sync": "30/06/2026 03:27:51"
+  "leads_v2": {
+    "groups": {
+      "ARRIENDO": [
+        {
+          "n": "1",
+          "name": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2",
+          "phone": "+56959013234",
+          "category": "ARRIENDO",
+          "details": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2"
+        },
+        {
+          "n": "2",
+          "name": "Ale Munoz X Arriendo San Bernardo Laguna Empresa",
+          "phone": "+56978699508",
+          "category": "ARRIENDO",
+          "details": "Ale Munoz X Arriendo San Bernardo Laguna Empresa"
+        },
+        {
+          "n": "3",
+          "name": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis",
+          "phone": "+56922036181",
+          "category": "ARRIENDO",
+          "details": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis"
+        },
+        {
+          "n": "4",
+          "name": "Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro",
+          "phone": "+56984076424",
+          "category": "ARRIENDO",
+          "details": "Alejandra Farias Solis Asistente Social Dideco Municipalidad De Puente Alto X Arriendo Casa Parcela Pirque Ft Paola Arquipro"
+        },
+        {
+          "n": "5",
+          "name": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550",
+          "phone": "+56998717141",
+          "category": "ARRIENDO",
+          "details": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550"
+        },
+        {
+          "n": "8",
+          "name": "Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna",
+          "phone": "+56982570330",
+          "category": "ARRIENDO",
+          "details": "Alejandra X Arriendo Con Subsidio La Cisterna Vende Hamburguesas La Cisterna"
+        },
+        {
+          "n": "9",
+          "name": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna",
+          "phone": "+56939492894",
+          "category": "ARRIENDO",
+          "details": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna"
+        },
+        {
+          "n": "10",
+          "name": "Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro",
+          "phone": "+56979895624",
+          "category": "ARRIENDO",
+          "details": "Alejandro Villegas Saez X Townhouse Arriendo La Reima Ft Pablo Castro"
+        },
+        {
+          "n": "12",
+          "name": "Alex Neira Busca Arriendo Permanente Argomedo Alicia 1H1B",
+          "phone": "+56959409591",
+          "category": "ARRIENDO",
+          "details": "Alex Neira Busca Arriendo Permanente Argomedo Alicia 1H1B"
+        },
+        {
+          "n": "13",
+          "name": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa",
+          "phone": "+56976118544",
+          "category": "ARRIENDO",
+          "details": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa"
+        },
+        {
+          "n": "15",
+          "name": "Alexis Leyton Arriendo Casa 550 Quinta Normal",
+          "phone": "+56926331185",
+          "category": "ARRIENDO",
+          "details": "Alexis Leyton Arriendo Casa 550 Quinta Normal"
+        },
+        {
+          "n": "16",
+          "name": "Alfredo Arriendo",
+          "phone": "+56955229447",
+          "category": "ARRIENDO",
+          "details": "Alfredo Arriendo"
+        },
+        {
+          "n": "17",
+          "name": "Alicia Avalos X Arriendo Depto Lastarria Ft Francisca Charrier",
+          "phone": "+56945301930",
+          "category": "ARRIENDO",
+          "details": "Alicia Avalos X Arriendo Depto Lastarria Ft Francisca Charrier"
+        },
+        {
+          "n": "18",
+          "name": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro",
+          "phone": "+56936390536",
+          "category": "ARRIENDO",
+          "details": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro"
+        },
+        {
+          "n": "19",
+          "name": "Alvaro Jara X Arriendo Depto Lastarria Ft Francisca Charrier",
+          "phone": "+56937487043",
+          "category": "ARRIENDO",
+          "details": "Alvaro Jara X Arriendo Depto Lastarria Ft Francisca Charrier"
+        },
+        {
+          "n": "20",
+          "name": "Alvaro Matus Arriendo Casa Interior 350 Pero Es Menos El",
+          "phone": "+56948818389",
+          "category": "ARRIENDO",
+          "details": "Alvaro Matus Arriendo Casa Interior 350 Pero Es Menos El"
+        },
+        {
+          "n": "22",
+          "name": "Ana Maria Aranda Busca Arriendo Quilicura 450 Tope Condominio 2h1e",
+          "phone": "+56991001094",
+          "category": "ARRIENDO",
+          "details": "Ana Maria Aranda Busca Arriendo Quilicura 450 Tope Condominio 2h1e"
+        },
+        {
+          "n": "23",
+          "name": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central Velasquez Ecuador",
+          "phone": "+56985559915",
+          "category": "ARRIENDO",
+          "details": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central Velasquez Ecuador"
+        },
+        {
+          "n": "24",
+          "name": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija Ft Dueña Janis",
+          "phone": "+13476544804",
+          "category": "ARRIENDO",
+          "details": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija Ft Dueña Janis"
+        },
+        {
+          "n": "25",
+          "name": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo",
+          "phone": "+56971602129",
+          "category": "ARRIENDO",
+          "details": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo"
+        },
+        {
+          "n": "26",
+          "name": "Andrea Busca Arriendo Casa La Pintana 450 C/sa",
+          "phone": "+56976942245",
+          "category": "ARRIENDO",
+          "details": "Andrea Busca Arriendo Casa La Pintana 450 C/sa"
+        },
+        {
+          "n": "27",
+          "name": "Andrea Heisele X Arriendo Townhouse La Reina Ft Pablo Castro",
+          "phone": "+56957093780",
+          "category": "ARRIENDO",
+          "details": "Andrea Heisele X Arriendo Townhouse La Reina Ft Pablo Castro"
+        },
+        {
+          "n": "28",
+          "name": "Andrea Hernandez Arriendo 350 San Matias Domingo 16 Pm C",
+          "phone": "+56978905069",
+          "category": "ARRIENDO",
+          "details": "Andrea Hernandez Arriendo 350 San Matias Domingo 16 Pm C"
+        },
+        {
+          "n": "29",
+          "name": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600 Mensual",
+          "phone": "+56957017985",
+          "category": "ARRIENDO",
+          "details": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600 Mensual"
+        },
+        {
+          "n": "30",
+          "name": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa",
+          "phone": "+56937725606",
+          "category": "ARRIENDO",
+          "details": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa"
+        },
+        {
+          "n": "32",
+          "name": "Andrea Silva X Arriendo Depto Ñuñoa Ft Francisca Charrier",
+          "phone": "+56961677964",
+          "category": "ARRIENDO",
+          "details": "Andrea Silva X Arriendo Depto Ñuñoa Ft Francisca Charrier"
+        },
+        {
+          "n": "33",
+          "name": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura Conchali",
+          "phone": "+56941676887",
+          "category": "ARRIENDO",
+          "details": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura Conchali"
+        },
+        {
+          "n": "34",
+          "name": "Andrés Marchant Arriendo Ismael Tocornal 450 Casa De Don Alberto",
+          "phone": "+56942567657",
+          "category": "ARRIENDO",
+          "details": "Andrés Marchant Arriendo Ismael Tocornal 450 Casa De Don Alberto"
+        },
+        {
+          "n": "35",
+          "name": "Angela Tao Busca Arriendo Casa 450 Puente Alto",
+          "phone": "+56964266105",
+          "category": "ARRIENDO",
+          "details": "Angela Tao Busca Arriendo Casa 450 Puente Alto"
+        },
+        {
+          "n": "36",
+          "name": "Angelica Espinoza X ARRIENDO MAIPU 1M CIUDAD SATELITE FT PAULINA SILVA",
+          "phone": "+56981886561",
+          "category": "ARRIENDO",
+          "details": "Angelica Espinoza X ARRIENDO MAIPU 1M CIUDAD SATELITE FT PAULINA SILVA"
+        },
+        {
+          "n": "37",
+          "name": "anthony carrero Arriendo Dato Block Para 350 La Pintana",
+          "phone": "+56977907567",
+          "category": "ARRIENDO",
+          "details": "anthony carrero Arriendo Dato Block Para 350 La Pintana"
+        },
+        {
+          "n": "38",
+          "name": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito",
+          "phone": "+56992229304",
+          "category": "ARRIENDO",
+          "details": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito"
+        },
+        {
+          "n": "39",
+          "name": "Aura Busca Arriendo Depto Estación Central",
+          "phone": "+56953613909",
+          "category": "ARRIENDO",
+          "details": "Aura Busca Arriendo Depto Estación Central"
+        },
+        {
+          "n": "40",
+          "name": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal 3a2n",
+          "phone": "+56976519365",
+          "category": "ARRIENDO",
+          "details": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal 3a2n"
+        },
+        {
+          "n": "41",
+          "name": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF Ft Francisca Charrier",
+          "phone": "+56988528002",
+          "category": "ARRIENDO",
+          "details": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF Ft Francisca Charrier"
+        },
+        {
+          "n": "42",
+          "name": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel De Janis",
+          "phone": "+56949695502",
+          "category": "ARRIENDO",
+          "details": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel De Janis"
+        },
+        {
+          "n": "43",
+          "name": "Barbara X Paulina Casa Arriendo 550 Maiou Los Castaños",
+          "phone": "+56963570329",
+          "category": "ARRIENDO",
+          "details": "Barbara X Paulina Casa Arriendo 550 Maiou Los Castaños"
+        },
+        {
+          "n": "44",
+          "name": "Bastian Valenzuela Busca Arriendo 400 Con S/arriendo",
+          "phone": "+56935699141",
+          "category": "ARRIENDO",
+          "details": "Bastian Valenzuela Busca Arriendo 400 Con S/arriendo"
+        },
+        {
+          "n": "45",
+          "name": "Bautista Oyarzun X Arriendo Depto Lastarria 630 Ft Francisca Charrier",
+          "phone": "+56939105365",
+          "category": "ARRIENDO",
+          "details": "Bautista Oyarzun X Arriendo Depto Lastarria 630 Ft Francisca Charrier"
+        },
+        {
+          "n": "46",
+          "name": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380 Tope Ideal Maximo",
+          "phone": "+56936128776",
+          "category": "ARRIENDO",
+          "details": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380 Tope Ideal Maximo"
+        },
+        {
+          "n": "47",
+          "name": "Belen Leiva X Arriendo Casa 700 Puente Alto Primo Felipe",
+          "phone": "+56992170533",
+          "category": "ARRIENDO",
+          "details": "Belen Leiva X Arriendo Casa 700 Puente Alto Primo Felipe"
+        },
+        {
+          "n": "49",
+          "name": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque",
+          "phone": "+56992628028",
+          "category": "ARRIENDO",
+          "details": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque"
+        },
+        {
+          "n": "52",
+          "name": "Carolina Quiñones Busca Arriendo Casa Puente Alto 850 2 Empresas",
+          "phone": "+56948720751",
+          "category": "ARRIENDO",
+          "details": "Carolina Quiñones Busca Arriendo Casa Puente Alto 850 2 Empresas"
+        },
+        {
+          "n": "68",
+          "name": "Familia Busca Arriendo Con Subsidio De Arriendo Pudahuel",
+          "phone": "+56989481721",
+          "category": "ARRIENDO",
+          "details": "Familia Busca Arriendo Con Subsidio De Arriendo Pudahuel"
+        },
+        {
+          "n": "75",
+          "name": "Gonzalo Amigo De Mascotas Benito Subsidio De Arriendo Esposa Y Tiene Dicom Ella",
+          "phone": "+56931248927",
+          "category": "ARRIENDO",
+          "details": "Gonzalo Amigo De Mascotas Benito Subsidio De Arriendo Esposa Y Tiene Dicom Ella"
+        },
+        {
+          "n": "80",
+          "name": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque La Pintana",
+          "phone": "+56967774660",
+          "category": "ARRIENDO",
+          "details": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque La Pintana"
+        },
+        {
+          "n": "104",
+          "name": "Nicole Tens Busca Arriendo 450 Con subsidio 5p 2a3m",
+          "phone": "+56945906469",
+          "category": "ARRIENDO",
+          "details": "Nicole Tens Busca Arriendo 450 Con subsidio 5p 2a3m"
+        },
+        {
+          "n": "112",
+          "name": "Romina Busca Casa Arriendo Con SUBSIDIO Hasta 400 Mensual",
+          "phone": "+56930073814",
+          "category": "ARRIENDO",
+          "details": "Romina Busca Casa Arriendo Con SUBSIDIO Hasta 400 Mensual"
+        },
+        {
+          "n": "119",
+          "name": "Stephanie Muñoz Arriendo 450 Silas 4055 Puente Alto los evangelistas casa de nicolas subsidio de arriendo ft paola arquipro",
+          "phone": "+56968042597",
+          "category": "ARRIENDO",
+          "details": "Stephanie Muñoz Arriendo 450 Silas 4055 Puente Alto los evangelistas casa de nicolas subsidio de arriendo ft paola arquipro"
+        },
+        {
+          "n": "124",
+          "name": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2",
+          "phone": "+56959013234",
+          "category": "ARRIENDO",
+          "details": "Aaron Ruiz Busca Arriendo Casa 400 Puente Alto Trapiche 2"
+        },
+        {
+          "n": "131",
+          "name": "Ale Munoz X Arriendo San Bernardo Laguna Empresa",
+          "phone": "+56978699508",
+          "category": "ARRIENDO",
+          "details": "Ale Munoz X Arriendo San Bernardo Laguna Empresa"
+        },
+        {
+          "n": "134",
+          "name": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis",
+          "phone": "+56922036181",
+          "category": "ARRIENDO",
+          "details": "Alejandra Esparza X Busca Arriendo Casa Puente Alto 500 Ft Janis"
+        },
+        {
+          "n": "135",
+          "name": "Alejandra Farias Solis X Arriendo Casa Parcela Pirque",
+          "phone": "+56984076424",
+          "category": "ARRIENDO",
+          "details": "Alejandra Farias Solis X Arriendo Casa Parcela Pirque"
+        },
+        {
+          "n": "138",
+          "name": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550",
+          "phone": "+56998717141",
+          "category": "ARRIENDO",
+          "details": "Alejandra Rocuant X Arriendo La Cisterna Hasta 550"
+        },
+        {
+          "n": "141",
+          "name": "Alejandra X Arriendo Con Subsidio La Cisterna",
+          "phone": "+56982570330",
+          "category": "ARRIENDO",
+          "details": "Alejandra X Arriendo Con Subsidio La Cisterna"
+        },
+        {
+          "n": "142",
+          "name": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna",
+          "phone": "+56939492894",
+          "category": "ARRIENDO",
+          "details": "Alejandra Y Esposo X Busca Arriendo 400 Con Ggcc Carlos Condell 696 La Cisterna"
+        },
+        {
+          "n": "144",
+          "name": "Alex Neira Busca Arriendo Permanente Argomedo Alicia",
+          "phone": "+56959409591",
+          "category": "ARRIENDO",
+          "details": "Alex Neira Busca Arriendo Permanente Argomedo Alicia"
+        },
+        {
+          "n": "146",
+          "name": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa",
+          "phone": "+56976118544",
+          "category": "ARRIENDO",
+          "details": "Alexi Valdevenito Arriendo 570 La Florida Macul 3d Casa Depa"
+        },
+        {
+          "n": "149",
+          "name": "alexis globalproduccion Busca Arriendo Casa",
+          "phone": "+56987967971",
+          "category": "ARRIENDO",
+          "details": "alexis globalproduccion Busca Arriendo Casa"
+        },
+        {
+          "n": "150",
+          "name": "Alexis Leyton Arriendo Casa 550 Quinta Normal",
+          "phone": "+56926331185",
+          "category": "ARRIENDO",
+          "details": "Alexis Leyton Arriendo Casa 550 Quinta Normal"
+        },
+        {
+          "n": "151",
+          "name": "Alfredo Arriendo",
+          "phone": "+56955229447",
+          "category": "ARRIENDO",
+          "details": "Alfredo Arriendo"
+        },
+        {
+          "n": "152",
+          "name": "Alicia Avalos X Arriendo Depto Lastarria",
+          "phone": "+56945301930",
+          "category": "ARRIENDO",
+          "details": "Alicia Avalos X Arriendo Depto Lastarria"
+        },
+        {
+          "n": "153",
+          "name": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro",
+          "phone": "+56936390536",
+          "category": "ARRIENDO",
+          "details": "Almendra Daniblue Arriendo 1 Ambiente 300 Centro"
+        },
+        {
+          "n": "154",
+          "name": "Alvaro Jara X Arriendo Depto Lastarria",
+          "phone": "+56937487043",
+          "category": "ARRIENDO",
+          "details": "Alvaro Jara X Arriendo Depto Lastarria"
+        },
+        {
+          "n": "155",
+          "name": "Alvaro Matus Arriendo Casa Interior 350",
+          "phone": "+56948818389",
+          "category": "ARRIENDO",
+          "details": "Alvaro Matus Arriendo Casa Interior 350"
+        },
+        {
+          "n": "158",
+          "name": "Ana Maria Aranda Busca Arriendo Quilicura 450 Condominio",
+          "phone": "+56991001094",
+          "category": "ARRIENDO",
+          "details": "Ana Maria Aranda Busca Arriendo Quilicura 450 Condominio"
+        },
+        {
+          "n": "159",
+          "name": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central",
+          "phone": "+56985559915",
+          "category": "ARRIENDO",
+          "details": "Ana Maria Subsidio Adulto Mayor Busca Arriendo Depto Estación Central"
+        },
+        {
+          "n": "160",
+          "name": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija",
+          "phone": "+13476544804",
+          "category": "ARRIENDO",
+          "details": "Ana Marie X Arriendo Depto San Miguel Pago Anual Para Hija"
+        },
+        {
+          "n": "161",
+          "name": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo",
+          "phone": "+56971602129",
+          "category": "ARRIENDO",
+          "details": "Ana Quezada X Busca Arriendo Hasta 450 San Bernardo"
+        },
+        {
+          "n": "162",
+          "name": "Andrea Busca Arriendo Casa La Pintana 450",
+          "phone": "+56976942245",
+          "category": "ARRIENDO",
+          "details": "Andrea Busca Arriendo Casa La Pintana 450"
+        },
+        {
+          "n": "163",
+          "name": "Andrea Heisele X Arriendo Townhouse La Reina",
+          "phone": "+56957093780",
+          "category": "ARRIENDO",
+          "details": "Andrea Heisele X Arriendo Townhouse La Reina"
+        },
+        {
+          "n": "164",
+          "name": "Andrea Hernandez Arriendo 350 San Matias",
+          "phone": "+56978905069",
+          "category": "ARRIENDO",
+          "details": "Andrea Hernandez Arriendo 350 San Matias"
+        },
+        {
+          "n": "165",
+          "name": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600",
+          "phone": "+56957017985",
+          "category": "ARRIENDO",
+          "details": "Andrea Mella Busca Arriendo Casa San Bernardo Hasta 600"
+        },
+        {
+          "n": "166",
+          "name": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa",
+          "phone": "+56937725606",
+          "category": "ARRIENDO",
+          "details": "Andrea Molina Arriendo Hasta 500 La Florida Puente Alto Casa"
+        },
+        {
+          "n": "171",
+          "name": "Andrea Silva X Arriendo Depto Ñuñoa",
+          "phone": "+56961677964",
+          "category": "ARRIENDO",
+          "details": "Andrea Silva X Arriendo Depto Ñuñoa"
+        },
+        {
+          "n": "172",
+          "name": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura",
+          "phone": "+56941676887",
+          "category": "ARRIENDO",
+          "details": "Andrea Valentina Hernandez Busca Arriendo 500 Casa Renca Quilicura"
+        },
+        {
+          "n": "175",
+          "name": "Andrés Marchant Arriendo Ismael Tocornal 450",
+          "phone": "+56942567657",
+          "category": "ARRIENDO",
+          "details": "Andrés Marchant Arriendo Ismael Tocornal 450"
+        },
+        {
+          "n": "178",
+          "name": "Angela Tao Busca Arriendo Casa 450 Puente Alto",
+          "phone": "+56964266105",
+          "category": "ARRIENDO",
+          "details": "Angela Tao Busca Arriendo Casa 450 Puente Alto"
+        },
+        {
+          "n": "181",
+          "name": "Angelica Espinoza X Arriendo Maipu 1M Ciudad Satelite",
+          "phone": "+56981886561",
+          "category": "ARRIENDO",
+          "details": "Angelica Espinoza X Arriendo Maipu 1M Ciudad Satelite"
+        },
+        {
+          "n": "184",
+          "name": "anthony carrero Arriendo Dato Block Para 350 La Pintana",
+          "phone": "+56977907567",
+          "category": "ARRIENDO",
+          "details": "anthony carrero Arriendo Dato Block Para 350 La Pintana"
+        },
+        {
+          "n": "186",
+          "name": "Aracely Departamento Primer Piso 3 Dormitorios Rancagua Subsidio Ds49",
+          "phone": "+56953446018",
+          "category": "ARRIENDO",
+          "details": "Aracely Departamento Primer Piso 3 Dormitorios Rancagua Subsidio Ds49"
+        },
+        {
+          "n": "189",
+          "name": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito",
+          "phone": "+56992229304",
+          "category": "ARRIENDO",
+          "details": "Augusto Arriendo Depa La Pintana Comprador Viendo Su Credito"
+        },
+        {
+          "n": "190",
+          "name": "Aura Busca Arriendo Depto Estación Central",
+          "phone": "+56953613909",
+          "category": "ARRIENDO",
+          "details": "Aura Busca Arriendo Depto Estación Central"
+        },
+        {
+          "n": "193",
+          "name": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal",
+          "phone": "+56976519365",
+          "category": "ARRIENDO",
+          "details": "Barbara Delgado Chama Busca Arriendo Casa Quinta Normal"
+        },
+        {
+          "n": "194",
+          "name": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF",
+          "phone": "+56988528002",
+          "category": "ARRIENDO",
+          "details": "Barbara Escobar X Compra Con Arriendo Lomas De Mirasur 5500 UF"
+        },
+        {
+          "n": "195",
+          "name": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel",
+          "phone": "+56949695502",
+          "category": "ARRIENDO",
+          "details": "Barbara Escort Venezuels Busca Arriendo Depto San Miguel"
+        },
+        {
+          "n": "196",
+          "name": "Barbara X Casa Arriendo 550 Maiou Los Castaños",
+          "phone": "+56963570329",
+          "category": "ARRIENDO",
+          "details": "Barbara X Casa Arriendo 550 Maiou Los Castaños"
+        },
+        {
+          "n": "197",
+          "name": "Bastian Valenzuela Busca Arriendo 400",
+          "phone": "+56935699141",
+          "category": "ARRIENDO",
+          "details": "Bastian Valenzuela Busca Arriendo 400"
+        },
+        {
+          "n": "198",
+          "name": "Bautista Oyarzun X Arriendo Depto Lastarria 630",
+          "phone": "+56939105365",
+          "category": "ARRIENDO",
+          "details": "Bautista Oyarzun X Arriendo Depto Lastarria 630"
+        },
+        {
+          "n": "202",
+          "name": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380",
+          "phone": "+56936128776",
+          "category": "ARRIENDO",
+          "details": "Belen Acevedo Busca Arriendo Depto 1o 2 Habitaciones 380"
+        },
+        {
+          "n": "203",
+          "name": "Belen Leiva X Arriendo Casa 700 Puente Alto",
+          "phone": "+56992170533",
+          "category": "ARRIENDO",
+          "details": "Belen Leiva X Arriendo Casa 700 Puente Alto"
+        },
+        {
+          "n": "206",
+          "name": "Boris Lazo X Busca Arriendo Casa 400 Puente Alto",
+          "phone": "+56935941334",
+          "category": "ARRIENDO",
+          "details": "Boris Lazo X Busca Arriendo Casa 400 Puente Alto"
+        },
+        {
+          "n": "208",
+          "name": "Brayan Jesus Salinas X Busca Arriendo La Pintana",
+          "phone": "+56959406964",
+          "category": "ARRIENDO",
+          "details": "Brayan Jesus Salinas X Busca Arriendo La Pintana"
+        },
+        {
+          "n": "210",
+          "name": "Bryan Loaiza Busca Arriendo Casa 350",
+          "phone": "+56934949803",
+          "category": "ARRIENDO",
+          "details": "Bryan Loaiza Busca Arriendo Casa 350"
+        },
+        {
+          "n": "211",
+          "name": "Busca Arriendo 450 La Pintana DE Chiloe Paga Año Completo",
+          "phone": "+56955385912",
+          "category": "ARRIENDO",
+          "details": "Busca Arriendo 450 La Pintana DE Chiloe Paga Año Completo"
+        },
+        {
+          "n": "212",
+          "name": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque",
+          "phone": "+56992628028",
+          "category": "ARRIENDO",
+          "details": "Busca Arriendo Con Subsidio Hasta 450 La Cisterna El Bosque"
+        },
+        {
+          "n": "214",
+          "name": "Cami Paz Salas Andes Solar SA Busca Arriendo Empresa 1m",
+          "phone": "+56940664924",
+          "category": "ARRIENDO",
+          "details": "Cami Paz Salas Andes Solar SA Busca Arriendo Empresa 1m"
+        },
+        {
+          "n": "215",
+          "name": "Cami Villarroel Busca Arriendo San Miguel Lo Vial Hasta 750",
+          "phone": "+56961411419",
+          "category": "ARRIENDO",
+          "details": "Cami Villarroel Busca Arriendo San Miguel Lo Vial Hasta 750"
+        },
+        {
+          "n": "216",
+          "name": "Camiblue X Busca Arriendo Hasta 550 Puente Alto",
+          "phone": "+56950347118",
+          "category": "ARRIENDO",
+          "details": "Camiblue X Busca Arriendo Hasta 550 Puente Alto"
+        },
+        {
+          "n": "217",
+          "name": "Camila Briones X Buscar Arriendo Quinta Normal 500",
+          "phone": "+56939016975",
+          "category": "ARRIENDO",
+          "details": "Camila Briones X Buscar Arriendo Quinta Normal 500"
+        },
+        {
+          "n": "218",
+          "name": "Camila Busca Arriendo 350 Mensual Con Aval Casa La Pintana",
+          "phone": "+56992401681",
+          "category": "ARRIENDO",
+          "details": "Camila Busca Arriendo 350 Mensual Con Aval Casa La Pintana"
+        },
+        {
+          "n": "219",
+          "name": "Camila Busca Arriendo 350 Mensual Para La Pintana",
+          "phone": "+56936766212",
+          "category": "ARRIENDO",
+          "details": "Camila Busca Arriendo 350 Mensual Para La Pintana"
+        },
+        {
+          "n": "221",
+          "name": "Camila Ferrada Busca Arriendo La Florida Puente Alto",
+          "phone": "+56991228084",
+          "category": "ARRIENDO",
+          "details": "Camila Ferrada Busca Arriendo La Florida Puente Alto"
+        },
+        {
+          "n": "222",
+          "name": "Camila Recabarren Busca Arriendo 600 La Florida",
+          "phone": "+56942653053",
+          "category": "ARRIENDO",
+          "details": "Camila Recabarren Busca Arriendo 600 La Florida"
+        },
+        {
+          "n": "223",
+          "name": "Camila Toro Busca Arriendo 550 Quinta Normal Casa",
+          "phone": "+56934010907",
+          "category": "ARRIENDO",
+          "details": "Camila Toro Busca Arriendo 550 Quinta Normal Casa"
+        },
+        {
+          "n": "224",
+          "name": "Carito Busca Arriendo Casa La Pintana 450",
+          "phone": "+56998928333",
+          "category": "ARRIENDO",
+          "details": "Carito Busca Arriendo Casa La Pintana 450"
+        },
+        {
+          "n": "225",
+          "name": "Carla Caro Bernal Subsidio Ds1 Credito",
+          "phone": "+56966901215",
+          "category": "ARRIENDO",
+          "details": "Carla Caro Bernal Subsidio Ds1 Credito"
+        },
+        {
+          "n": "226",
+          "name": "Carla Espinosa Busca Arriendo Hasta 500 Puente Alto La Florida",
+          "phone": "+56949177817",
+          "category": "ARRIENDO",
+          "details": "Carla Espinosa Busca Arriendo Hasta 500 Puente Alto La Florida"
+        },
+        {
+          "n": "230",
+          "name": "Carlos Estupiñan Busca Arriendo 450 Puente Alto 3a",
+          "phone": "+56986520119",
+          "category": "ARRIENDO",
+          "details": "Carlos Estupiñan Busca Arriendo 450 Puente Alto 3a"
+        },
+        {
+          "n": "233",
+          "name": "Carmen Pacheco Busca Arriendo Maipu 4 Poniente Hasta 800",
+          "phone": "+56920476344",
+          "category": "ARRIENDO",
+          "details": "Carmen Pacheco Busca Arriendo Maipu 4 Poniente Hasta 800"
+        },
+        {
+          "n": "237",
+          "name": "Carolaine Guajardo X Busca Arriendo Casa San Ramón La Pintana",
+          "phone": "+56949532003",
+          "category": "ARRIENDO",
+          "details": "Carolaine Guajardo X Busca Arriendo Casa San Ramón La Pintana"
+        },
+        {
+          "n": "238",
+          "name": "Carolina Andrea Lincopi Busca Arriendo 1h 1b Estación Central",
+          "phone": "+56984339428",
+          "category": "ARRIENDO",
+          "details": "Carolina Andrea Lincopi Busca Arriendo 1h 1b Estación Central"
+        },
+        {
+          "n": "239",
+          "name": "Carolina Busca Arriendo Casa La Pintana 450",
+          "phone": "+56996615584",
+          "category": "ARRIENDO",
+          "details": "Carolina Busca Arriendo Casa La Pintana 450"
+        },
+        {
+          "n": "240",
+          "name": "Carolina Busca Arriendo La Cisterna",
+          "phone": "+56920870026",
+          "category": "ARRIENDO",
+          "details": "Carolina Busca Arriendo La Cisterna"
+        },
+        {
+          "n": "241",
+          "name": "Carolina Castro Busca Arriendo 400 La Granja",
+          "phone": "+56948080420",
+          "category": "ARRIENDO",
+          "details": "Carolina Castro Busca Arriendo 400 La Granja"
+        },
+        {
+          "n": "250",
+          "name": "Claudia Perez Araya Arriendos Con Subsidio",
+          "phone": "+56957310092",
+          "category": "ARRIENDO",
+          "details": "Claudia Perez Araya Arriendos Con Subsidio"
+        },
+        {
+          "n": "254",
+          "name": "damaris daza Subsidio Mas Crédito Hipotecario",
+          "phone": "+56990335094",
+          "category": "ARRIENDO",
+          "details": "damaris daza Subsidio Mas Crédito Hipotecario"
+        },
+        {
+          "n": "263",
+          "name": "Diego Espera Subsidio",
+          "phone": "+56984164713",
+          "category": "ARRIENDO",
+          "details": "Diego Espera Subsidio"
+        },
+        {
+          "n": "271",
+          "name": "Enriqueta Subsidio 34m Rancagua",
+          "phone": "+56992115670",
+          "category": "ARRIENDO",
+          "details": "Enriqueta Subsidio 34m Rancagua"
+        },
+        {
+          "n": "272",
+          "name": "Erwin Valdes Silva Departamento 22m Con Subsidio Ds49 San Fernando",
+          "phone": "+56957987632",
+          "category": "ARRIENDO",
+          "details": "Erwin Valdes Silva Departamento 22m Con Subsidio Ds49 San Fernando"
+        },
+        {
+          "n": "273",
+          "name": "Evelyn Heredia Montecinos Esposa Jorge Arriendo Casa 550 Quilicura Subsidio",
+          "phone": "+56930770493",
+          "category": "ARRIENDO",
+          "details": "Evelyn Heredia Montecinos Esposa Jorge Arriendo Casa 550 Quilicura Subsidio"
+        },
+        {
+          "n": "275",
+          "name": "Familia Busca Arriendo Con Subsidio Pudahuel",
+          "phone": "+56989481721",
+          "category": "ARRIENDO",
+          "details": "Familia Busca Arriendo Con Subsidio Pudahuel"
+        },
+        {
+          "n": "284",
+          "name": "Gonzalo Amigo Mascotas Subsidio De Arriendo Esposa",
+          "phone": "+56931248927",
+          "category": "ARRIENDO",
+          "details": "Gonzalo Amigo Mascotas Subsidio De Arriendo Esposa"
+        },
+        {
+          "n": "288",
+          "name": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque",
+          "phone": "+56967774660",
+          "category": "ARRIENDO",
+          "details": "Irma Busca Arriendo Con Subsidio De Arriendo Discapacidad El Bosque"
+        },
+        {
+          "n": "289",
+          "name": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente",
+          "phone": "+56989772395",
+          "category": "ARRIENDO",
+          "details": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente"
+        },
+        {
+          "n": "296",
+          "name": "Jorge Patricio Norambuena Toledo Arrendatario Subsidio",
+          "phone": "+56948613083",
+          "category": "ARRIENDO",
+          "details": "Jorge Patricio Norambuena Toledo Arrendatario Subsidio"
+        },
+        {
+          "n": "301",
+          "name": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua",
+          "phone": "+56978017980",
+          "category": "ARRIENDO",
+          "details": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua"
+        },
+        {
+          "n": "302",
+          "name": "Maria Jose Miercoles Subsidio Credito Y Efectivo",
+          "phone": "+56982035144",
+          "category": "ARRIENDO",
+          "details": "Maria Jose Miercoles Subsidio Credito Y Efectivo"
+        },
+        {
+          "n": "305",
+          "name": "Nicole Tens Busca Arriendo 450 Con Subsidio",
+          "phone": "+56945906469",
+          "category": "ARRIENDO",
+          "details": "Nicole Tens Busca Arriendo 450 Con Subsidio"
+        },
+        {
+          "n": "306",
+          "name": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico",
+          "phone": "+56972836776",
+          "category": "ARRIENDO",
+          "details": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico"
+        },
+        {
+          "n": "309",
+          "name": "Romina Busca Casa Arriendo Con Subsidio Hasta 400",
+          "phone": "+56930073814",
+          "category": "ARRIENDO",
+          "details": "Romina Busca Casa Arriendo Con Subsidio Hasta 400"
+        },
+        {
+          "n": "310",
+          "name": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación",
+          "phone": "+56987338270",
+          "category": "ARRIENDO",
+          "details": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación"
+        },
+        {
+          "n": "311",
+          "name": "Roxana Palma Esposa De Don Enrique Busca Rancagua Subsidio 35m",
+          "phone": "+56983378001",
+          "category": "ARRIENDO",
+          "details": "Roxana Palma Esposa De Don Enrique Busca Rancagua Subsidio 35m"
+        },
+        {
+          "n": "312",
+          "name": "Sandra Contador Auditor Rancagua 757 Uf Ds1t1 Subsidio Depa",
+          "phone": "+56940326395",
+          "category": "ARRIENDO",
+          "details": "Sandra Contador Auditor Rancagua 757 Uf Ds1t1 Subsidio Depa"
+        },
+        {
+          "n": "313",
+          "name": "Stephanie Muñoz Arriendo 450 Puente Alto Subsidio De Arriendo",
+          "phone": "+56968042597",
+          "category": "ARRIENDO",
+          "details": "Stephanie Muñoz Arriendo 450 Puente Alto Subsidio De Arriendo"
+        }
+      ],
+      "COMPRA": [
+        {
+          "n": "48",
+          "name": "Brahyan silva Crédito Hipotecario Banco Scotiabank 75m Renca 10m PIE Casa No Departamento",
+          "phone": "+56974906561",
+          "category": "COMPRA",
+          "details": "Brahyan silva Crédito Hipotecario Banco Scotiabank 75m Renca 10m PIE Casa No Departamento"
+        },
+        {
+          "n": "67",
+          "name": "Fabián 🍣 Mutuo Hipotecario Ds1 T2 Amigo Cespedes",
+          "phone": "+56952144242",
+          "category": "COMPRA",
+          "details": "Fabián 🍣 Mutuo Hipotecario Ds1 T2 Amigo Cespedes"
+        },
+        {
+          "n": "125",
+          "name": "Agata Lobos X Compra Casa San Bernardo Laguna Cóndores 5000 UF",
+          "phone": "+56937624068",
+          "category": "COMPRA",
+          "details": "Agata Lobos X Compra Casa San Bernardo Laguna Cóndores 5000 UF"
+        },
+        {
+          "n": "126",
+          "name": "Agus X Depto Compra Las Condes",
+          "phone": "+56990967980",
+          "category": "COMPRA",
+          "details": "Agus X Depto Compra Las Condes"
+        },
+        {
+          "n": "128",
+          "name": "Alberto Compra Casa Arica 65m Efectivo",
+          "phone": "+56971210024",
+          "category": "COMPRA",
+          "details": "Alberto Compra Casa Arica 65m Efectivo"
+        },
+        {
+          "n": "129",
+          "name": "Alberto Isaias Sánchez Medina X Busca Casa San Bernardo 85m Ver Credito",
+          "phone": "+56945245752",
+          "category": "COMPRA",
+          "details": "Alberto Isaias Sánchez Medina X Busca Casa San Bernardo 85m Ver Credito"
+        },
+        {
+          "n": "130",
+          "name": "Aldo Gonzalez X Compra 180m Ch Para Taller Mínimo 400m²",
+          "phone": "+56997484791",
+          "category": "COMPRA",
+          "details": "Aldo Gonzalez X Compra 180m Ch Para Taller Mínimo 400m²"
+        },
+        {
+          "n": "136",
+          "name": "Alejandra Martinez X Compra Depto Las Condes",
+          "phone": "+56940427973",
+          "category": "COMPRA",
+          "details": "Alejandra Martinez X Compra Depto Las Condes"
+        },
+        {
+          "n": "137",
+          "name": "Alejandra Quispe Demanet X Compra Depto El Bosque 75m",
+          "phone": "+56944150977",
+          "category": "COMPRA",
+          "details": "Alejandra Quispe Demanet X Compra Depto El Bosque 75m"
+        },
+        {
+          "n": "140",
+          "name": "Alejandra Vélez X Compra Terreno",
+          "phone": "+56996403879",
+          "category": "COMPRA",
+          "details": "Alejandra Vélez X Compra Terreno"
+        },
+        {
+          "n": "145",
+          "name": "Alexandra Compra Casa Manuel Dialisis 85m",
+          "phone": "+56945952407",
+          "category": "COMPRA",
+          "details": "Alexandra Compra Casa Manuel Dialisis 85m"
+        },
+        {
+          "n": "148",
+          "name": "Alexis Alfaro 90m Ch Aprobado Compra Casa San Bernardo El Bosque",
+          "phone": "+56981320386",
+          "category": "COMPRA",
+          "details": "Alexis Alfaro 90m Ch Aprobado Compra Casa San Bernardo El Bosque"
+        },
+        {
+          "n": "167",
+          "name": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m",
+          "phone": "+56926177562",
+          "category": "COMPRA",
+          "details": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m"
+        },
+        {
+          "n": "168",
+          "name": "Andrea Paz X Compra Casa Harás De Nos San Bernardo",
+          "phone": "+56959507470",
+          "category": "COMPRA",
+          "details": "Andrea Paz X Compra Casa Harás De Nos San Bernardo"
+        },
+        {
+          "n": "169",
+          "name": "Andrea Paz X Compra Casa San Bernardo Harás De Nos Tipo A",
+          "phone": "+56973110758",
+          "category": "COMPRA",
+          "details": "Andrea Paz X Compra Casa San Bernardo Harás De Nos Tipo A"
+        },
+        {
+          "n": "173",
+          "name": "Andres Compra Ch Bci Casa La Cisterna 140m",
+          "phone": "+56976964113",
+          "category": "COMPRA",
+          "details": "Andres Compra Ch Bci Casa La Cisterna 140m"
+        },
+        {
+          "n": "174",
+          "name": "Andres Vasquez X Compra Depto El Bosque 65m",
+          "phone": "+56996707280",
+          "category": "COMPRA",
+          "details": "Andres Vasquez X Compra Depto El Bosque 65m"
+        },
+        {
+          "n": "176",
+          "name": "Angel Daille X Busca Comprar Casa En Nocedal",
+          "phone": "+56976451619",
+          "category": "COMPRA",
+          "details": "Angel Daille X Busca Comprar Casa En Nocedal"
+        },
+        {
+          "n": "177",
+          "name": "Angel Muñoz X Compra Casa El Bosque 65m",
+          "phone": "+56953600765",
+          "category": "COMPRA",
+          "details": "Angel Muñoz X Compra Casa El Bosque 65m"
+        },
+        {
+          "n": "179",
+          "name": "Angela Y Benhur X Compra Depto Quilicura 62m",
+          "phone": "+56961828922",
+          "category": "COMPRA",
+          "details": "Angela Y Benhur X Compra Depto Quilicura 62m"
+        },
+        {
+          "n": "180",
+          "name": "Angelica Ch Coopeuch Compra Casa San Ramon 75m",
+          "phone": "+56947589018",
+          "category": "COMPRA",
+          "details": "Angelica Ch Coopeuch Compra Casa San Ramon 75m"
+        },
+        {
+          "n": "182",
+          "name": "Angélica Armijo X Compra Casa Nova Vida 80m",
+          "phone": "+56950049271",
+          "category": "COMPRA",
+          "details": "Angélica Armijo X Compra Casa Nova Vida 80m"
+        },
+        {
+          "n": "183",
+          "name": "Anny Solicita Credito 3000 Uf Para Esposo Coopeuch",
+          "phone": "+56952236335",
+          "category": "COMPRA",
+          "details": "Anny Solicita Credito 3000 Uf Para Esposo Coopeuch"
+        },
+        {
+          "n": "185",
+          "name": "Antonius Máximo Decimo Compra Casa La Granja Evaluar 7m Pie",
+          "phone": "+56922444113",
+          "category": "COMPRA",
+          "details": "Antonius Máximo Decimo Compra Casa La Granja Evaluar 7m Pie"
+        },
+        {
+          "n": "187",
+          "name": "Arnaldo Gatica X Compra Parcela Paine",
+          "phone": "+56999912536",
+          "category": "COMPRA",
+          "details": "Arnaldo Gatica X Compra Parcela Paine"
+        },
+        {
+          "n": "188",
+          "name": "Arshad Abbas Compra Dpto Quilicura",
+          "phone": "+56977605634",
+          "category": "COMPRA",
+          "details": "Arshad Abbas Compra Dpto Quilicura"
+        },
+        {
+          "n": "191",
+          "name": "Barbara Alarcon Bravo Compra 2700UF Jardín Alto La Florida",
+          "phone": "+56956371321",
+          "category": "COMPRA",
+          "details": "Barbara Alarcon Bravo Compra 2700UF Jardín Alto La Florida"
+        },
+        {
+          "n": "192",
+          "name": "Barbara Compra En Efectivo 29m",
+          "phone": "+56975948354",
+          "category": "COMPRA",
+          "details": "Barbara Compra En Efectivo 29m"
+        },
+        {
+          "n": "199",
+          "name": "Bayron Credito H Aprobado B Estado Depa La Florida 50m",
+          "phone": "+56972990662",
+          "category": "COMPRA",
+          "details": "Bayron Credito H Aprobado B Estado Depa La Florida 50m"
+        },
+        {
+          "n": "200",
+          "name": "Beatrix Cuadra X Compra Depto La Cisterna Jorge Saez Carlos Condell",
+          "phone": "+56974486792",
+          "category": "COMPRA",
+          "details": "Beatrix Cuadra X Compra Depto La Cisterna Jorge Saez Carlos Condell"
+        },
+        {
+          "n": "201",
+          "name": "Beatriz Compra Depto Con 1e Quilicura 65m Efectivo",
+          "phone": "+56966411680",
+          "category": "COMPRA",
+          "details": "Beatriz Compra Depto Con 1e Quilicura 65m Efectivo"
+        },
+        {
+          "n": "204",
+          "name": "Benhur Novio Angela X Compra Depto Quilicura De Victor 62m",
+          "phone": "+56953044186",
+          "category": "COMPRA",
+          "details": "Benhur Novio Angela X Compra Depto Quilicura De Victor 62m"
+        },
+        {
+          "n": "205",
+          "name": "Benjamin Contador Auditor Sub Ds1t3 Credito Santander O Bci Hasta 2200 Uf",
+          "phone": "+56946831018",
+          "category": "COMPRA",
+          "details": "Benjamin Contador Auditor Sub Ds1t3 Credito Santander O Bci Hasta 2200 Uf"
+        },
+        {
+          "n": "207",
+          "name": "Brahyan Silva Crédito Hipotecario Banco Scotiabank 75m Renca",
+          "phone": "+56974906561",
+          "category": "COMPRA",
+          "details": "Brahyan Silva Crédito Hipotecario Banco Scotiabank 75m Renca"
+        },
+        {
+          "n": "209",
+          "name": "Bruja X Compra Depto En Efectivo El Bosque Oferta",
+          "phone": "+56971938610",
+          "category": "COMPRA",
+          "details": "Bruja X Compra Depto En Efectivo El Bosque Oferta"
+        },
+        {
+          "n": "213",
+          "name": "Cachatiana Hogar Ejecutiva Marc Alisme X Compra La Pintana 58m Depto",
+          "phone": "+56965769437",
+          "category": "COMPRA",
+          "details": "Cachatiana Hogar Ejecutiva Marc Alisme X Compra La Pintana 58m Depto"
+        },
+        {
+          "n": "220",
+          "name": "Camila Compra 90m CH Banco ITAU",
+          "phone": "+56968440115",
+          "category": "COMPRA",
+          "details": "Camila Compra 90m CH Banco ITAU"
+        },
+        {
+          "n": "227",
+          "name": "Carlos Compra Efectivo Depto 55m La Florida",
+          "phone": "+56978870698",
+          "category": "COMPRA",
+          "details": "Carlos Compra Efectivo Depto 55m La Florida"
+        },
+        {
+          "n": "228",
+          "name": "Carlos Cruchaga X Compra Casa San Bernardo Evaluar Crédito Hipotecario",
+          "phone": "+56944001956",
+          "category": "COMPRA",
+          "details": "Carlos Cruchaga X Compra Casa San Bernardo Evaluar Crédito Hipotecario"
+        },
+        {
+          "n": "229",
+          "name": "Carlos Esteban Compra Casa Avenida La Pintana",
+          "phone": "+56961150469",
+          "category": "COMPRA",
+          "details": "Carlos Esteban Compra Casa Avenida La Pintana"
+        },
+        {
+          "n": "231",
+          "name": "Carlos Gutierrez Compra Efectivo 75m San Ramón",
+          "phone": "+56977556058",
+          "category": "COMPRA",
+          "details": "Carlos Gutierrez Compra Efectivo 75m San Ramón"
+        },
+        {
+          "n": "234",
+          "name": "Carmen Torrealba X Compra Depto 57m La Cisterna",
+          "phone": "+56994774159",
+          "category": "COMPRA",
+          "details": "Carmen Torrealba X Compra Depto 57m La Cisterna"
+        },
+        {
+          "n": "235",
+          "name": "Carol Alarcón X Compra Casa Puente Alto 107m",
+          "phone": "+56946852332",
+          "category": "COMPRA",
+          "details": "Carol Alarcón X Compra Casa Puente Alto 107m"
+        },
+        {
+          "n": "236",
+          "name": "Carola Andrea Cifuentes Araya X Compra Depto La Florida",
+          "phone": "+56950162522",
+          "category": "COMPRA",
+          "details": "Carola Andrea Cifuentes Araya X Compra Depto La Florida"
+        },
+        {
+          "n": "242",
+          "name": "Carolina Rios Evaluar Credito Y Ver Casa En San Bernardo",
+          "phone": "+56989110956",
+          "category": "COMPRA",
+          "details": "Carolina Rios Evaluar Credito Y Ver Casa En San Bernardo"
+        },
+        {
+          "n": "243",
+          "name": "Carolina Sensualrap Credito Busca Casa O Depa",
+          "phone": "+56950390476",
+          "category": "COMPRA",
+          "details": "Carolina Sensualrap Credito Busca Casa O Depa"
+        },
+        {
+          "n": "244",
+          "name": "Catalina Compra Depa 2000uf Itau La Cisterna",
+          "phone": "+56965724698",
+          "category": "COMPRA",
+          "details": "Catalina Compra Depa 2000uf Itau La Cisterna"
+        },
+        {
+          "n": "245",
+          "name": "Catalina Rubilar X Compra Casa Ds1 Y Ch Nova Vida San Bernardo",
+          "phone": "+56973805365",
+          "category": "COMPRA",
+          "details": "Catalina Rubilar X Compra Casa Ds1 Y Ch Nova Vida San Bernardo"
+        },
+        {
+          "n": "246",
+          "name": "Caterina X Compra Casa Lampa Laguna Norte",
+          "phone": "+56999676485",
+          "category": "COMPRA",
+          "details": "Caterina X Compra Casa Lampa Laguna Norte"
+        },
+        {
+          "n": "247",
+          "name": "Catherine Compra Casa 150m La Granja",
+          "phone": "+56948933018",
+          "category": "COMPRA",
+          "details": "Catherine Compra Casa 150m La Granja"
+        },
+        {
+          "n": "251",
+          "name": "Claudio Credito",
+          "phone": "+56962085962",
+          "category": "COMPRA",
+          "details": "Claudio Credito"
+        },
+        {
+          "n": "252",
+          "name": "Credito Buscar Papeles",
+          "phone": "+56952582255",
+          "category": "COMPRA",
+          "details": "Credito Buscar Papeles"
+        },
+        {
+          "n": "253",
+          "name": "Credito Para Esposo 1.3m Gana",
+          "phone": "+56993137926",
+          "category": "COMPRA",
+          "details": "Credito Para Esposo 1.3m Gana"
+        },
+        {
+          "n": "256",
+          "name": "Dannhy Vende Su Casa A Su Cliente Ver Credito",
+          "phone": "+56946292242",
+          "category": "COMPRA",
+          "details": "Dannhy Vende Su Casa A Su Cliente Ver Credito"
+        },
+        {
+          "n": "257",
+          "name": "Dario Restrepo Credito",
+          "phone": "+56951157068",
+          "category": "COMPRA",
+          "details": "Dario Restrepo Credito"
+        },
+        {
+          "n": "258",
+          "name": "David Credito Bci Depa La Florida 50m",
+          "phone": "+56956990929",
+          "category": "COMPRA",
+          "details": "David Credito Bci Depa La Florida 50m"
+        },
+        {
+          "n": "260",
+          "name": "David Tapia Casanueva Credito Maximo Y Buscar Casa",
+          "phone": "+56937151121",
+          "category": "COMPRA",
+          "details": "David Tapia Casanueva Credito Maximo Y Buscar Casa"
+        },
+        {
+          "n": "262",
+          "name": "Deyanira Cordoba Busca Credito Con Pie 13m",
+          "phone": "+56988647117",
+          "category": "COMPRA",
+          "details": "Deyanira Cordoba Busca Credito Con Pie 13m"
+        },
+        {
+          "n": "265",
+          "name": "DJ JoakoMix Credito Suegra",
+          "phone": "+56975482377",
+          "category": "COMPRA",
+          "details": "DJ JoakoMix Credito Suegra"
+        },
+        {
+          "n": "266",
+          "name": "Edith Credito Para Paola Bignami Codeudor Hermano Sandoval",
+          "phone": "+56999133506",
+          "category": "COMPRA",
+          "details": "Edith Credito Para Paola Bignami Codeudor Hermano Sandoval"
+        },
+        {
+          "n": "267",
+          "name": "Eduardo 32m Efectivo Para Creditos",
+          "phone": "+56966027096",
+          "category": "COMPRA",
+          "details": "Eduardo 32m Efectivo Para Creditos"
+        },
+        {
+          "n": "274",
+          "name": "Evelyn Palmares Credito",
+          "phone": "+56990727920",
+          "category": "COMPRA",
+          "details": "Evelyn Palmares Credito"
+        },
+        {
+          "n": "277",
+          "name": "Fernando Alexis Cadiz Gonzales Bajista De Jordan Credito",
+          "phone": "+56959122874",
+          "category": "COMPRA",
+          "details": "Fernando Alexis Cadiz Gonzales Bajista De Jordan Credito"
+        },
+        {
+          "n": "278",
+          "name": "Fernando Osorio Cliente Para Credito Ver Despues",
+          "phone": "+56954185108",
+          "category": "COMPRA",
+          "details": "Fernando Osorio Cliente Para Credito Ver Despues"
+        },
+        {
+          "n": "280",
+          "name": "Flavia Credito Santander 95m Compra Para Inversión",
+          "phone": "+56971098137",
+          "category": "COMPRA",
+          "details": "Flavia Credito Santander 95m Compra Para Inversión"
+        },
+        {
+          "n": "281",
+          "name": "Flor Ortiz Ds1 T3 Buscar Casa Y Ayudar Credito 4m",
+          "phone": "+56936182397",
+          "category": "COMPRA",
+          "details": "Flor Ortiz Ds1 T3 Buscar Casa Y Ayudar Credito 4m"
+        },
+        {
+          "n": "307",
+          "name": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto",
+          "phone": "+56968032342",
+          "category": "COMPRA",
+          "details": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto"
+        },
+        {
+          "n": "308",
+          "name": "Rodrigo Veloso X Compra Depto 42m Ch Be Sin Subsidios Inversion",
+          "phone": "+56945342976",
+          "category": "COMPRA",
+          "details": "Rodrigo Veloso X Compra Depto 42m Ch Be Sin Subsidios Inversion"
+        },
+        {
+          "n": "314",
+          "name": "Tania Compra Casa Rancagua 40m Subsidio Credito Y Efectivo",
+          "phone": "+56957394404",
+          "category": "COMPRA",
+          "details": "Tania Compra Casa Rancagua 40m Subsidio Credito Y Efectivo"
+        },
+        {
+          "n": "315",
+          "name": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m",
+          "phone": "+56944346581",
+          "category": "COMPRA",
+          "details": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m"
+        }
+      ],
+      "LEASING": [
+        {
+          "n": "6",
+          "name": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta",
+          "phone": "+56976494234",
+          "category": "LEASING",
+          "details": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo 240m 250m Venta"
+        },
+        {
+          "n": "7",
+          "name": "Alejandra Vélez X Compra Terreno Ft Francisca Charrier",
+          "phone": "+56996403879",
+          "category": "LEASING",
+          "details": "Alejandra Vélez X Compra Terreno Ft Francisca Charrier"
+        },
+        {
+          "n": "11",
+          "name": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m",
+          "phone": "+56991041444",
+          "category": "LEASING",
+          "details": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m"
+        },
+        {
+          "n": "14",
+          "name": "Alexis 40m Leasing Lo Prado Departamento Conductor Camiones Kar",
+          "phone": "+56961107068",
+          "category": "LEASING",
+          "details": "Alexis 40m Leasing Lo Prado Departamento Conductor Camiones Kar"
+        },
+        {
+          "n": "21",
+          "name": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto",
+          "phone": "+56997116468",
+          "category": "LEASING",
+          "details": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto"
+        },
+        {
+          "n": "31",
+          "name": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m Ft Carla Del Bosque Propiedades",
+          "phone": "+56926177562",
+          "category": "LEASING",
+          "details": "Andrea Olivares Vargas X Compra Brisas De Pomaire 185m Ft Carla Del Bosque Propiedades"
+        },
+        {
+          "n": "50",
+          "name": "Carlos Cruchaga X Compra Casa Sa Bernardo Lomas De Mirasur Evaluar Crédito Hipotecario",
+          "phone": "+56944001956",
+          "category": "LEASING",
+          "details": "Carlos Cruchaga X Compra Casa Sa Bernardo Lomas De Mirasur Evaluar Crédito Hipotecario"
+        },
+        {
+          "n": "51",
+          "name": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo",
+          "phone": "+56987395592",
+          "category": "LEASING",
+          "details": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo"
+        },
+        {
+          "n": "53",
+          "name": "Chico Uber Ver Credito Para Casa Leasing",
+          "phone": "+56979339357",
+          "category": "LEASING",
+          "details": "Chico Uber Ver Credito Para Casa Leasing"
+        },
+        {
+          "n": "54",
+          "name": "Chris Compra Leasing 3h 1b Hasta 60m",
+          "phone": "+56930930077",
+          "category": "LEASING",
+          "details": "Chris Compra Leasing 3h 1b Hasta 60m"
+        },
+        {
+          "n": "55",
+          "name": "damaris daza Subsidio Mas Crédito Hipotecario",
+          "phone": "+56990335094",
+          "category": "LEASING",
+          "details": "damaris daza Subsidio Mas Crédito Hipotecario"
+        },
+        {
+          "n": "56",
+          "name": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua",
+          "phone": "+56986554464",
+          "category": "LEASING",
+          "details": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua"
+        },
+        {
+          "n": "57",
+          "name": "Daniel velasquez X Compra Terreno La Florida 69m CH Aprobado",
+          "phone": "+56954554646",
+          "category": "LEASING",
+          "details": "Daniel velasquez X Compra Terreno La Florida 69m CH Aprobado"
+        },
+        {
+          "n": "58",
+          "name": "David Gutiérrez Credito Leasing Habitacional",
+          "phone": "+56954906594",
+          "category": "LEASING",
+          "details": "David Gutiérrez Credito Leasing Habitacional"
+        },
+        {
+          "n": "59",
+          "name": "Dayan Rodriguez Busca Compra 60 Leasing X Erika",
+          "phone": "+56971297895",
+          "category": "LEASING",
+          "details": "Dayan Rodriguez Busca Compra 60 Leasing X Erika"
+        },
+        {
+          "n": "60",
+          "name": "Diego Espera Subsidio 🦁",
+          "phone": "+56984164713",
+          "category": "LEASING",
+          "details": "Diego Espera Subsidio 🦁"
+        },
+        {
+          "n": "62",
+          "name": "Eli Peluquería Leasing 48m La Florida",
+          "phone": "+56956844449",
+          "category": "LEASING",
+          "details": "Eli Peluquería Leasing 48m La Florida"
+        },
+        {
+          "n": "63",
+          "name": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva",
+          "phone": "+56935265885",
+          "category": "LEASING",
+          "details": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva"
+        },
+        {
+          "n": "64",
+          "name": "Enrique Millapan Leasing Compra Depto El Bosque Observatorio 65m",
+          "phone": "+56969073256",
+          "category": "LEASING",
+          "details": "Enrique Millapan Leasing Compra Depto El Bosque Observatorio 65m"
+        },
+        {
+          "n": "65",
+          "name": "Enriqueta Subsidio 34m Rancagua Busca Ubal",
+          "phone": "+56992115670",
+          "category": "LEASING",
+          "details": "Enriqueta Subsidio 34m Rancagua Busca Ubal"
+        },
+        {
+          "n": "66",
+          "name": "Erwin valdes silva departamento 22m 23m Con subsidio ds49 san fernando departamento 3 piso",
+          "phone": "+56957987632",
+          "category": "LEASING",
+          "details": "Erwin valdes silva departamento 22m 23m Con subsidio ds49 san fernando departamento 3 piso"
+        },
+        {
+          "n": "69",
+          "name": "Felipe Fernández Finley Compra Terreno Carrascal 6079 220m",
+          "phone": "+56954045586",
+          "category": "LEASING",
+          "details": "Felipe Fernández Finley Compra Terreno Carrascal 6079 220m"
+        },
+        {
+          "n": "70",
+          "name": "Fernanda Busca Leasing Para Hermana",
+          "phone": "+56982038654",
+          "category": "LEASING",
+          "details": "Fernanda Busca Leasing Para Hermana"
+        },
+        {
+          "n": "72",
+          "name": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing O Hipotecario",
+          "phone": "+56933595695",
+          "category": "LEASING",
+          "details": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing O Hipotecario"
+        },
+        {
+          "n": "73",
+          "name": "Franco Valdevenito Compra Casa Pauly 65m Leasing",
+          "phone": "+56999352915",
+          "category": "LEASING",
+          "details": "Franco Valdevenito Compra Casa Pauly 65m Leasing"
+        },
+        {
+          "n": "74",
+          "name": "Gabriel Amigo Armando Generar Leasing Para La Serena Panguinao",
+          "phone": "+56949151853",
+          "category": "LEASING",
+          "details": "Gabriel Amigo Armando Generar Leasing Para La Serena Panguinao"
+        },
+        {
+          "n": "76",
+          "name": "Guido Lara Busca Credito Hipotecario Alto Valor Militar",
+          "phone": "+56930932160",
+          "category": "LEASING",
+          "details": "Guido Lara Busca Credito Hipotecario Alto Valor Militar"
+        },
+        {
+          "n": "77",
+          "name": "Gunter Quezada Dueño Fullmateriales Spa X Compra Leasing Casa Galpón Taller La Granja 250m Bancho De",
+          "phone": "+56988127576",
+          "category": "LEASING",
+          "details": "Gunter Quezada Dueño Fullmateriales Spa X Compra Leasing Casa Galpón Taller La Granja 250m Bancho De"
+        },
+        {
+          "n": "78",
+          "name": "Haitiano Leasing 46m Compra Depto San Bernardo 1er Piso De Paula 55m",
+          "phone": "+56936691663",
+          "category": "LEASING",
+          "details": "Haitiano Leasing 46m Compra Depto San Bernardo 1er Piso De Paula 55m"
+        },
+        {
+          "n": "79",
+          "name": "Hans Protect Cars Amigo Pato Gbv Busca Leasing",
+          "phone": "+56944014592",
+          "category": "LEASING",
+          "details": "Hans Protect Cars Amigo Pato Gbv Busca Leasing"
+        },
+        {
+          "n": "81",
+          "name": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente Hasta 35m Dicen",
+          "phone": "+56989772395",
+          "category": "LEASING",
+          "details": "Isamar Leiva Busca Depa Para Abuela Subsidio Ds49 Urgente Hasta 35m Dicen"
+        },
+        {
+          "n": "82",
+          "name": "Jaime Alberto Candia Busca Terreno Lavado De Autos",
+          "phone": "+56932066087",
+          "category": "LEASING",
+          "details": "Jaime Alberto Candia Busca Terreno Lavado De Autos"
+        },
+        {
+          "n": "83",
+          "name": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa",
+          "phone": "+56971054762",
+          "category": "LEASING",
+          "details": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa"
+        },
+        {
+          "n": "84",
+          "name": "Je ne suis Haitiano 29.5m Credito Hipotecario Rancagua pas disponible",
+          "phone": "+56947358146",
+          "category": "LEASING",
+          "details": "Je ne suis Haitiano 29.5m Credito Hipotecario Rancagua pas disponible"
+        },
+        {
+          "n": "85",
+          "name": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo",
+          "phone": "+56933480326",
+          "category": "LEASING",
+          "details": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo"
+        },
+        {
+          "n": "86",
+          "name": "Jeff Guillaume x compra casa San Bernardo Ariel 65m 61500uf 61m austral leasing Ariel ft Francisca Charrier Oferta 64m",
+          "phone": "+56963867066",
+          "category": "LEASING",
+          "details": "Jeff Guillaume x compra casa San Bernardo Ariel 65m 61500uf 61m austral leasing Ariel ft Francisca Charrier Oferta 64m"
+        },
+        {
+          "n": "87",
+          "name": "Jhonny Wallace Amigo Carolina Sensualrap Leasing",
+          "phone": "+56934978295",
+          "category": "LEASING",
+          "details": "Jhonny Wallace Amigo Carolina Sensualrap Leasing"
+        },
+        {
+          "n": "88",
+          "name": "Jocelin 28m Leasing Departamento Primer Piso Rancagua",
+          "phone": "+56930875711",
+          "category": "LEASING",
+          "details": "Jocelin 28m Leasing Departamento Primer Piso Rancagua"
+        },
+        {
+          "n": "89",
+          "name": "Jorge Lagos Leasing + $ Depa La Florida 50m",
+          "phone": "+56942151859",
+          "category": "LEASING",
+          "details": "Jorge Lagos Leasing + $ Depa La Florida 50m"
+        },
+        {
+          "n": "90",
+          "name": "Jorge Perez Montenegro Cliente Busca Leasing",
+          "phone": "+56956827231",
+          "category": "LEASING",
+          "details": "Jorge Perez Montenegro Cliente Busca Leasing"
+        },
+        {
+          "n": "91",
+          "name": "Joseph Sebastien X Compra Casa San Bernardo 65m Ariel En 62 Casa Nuestra Leasing 55m Ft Francisca Charrier",
+          "phone": "+56987923328",
+          "category": "LEASING",
+          "details": "Joseph Sebastien X Compra Casa San Bernardo 65m Ariel En 62 Casa Nuestra Leasing 55m Ft Francisca Charrier"
+        },
+        {
+          "n": "92",
+          "name": "Keyla Herrera 41m Leasing Compra",
+          "phone": "+56962350974",
+          "category": "LEASING",
+          "details": "Keyla Herrera 41m Leasing Compra"
+        },
+        {
+          "n": "93",
+          "name": "Lalo Pareja Mirna Busca Parcelas En Litueche 9 A 10m",
+          "phone": "+56993052654",
+          "category": "LEASING",
+          "details": "Lalo Pareja Mirna Busca Parcelas En Litueche 9 A 10m"
+        },
+        {
+          "n": "95",
+          "name": "Liannys Cuba X Compra Terreno La Florida 69m Arquipro CH en Aprobación",
+          "phone": "+56971386665",
+          "category": "LEASING",
+          "details": "Liannys Cuba X Compra Terreno La Florida 69m Arquipro CH en Aprobación"
+        },
+        {
+          "n": "96",
+          "name": "Llamar A Las 10 Pm Leasing La Florida Ver",
+          "phone": "+56959084278",
+          "category": "LEASING",
+          "details": "Llamar A Las 10 Pm Leasing La Florida Ver"
+        },
+        {
+          "n": "97",
+          "name": "Louidin saintilma leasing Depa 40m Lo Prado",
+          "phone": "+56986700650",
+          "category": "LEASING",
+          "details": "Louidin saintilma leasing Depa 40m Lo Prado"
+        },
+        {
+          "n": "98",
+          "name": "Marcelo Invertir En 2 Creditos Para Propiedades La Granja Casa Departamento Leasing Mutuo Hipotecario Ver Muebles",
+          "phone": "+56998159440",
+          "category": "LEASING",
+          "details": "Marcelo Invertir En 2 Creditos Para Propiedades La Granja Casa Departamento Leasing Mutuo Hipotecario Ver Muebles"
+        },
+        {
+          "n": "99",
+          "name": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua",
+          "phone": "+56978017980",
+          "category": "LEASING",
+          "details": "Maria Espindola Busca Casa 36 Millones Subsidio Ganado Rancagua"
+        },
+        {
+          "n": "100",
+          "name": "Maria José X Compra Casa Terreno La Florida 69m 60m Ch Aprobados",
+          "phone": "+56954301369",
+          "category": "LEASING",
+          "details": "Maria José X Compra Casa Terreno La Florida 69m 60m Ch Aprobados"
+        },
+        {
+          "n": "101",
+          "name": "Maria Soto Ver Credito Leasing Concreces Para Pareja 1. 2m",
+          "phone": "+56920378985",
+          "category": "LEASING",
+          "details": "Maria Soto Ver Credito Leasing Concreces Para Pareja 1. 2m"
+        },
+        {
+          "n": "102",
+          "name": "Marie Elda X Compra Depto Quilicura 51m Leasing Buscar",
+          "phone": "+56932386895",
+          "category": "LEASING",
+          "details": "Marie Elda X Compra Depto Quilicura 51m Leasing Buscar"
+        },
+        {
+          "n": "105",
+          "name": "Omar X Compra Terreno La Florida 69m Ft Paola Arquipro",
+          "phone": "+56978248993",
+          "category": "LEASING",
+          "details": "Omar X Compra Terreno La Florida 69m Ft Paola Arquipro"
+        },
+        {
+          "n": "106",
+          "name": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico",
+          "phone": "+56972836776",
+          "category": "LEASING",
+          "details": "Pablo Amigo Victor Silva Quiere Credito Y Subsidio Automatico"
+        },
+        {
+          "n": "108",
+          "name": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto",
+          "phone": "+56968032342",
+          "category": "LEASING",
+          "details": "Purisima Soto Galarce Compra Subsidio Dpto 35m Puente Alto"
+        },
+        {
+          "n": "110",
+          "name": "Rodrigo Veloso X Compra Depto 42m San Nestor Sara Ch Be Sin Subsidios Inversion",
+          "phone": "+56945342976",
+          "category": "LEASING",
+          "details": "Rodrigo Veloso X Compra Depto 42m San Nestor Sara Ch Be Sin Subsidios Inversion"
+        },
+        {
+          "n": "111",
+          "name": "Rodrigo Vera X Compra Terreno La Florida 69m",
+          "phone": "+56940502934",
+          "category": "LEASING",
+          "details": "Rodrigo Vera X Compra Terreno La Florida 69m"
+        },
+        {
+          "n": "113",
+          "name": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación",
+          "phone": "+56987338270",
+          "category": "LEASING",
+          "details": "Rossana Suegra Roxana Y Enrique Rancagua Subsidios De Expropiación"
+        },
+        {
+          "n": "114",
+          "name": "Roxana Mella Compra Depa 50m Florida Credito Hipotecario Aprobado",
+          "phone": "+56963415116",
+          "category": "LEASING",
+          "details": "Roxana Mella Compra Depa 50m Florida Credito Hipotecario Aprobado"
+        },
+        {
+          "n": "115",
+          "name": "Roxana Palma Esposa De Don Enrique Busca Para Rancagua Suegra Subsidio 35m Tiene",
+          "phone": "+56983378001",
+          "category": "LEASING",
+          "details": "Roxana Palma Esposa De Don Enrique Busca Para Rancagua Suegra Subsidio 35m Tiene"
+        },
+        {
+          "n": "116",
+          "name": "Sandra Arraño X Busca Comprar Casa En La Florida 180m² Mínimos De Terreno 180m",
+          "phone": "+56975384403",
+          "category": "LEASING",
+          "details": "Sandra Arraño X Busca Comprar Casa En La Florida 180m² Mínimos De Terreno 180m"
+        },
+        {
+          "n": "117",
+          "name": "Sandra Contador Auditor Rancagua 757 Uf Total Ds1t1 Subsidio Depa",
+          "phone": "+56940326395",
+          "category": "LEASING",
+          "details": "Sandra Contador Auditor Rancagua 757 Uf Total Ds1t1 Subsidio Depa"
+        },
+        {
+          "n": "118",
+          "name": "Silvia Mauricci X Compra Terreno La Florida 69m Ft Paola Arquipro",
+          "phone": "+56957111198",
+          "category": "LEASING",
+          "details": "Silvia Mauricci X Compra Terreno La Florida 69m Ft Paola Arquipro"
+        },
+        {
+          "n": "120",
+          "name": "Tania Compra Casa Rancagua 40m Subsidio Credito hipotecario Y Efectivo",
+          "phone": "+56957394404",
+          "category": "LEASING",
+          "details": "Tania Compra Casa Rancagua 40m Subsidio Credito hipotecario Y Efectivo"
+        },
+        {
+          "n": "121",
+          "name": "Teobaldo Alvarez Compra Terreno Quinta Normal 220m Ex 270m",
+          "phone": "+56987284095",
+          "category": "LEASING",
+          "details": "Teobaldo Alvarez Compra Terreno Quinta Normal 220m Ex 270m"
+        },
+        {
+          "n": "122",
+          "name": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m",
+          "phone": "+56944346581",
+          "category": "LEASING",
+          "details": "Veronica Garro Compra Subsidio Y Efectivo Depto La Florida 55m"
+        },
+        {
+          "n": "123",
+          "name": "Yovanna 40m Busca San Joaquin Credito Hipotecario",
+          "phone": "+56988325292",
+          "category": "LEASING",
+          "details": "Yovanna 40m Busca San Joaquin Credito Hipotecario"
+        },
+        {
+          "n": "143",
+          "name": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m",
+          "phone": "+56991041444",
+          "category": "LEASING",
+          "details": "Alex Haitiano Leasing Y Efectivo Compra Depto Quilicura 55m"
+        },
+        {
+          "n": "147",
+          "name": "Alexis 40m Leasing Lo Prado Departamento",
+          "phone": "+56961107068",
+          "category": "LEASING",
+          "details": "Alexis 40m Leasing Lo Prado Departamento"
+        },
+        {
+          "n": "156",
+          "name": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto",
+          "phone": "+56997116468",
+          "category": "LEASING",
+          "details": "Ana Barboza X Compra Leasing 54m Aprobados Casa O Depto"
+        },
+        {
+          "n": "157",
+          "name": "Ana Leasing",
+          "phone": "+56973817901",
+          "category": "LEASING",
+          "details": "Ana Leasing"
+        },
+        {
+          "n": "232",
+          "name": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo",
+          "phone": "+56987395592",
+          "category": "LEASING",
+          "details": "Carlos Mondaca Pareja De Natalia Silva Cliente Leasing O Mutuo"
+        },
+        {
+          "n": "248",
+          "name": "Chico Uber Ver Credito Para Casa Leasing",
+          "phone": "+56979339357",
+          "category": "LEASING",
+          "details": "Chico Uber Ver Credito Para Casa Leasing"
+        },
+        {
+          "n": "249",
+          "name": "Chris Compra Leasing 3h 1b Hasta 60m",
+          "phone": "+56930930077",
+          "category": "LEASING",
+          "details": "Chris Compra Leasing 3h 1b Hasta 60m"
+        },
+        {
+          "n": "255",
+          "name": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua",
+          "phone": "+56986554464",
+          "category": "LEASING",
+          "details": "Damaris Leasing 30 Millones Con Subsidio Automatico Rancagua"
+        },
+        {
+          "n": "259",
+          "name": "David Gutiérrez Credito Leasing Habitacional",
+          "phone": "+56954906594",
+          "category": "LEASING",
+          "details": "David Gutiérrez Credito Leasing Habitacional"
+        },
+        {
+          "n": "261",
+          "name": "Dayan Rodriguez Busca Compra 60 Leasing",
+          "phone": "+56971297895",
+          "category": "LEASING",
+          "details": "Dayan Rodriguez Busca Compra 60 Leasing"
+        },
+        {
+          "n": "268",
+          "name": "Eli Peluquería Leasing 48m La Florida",
+          "phone": "+56956844449",
+          "category": "LEASING",
+          "details": "Eli Peluquería Leasing 48m La Florida"
+        },
+        {
+          "n": "269",
+          "name": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva",
+          "phone": "+56935265885",
+          "category": "LEASING",
+          "details": "Emerson Uber Ver Credito Leasing Apenas Tenga Definitiva"
+        },
+        {
+          "n": "270",
+          "name": "Enrique Millapan Leasing Compra Depto El Bosque 65m",
+          "phone": "+56969073256",
+          "category": "LEASING",
+          "details": "Enrique Millapan Leasing Compra Depto El Bosque 65m"
+        },
+        {
+          "n": "276",
+          "name": "Fernanda Busca Leasing Para Hermana",
+          "phone": "+56982038654",
+          "category": "LEASING",
+          "details": "Fernanda Busca Leasing Para Hermana"
+        },
+        {
+          "n": "279",
+          "name": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing",
+          "phone": "+56933595695",
+          "category": "LEASING",
+          "details": "Fernando Strobel X Compra Casa Nocedal Ver Credito Leasing"
+        },
+        {
+          "n": "282",
+          "name": "Franco Valdevenito Compra Casa Pauly 65m Leasing",
+          "phone": "+56999352915",
+          "category": "LEASING",
+          "details": "Franco Valdevenito Compra Casa Pauly 65m Leasing"
+        },
+        {
+          "n": "283",
+          "name": "Gabriel Amigo Armando Generar Leasing La Serena",
+          "phone": "+56949151853",
+          "category": "LEASING",
+          "details": "Gabriel Amigo Armando Generar Leasing La Serena"
+        },
+        {
+          "n": "285",
+          "name": "Gunter Quezada Dueño Fullmateriales X Compra Leasing Casa Galpón La Granja",
+          "phone": "+56988127576",
+          "category": "LEASING",
+          "details": "Gunter Quezada Dueño Fullmateriales X Compra Leasing Casa Galpón La Granja"
+        },
+        {
+          "n": "286",
+          "name": "Haitiano Leasing 46m Compra Depto San Bernardo",
+          "phone": "+56936691663",
+          "category": "LEASING",
+          "details": "Haitiano Leasing 46m Compra Depto San Bernardo"
+        },
+        {
+          "n": "287",
+          "name": "Hans Protect Cars Busca Leasing",
+          "phone": "+56944014592",
+          "category": "LEASING",
+          "details": "Hans Protect Cars Busca Leasing"
+        },
+        {
+          "n": "290",
+          "name": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa",
+          "phone": "+56971054762",
+          "category": "LEASING",
+          "details": "Jaime Henriquez Climelectric X Crédito Leasing Gestionar Para Comprar Casa"
+        },
+        {
+          "n": "291",
+          "name": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo",
+          "phone": "+56933480326",
+          "category": "LEASING",
+          "details": "Jean X Compra Casa Hasta 60 Con Leasing Y Efectivo"
+        },
+        {
+          "n": "292",
+          "name": "Jeff Guillaume X Compra Casa San Bernardo 65m Leasing",
+          "phone": "+56963867066",
+          "category": "LEASING",
+          "details": "Jeff Guillaume X Compra Casa San Bernardo 65m Leasing"
+        },
+        {
+          "n": "293",
+          "name": "Jhonny Wallace Amigo Carolina Sensualrap Leasing",
+          "phone": "+56934978295",
+          "category": "LEASING",
+          "details": "Jhonny Wallace Amigo Carolina Sensualrap Leasing"
+        },
+        {
+          "n": "294",
+          "name": "Jocelin 28m Leasing Departamento Primer Piso Rancagua",
+          "phone": "+56930875711",
+          "category": "LEASING",
+          "details": "Jocelin 28m Leasing Departamento Primer Piso Rancagua"
+        },
+        {
+          "n": "295",
+          "name": "Jorge Lagos Leasing Depa La Florida 50m",
+          "phone": "+56942151859",
+          "category": "LEASING",
+          "details": "Jorge Lagos Leasing Depa La Florida 50m"
+        },
+        {
+          "n": "297",
+          "name": "Jorge Perez Montenegro Cliente Busca Leasing",
+          "phone": "+56956827231",
+          "category": "LEASING",
+          "details": "Jorge Perez Montenegro Cliente Busca Leasing"
+        },
+        {
+          "n": "298",
+          "name": "Keyla Herrera 41m Leasing Compra",
+          "phone": "+56962350974",
+          "category": "LEASING",
+          "details": "Keyla Herrera 41m Leasing Compra"
+        },
+        {
+          "n": "299",
+          "name": "Llamar A Las 10 Pm Leasing La Florida Ver",
+          "phone": "+56959084278",
+          "category": "LEASING",
+          "details": "Llamar A Las 10 Pm Leasing La Florida Ver"
+        },
+        {
+          "n": "300",
+          "name": "Louidin Saintilma Leasing Depa 40m Lo Prado",
+          "phone": "+56986700650",
+          "category": "LEASING",
+          "details": "Louidin Saintilma Leasing Depa 40m Lo Prado"
+        },
+        {
+          "n": "303",
+          "name": "Marie Elda X Compra Depto Quilicura 51m Leasing",
+          "phone": "+56932386895",
+          "category": "LEASING",
+          "details": "Marie Elda X Compra Depto Quilicura 51m Leasing"
+        },
+        {
+          "n": "304",
+          "name": "Mauricio Gestión Leasing X Ranel Aceus X Sara Venta Depto 42m",
+          "phone": "+56942148462",
+          "category": "LEASING",
+          "details": "Mauricio Gestión Leasing X Ranel Aceus X Sara Venta Depto 42m"
+        }
+      ],
+      "VENTA": [],
+      "SUBSIDIO": [],
+      "OTROS": [
+        {
+          "n": "61",
+          "name": "Eladio 1 A 2 Parcelas Guajardo Escalona",
+          "phone": "+56957595329",
+          "category": "OTROS",
+          "details": "Eladio 1 A 2 Parcelas Guajardo Escalona"
+        },
+        {
+          "n": "71",
+          "name": "Fernando Espinoza X Terreno La Florida 69m Ft Paola Arquipro",
+          "phone": "+56944180962",
+          "category": "OTROS",
+          "details": "Fernando Espinoza X Terreno La Florida 69m Ft Paola Arquipro"
+        },
+        {
+          "n": "94",
+          "name": "Lead: PIBA Construccion e inmobiliaria",
+          "phone": "+56937254779",
+          "category": "OTROS",
+          "details": "Lead: PIBA Construccion e inmobiliaria"
+        },
+        {
+          "n": "103",
+          "name": "Mitzy Averiguara Contacto Con Cuñada X Terreno Pasaje San Lucas",
+          "phone": "+56955341034",
+          "category": "OTROS",
+          "details": "Mitzy Averiguara Contacto Con Cuñada X Terreno Pasaje San Lucas"
+        },
+        {
+          "n": "107",
+          "name": "Patricia X Terrenos Para Comités",
+          "phone": "+56995559158",
+          "category": "OTROS",
+          "details": "Patricia X Terrenos Para Comités"
+        },
+        {
+          "n": "109",
+          "name": "Rodrigo Osorio A Cliente Terreno Rio Puelo Cochamo",
+          "phone": "+56993730354",
+          "category": "OTROS",
+          "details": "Rodrigo Osorio A Cliente Terreno Rio Puelo Cochamo"
+        },
+        {
+          "n": "127",
+          "name": "Alberto Busca Casa 700 Para Sushi Calle Avenida La Florida",
+          "phone": "+56956438890",
+          "category": "OTROS",
+          "details": "Alberto Busca Casa 700 Para Sushi Calle Avenida La Florida"
+        },
+        {
+          "n": "132",
+          "name": "Alejandra 2014 Busca Con Aire",
+          "phone": "+56962726363",
+          "category": "OTROS",
+          "details": "Alejandra 2014 Busca Con Aire"
+        },
+        {
+          "n": "133",
+          "name": "Alejandra Efectivo Depa La Florida 50m Buscar Depa 100m A 120m",
+          "phone": "+56988947149",
+          "category": "OTROS",
+          "details": "Alejandra Efectivo Depa La Florida 50m Buscar Depa 100m A 120m"
+        },
+        {
+          "n": "139",
+          "name": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo",
+          "phone": "+56976494234",
+          "category": "OTROS",
+          "details": "Alejandra Talagante Busca Terreno 700 A 1000M² 3500 UF en Efectivo"
+        },
+        {
+          "n": "264",
+          "name": "Dina Maulén Dicom",
+          "phone": "+56945019520",
+          "category": "OTROS",
+          "details": "Dina Maulén Dicom"
+        },
+        {
+          "n": "316",
+          "name": "Lead: Linda Paredes",
+          "phone": "+56935755109",
+          "category": "OTROS",
+          "details": "Lead: Linda Paredes"
+        }
+      ]
+    },
+    "stats": {
+      "total_registros": 315,
+      "last_update": "30/06/2026 03:34:26"
+    }
+  },
+  "last_sync": "30/06/2026 03:34:26"
 }
